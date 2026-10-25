@@ -1,0 +1,24 @@
+{
+  "name": "abandoned-but-not-forgotten",
+  "version": "1.0.0",
+  "description": "An archaeological and scientific registry of humanity's extraterrestrial footprint on the Moon, Mars, and beyond — NASA Space Apps Challenge 2026",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -l 8000 .",
+    "serve": "npx serve -l 8000 .",
+    "test": "node test/verify_suite.js"
+  },
+  "keywords": [
+    "nasa",
+    "space-apps-challenge-2026",
+    "extraterrestrial-archaeology",
+    "moon",
+    "mars",
+    "planetary-exploration"
+  ],
+  "author": "NASA Space Apps Challenge 2026 Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
