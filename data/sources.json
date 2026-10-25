@@ -1,0 +1,303 @@
+[
+  {
+    "url": "https://science.nasa.gov/",
+    "title": "NASA Science Mission Directorate",
+    "organization": "National Aeronautics and Space Administration (NASA)",
+    "checked_date": "2026-10-25",
+    "equipment_count": 19,
+    "equipment_supported": [
+      "All NASA Moon & Mars Missions"
+    ],
+    "notes": "Primary official repository for planetary mission status, timelines, science instrumentation, and press releases."
+  },
+  {
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/",
+    "title": "NASA Space Science Data Coordinated Archive (NSSDC)",
+    "organization": "NASA Goddard Space Flight Center",
+    "checked_date": "2026-10-23",
+    "equipment_count": 19,
+    "equipment_supported": [
+      "Lunar Artifact & Impact Catalog",
+      "Surveyor 1",
+      "Lunar Orbiter 1",
+      "Apollo LRV"
+    ],
+    "notes": "Authoritative database for extraterrestrial landing coordinates, impact trajectories, and spacecraft physical properties."
+  },
+  {
+    "url": "https://www.nasa.gov/mission/apollo-11/",
+    "title": "NASA Apollo 11 mission page and Apollo Lunar Surface Journal; dates and mission objective checked against NASA.",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Apollo 11 Lunar Module Eagle"
+    ],
+    "notes": "[\"Do not describe the complete Lunar Module as intact on the surface: the ascent stage left the Moon.\", \"Coordinate is for the landing site, not a precise survey of the descent stage.\"]"
+  },
+  {
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+    "title": "NASA NSSDC Apollo LRV page and NASA Apollo 15 press kit.",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Apollo Lunar Roving Vehicle (Apollo 15 example)"
+    ],
+    "notes": "[\"This dataset entry describes the Apollo 15 rover as a representative LRV; Apollo 16 and Apollo 17 rovers are separate hardware items.\", \"Use rover parking coordinates, not the Lunar Module landing coordinate, if a precise map pin is needed.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/surveyor-1/",
+    "title": "NASA Science and NASA/JPL Surveyor 1 mission pages.",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Surveyor 1"
+    ],
+    "notes": "[\"Contact-end date is not the same as primary mission completion date.\"]"
+  },
+  {
+    "url": "https://www.nasa.gov/mission/lunar-orbiter-1/",
+    "title": "NASA official Lunar Orbiter 1 mission page provides key dates, mass, instruments and impact coordinates.",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Lunar Orbiter 1"
+    ],
+    "notes": "[\"Impact coordinate is from NASA's published mission page; decimal latitude is a unit conversion.\", \"Coordinate disagreement is preserved explicitly; neither candidate is silently chosen for the map layer.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/lro/",
+    "title": "NASA Science official LRO mission page.",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Lunar Reconnaissance Orbiter (LRO)"
+    ],
+    "notes": "[\"Active mission label reflects NASA's page on 2026-10-23; verify current status again at release time.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/viking-1/",
+    "title": "NASA Mars mission archive",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Viking 1 lander"
+    ],
+    "notes": "[\"NASA pages differ slightly on the final lander shutdown date (Nov. 11 vs Nov. 13, 1982); preserve this as a source discrepancy until reconciled.\", \"NASA publishes 657 kg in its Viking lander technical-specifications table and 978 kg in its Viking mission overview; top-level mass is set to 657 kg at landing, while 978 kg is preserved as a conflicting/phase-dependent source value.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/viking/",
+    "title": "NASA Mars mission archive",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Viking 2 lander"
+    ],
+    "notes": "[\"This record describes the lander only; the Viking 2 orbiter should be represented as a separate linked equipment record if the website needs component-level detail.\", \"NASA publishes 657 kg in its Viking lander technical-specifications table and 978 kg in its Viking mission overview; top-level mass is set to 657 kg at landing, while 978 kg is preserved as a conflicting/phase-dependent source value.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+    "title": "NASA Mars Pathfinder page",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 2,
+    "equipment_supported": [
+      "Mars Pathfinder lander",
+      "Sojourner rover"
+    ],
+    "notes": "[\"This initial record keeps instrument details limited pending a dedicated Sojourner technical source; do not copy the lander's full instrument list onto the rover.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/mer-spirit/",
+    "title": "NASA Science and NASA/JPL mission pages. NASA Science gives mission dates, major science results and instruments.",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Spirit rover"
+    ],
+    "notes": "[\"Last communication in March 2010 and formal end of contact attempts in May 2011 are separate events.\", \"The final rover position is not represented as exact without a dedicated map source.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/mer-opportunity/",
+    "title": "NASA Science official mission page, including mission dates, instruments, odometry and end-of-mission date.",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Opportunity rover"
+    ],
+    "notes": "[\"The last signal date (2018-06-10) is distinct from the formal mission end (2019-02-13).\", \"NASA's page uses both rounded and exact distance values in different contexts; 45.16 km is used here.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/msl-curiosity/",
+    "title": "NASA Mars missions page",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Curiosity rover"
+    ],
+    "notes": "[\"NASA identifies Curiosity as an active mission; operational status is time-sensitive and should be checked before release.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+    "title": "NASA Mars missions page",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Perseverance rover"
+    ],
+    "notes": "[\"Current operational status and location can change; use NASA mission page or live location data at publication.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+    "title": "NASA Science, NASA JPL and NASA news release pages.",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Ingenuity Mars Helicopter"
+    ],
+    "notes": "[\"Mission end date and final communication date describe different events; retain both separately.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/mars-phoenix/",
+    "title": "NASA JPL Phoenix mission page and NASA Science mission overview.",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Phoenix Mars lander"
+    ],
+    "notes": "[\"Landing coordinates are rounded; do not display as survey-grade precision.\", \"Mission-end date is the formal end date listed by NASA Science, not a claim that the lander was physically removed.\"]"
+  },
+  {
+    "url": "https://www.jpl.nasa.gov/missions/insight/",
+    "title": "NASA JPL InSight mission page and NASA mission-end announcement.",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "InSight Mars lander"
+    ],
+    "notes": "[\"The formal retirement announcement date is used as mission_end_date; exact last successful telemetry timestamp is not asserted.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/odyssey/",
+    "title": "NASA Mars missions page",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Mars Odyssey"
+    ],
+    "notes": "[\"MARIE stopped collecting data in 2003; do not label every instrument as currently operational.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/",
+    "title": "NASA Mars missions page",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Mars Reconnaissance Orbiter"
+    ],
+    "notes": "[\"Some instruments may be in reduced or changed operational modes over the mission lifetime; status must be recorded per instrument where relevant.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/maven/",
+    "title": "NASA Mars missions page",
+    "organization": "NASA / JPL / NSSDC",
+    "checked_date": "2026-10-23",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "MAVEN"
+    ],
+    "notes": "[\"NASA states the spacecraft was not recoverable after loss of signal; no unsupported claim about exact physical fate should be made.\"]"
+  },
+  {
+    "url": "https://science.nasa.gov/mission/messenger/",
+    "title": "NASA Science: MESSENGER Mission",
+    "organization": "NASA Science / JPL",
+    "checked_date": "2026-10-25",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "MESSENGER"
+    ],
+    "notes": "NASA's MESSENGER was the first spacecraft to orbit Mercury. Its observations expanded knowledge of Mercury's surface composition, geological history, internal magnetic field, and polar deposits. The mission ended when the spacecraft impacted Mercury."
+  },
+  {
+    "url": "https://science.nasa.gov/mission/magellan/",
+    "title": "NASA Science: Magellan Mission",
+    "organization": "NASA Science / JPL",
+    "checked_date": "2026-10-25",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Magellan"
+    ],
+    "notes": "Magellan mapped nearly all of Venus's surface with radar and revealed extensive volcanic terrain. The spacecraft's mission ended after a commanded plunge into Venus's atmosphere."
+  },
+  {
+    "url": "https://science.nasa.gov/mission/galileo/",
+    "title": "NASA Science: Galileo Mission",
+    "organization": "NASA Science / JPL",
+    "checked_date": "2026-10-25",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Galileo"
+    ],
+    "notes": "Galileo orbited Jupiter and conducted close encounters with its major moons, while its atmospheric probe sampled Jupiter's atmosphere. The mission ended with a deliberate impact into Jupiter."
+  },
+  {
+    "url": "https://science.nasa.gov/mission/cassini/",
+    "title": "NASA Science: Cassini-Huygens Mission",
+    "organization": "NASA Science / JPL",
+    "checked_date": "2026-10-25",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Cassini-Huygens"
+    ],
+    "notes": "Cassini examined Saturn and its rings and moons for more than a decade. Its mission ended with a planned plunge into Saturn to help protect potentially habitable moons for future exploration."
+  },
+  {
+    "url": "https://science.nasa.gov/mission/juno/",
+    "title": "NASA Science: Juno Mission",
+    "organization": "NASA Science / JPL",
+    "checked_date": "2026-10-25",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Juno"
+    ],
+    "notes": "Juno studies Jupiter from a polar orbit and, in its extended mission, also observes aspects of the wider Jovian system and selected major moons."
+  },
+  {
+    "url": "https://science.nasa.gov/mission/voyager/planetary-voyage/",
+    "title": "NASA Science: Voyager 2 Mission",
+    "organization": "NASA Science / JPL",
+    "checked_date": "2026-10-25",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "Voyager 2"
+    ],
+    "notes": "Voyager 2 completed close flybys of Jupiter, Saturn, Uranus, and Neptune, then continued outward toward interstellar space. It is the only spacecraft to have flown by Uranus and Neptune."
+  },
+  {
+    "url": "https://science.nasa.gov/mission/new-horizons/",
+    "title": "NASA Science: New Horizons Mission",
+    "organization": "NASA Science / JPL",
+    "checked_date": "2026-10-25",
+    "equipment_count": 1,
+    "equipment_supported": [
+      "New Horizons"
+    ],
+    "notes": "New Horizons made the first close exploration of Pluto and later flew past Kuiper Belt object Arrokoth. NASA reported in July 2026 that the spacecraft had awakened from a long hibernation and was preparing to transmit new science data."
+  }
+]

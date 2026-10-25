@@ -1,0 +1,258 @@
+/* ===================================================================
+   Abandoned but Not Forgotten — NASA Space Apps Challenge 2026
+   Responsive Stylesheet: Breakpoints, Mobile Drawer, Reduced-Motion, Print
+   =================================================================== */
+
+/* Tablet & Smaller Desktops */
+@media (max-width: 1024px) {
+  .straddling-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .topic-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+
+  .footer-top {
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .footer-col:nth-child(4),
+  .footer-col:nth-child(5) {
+    grid-column: span 1;
+  }
+
+  .detail-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .compare-selector-bar {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .header-inner {
+    height: 60px;
+    padding: 0 1rem;
+  }
+
+  .brand-primary {
+    font-size: 0.9rem;
+  }
+
+  .brand-secondary {
+    font-size: 0.58rem;
+  }
+
+  .main-nav {
+    display: none; /* Hidden on mobile; opened via drawer */
+  }
+
+  .nav-toggle-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Mobile Navigation Drawer */
+  .mobile-drawer-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    z-index: 3000;
+    display: none;
+  }
+
+  .mobile-drawer-backdrop.open {
+    display: block;
+  }
+
+  .mobile-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: min(85vw, 340px);
+    height: 100%;
+    background: #070914;
+    color: #ffffff;
+    z-index: 3001;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .mobile-drawer-backdrop.open .mobile-drawer {
+    transform: translateX(0);
+  }
+
+  .mobile-drawer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 1.25rem;
+  }
+
+  .mobile-nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .mobile-nav-link {
+    display: block;
+    padding: 10px 12px;
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-radius: var(--radius-sm);
+  }
+
+  .mobile-nav-link:hover,
+  .mobile-nav-link:focus,
+  .mobile-nav-link.active {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .mobile-nav-group-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #93c5fd;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 4px;
+    padding-left: 12px;
+  }
+
+  /* Straddling Container on Mobile */
+  .straddling-container {
+    margin-top: -60px;
+    padding: 0 1rem;
+  }
+
+  .straddling-box {
+    padding: 1rem;
+  }
+
+  .straddling-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .destination-card {
+    padding: 1.25rem;
+  }
+
+  /* Topic Cards on Mobile */
+  .topic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Statistics on Mobile */
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .stat-card {
+    padding-left: 1rem;
+  }
+
+  /* Carousel on Mobile */
+  .carousel-section {
+    padding: 1.5rem;
+  }
+
+  /* Filters on Mobile */
+  .filters-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Table Horizontal Scrolling on Mobile */
+  .data-table th,
+  .data-table td {
+    padding: 10px 12px;
+    font-size: 0.85rem;
+  }
+
+  /* Timeline on Mobile */
+  .timeline-event-card {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  /* Comparison on Mobile */
+  .compare-table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  /* Footer on Mobile */
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2.5rem 1.25rem 2rem;
+  }
+}
+
+/* Reduced Motion Mode */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .site-header,
+  .site-footer,
+  .carousel-controls,
+  .filters-panel,
+  .btn,
+  .search-modal-backdrop,
+  .skip-link {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt;
+  }
+
+  .section-container {
+    padding: 1rem 0;
+  }
+
+  .data-table {
+    border: 1px solid #000;
+  }
+
+  .data-table th,
+  .data-table td {
+    border: 1px solid #ccc;
+    color: #000;
+  }
+}

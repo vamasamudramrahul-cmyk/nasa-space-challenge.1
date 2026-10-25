@@ -1,0 +1,478 @@
+[
+  {
+    "id": "mis_apollo_11",
+    "name": "Apollo 11",
+    "destination": "Moon",
+    "agency": "NASA / United States",
+    "status": "Ended",
+    "launch_date": "1969-07-16",
+    "end_date": "1969-07-21 (ascent stage lunar liftoff; descent stage left on surface)",
+    "objective": "Land astronauts on the Moon, perform surface exploration and return the crew safely to Earth.",
+    "outcome": "Successful first crewed lunar landing; two astronauts landed, conducted surface activities and returned in the ascent stage to the command module.",
+    "related_equipment": [
+      {
+        "id": "M001",
+        "name": "Apollo 11 Lunar Module Eagle",
+        "type": "Crewed lunar module (descent stage remains on Moon; ascent stage returned to lunar orbit and was jettisoned)",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      }
+    ],
+    "source_url": "https://www.nasa.gov/mission/apollo-11/"
+  },
+  {
+    "id": "mis_apollo_15",
+    "name": "Apollo 15",
+    "destination": "Moon",
+    "agency": "NASA / United States",
+    "status": "Ended",
+    "launch_date": "1971-07-26",
+    "end_date": "1971-08-02 (rover operations ended with Apollo 15 surface activities)",
+    "objective": "Allow astronauts to explore a wider area, transport scientific tools and samples, and extend the range of lunar surface traverses.",
+    "outcome": "Successfully extended crew mobility during Apollo 15 surface EVAs; rover traveled 27.8 km across three traverses.",
+    "related_equipment": [
+      {
+        "id": "M002",
+        "name": "Apollo Lunar Roving Vehicle (Apollo 15 example)",
+        "type": "Crewed lunar surface rover",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      }
+    ],
+    "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+  },
+  {
+    "id": "mis_surveyor_1",
+    "name": "Surveyor 1",
+    "destination": "Moon",
+    "agency": "NASA / United States",
+    "status": "Ended",
+    "launch_date": "1966-05-30",
+    "end_date": "1967-01-07",
+    "objective": "Demonstrate a soft lunar landing and return surface images and basic information about the lunar surface.",
+    "outcome": "Successful; first true soft landing on the Moon and demonstrated landing technology for later crewed missions.",
+    "related_equipment": [
+      {
+        "id": "M003",
+        "name": "Surveyor 1",
+        "type": "Stationary lunar lander",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/surveyor-1/"
+  },
+  {
+    "id": "mis_lunar_orbiter_1",
+    "name": "Lunar Orbiter 1",
+    "destination": "Moon",
+    "agency": "NASA / United States",
+    "status": "Ended",
+    "launch_date": "1966-08-10",
+    "end_date": "1966-10-29",
+    "objective": "Photograph candidate Apollo and Surveyor landing sites and collect lunar environmental measurements.",
+    "outcome": "Successful mapping mission; first U.S. spacecraft to orbit the Moon and captured the first image of Earth from the vicinity of the Moon.",
+    "related_equipment": [
+      {
+        "id": "M006",
+        "name": "Lunar Orbiter 1",
+        "type": "Lunar orbiter (intentionally deorbited to impact)",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      }
+    ],
+    "source_url": "https://www.nasa.gov/mission/lunar-orbiter-1/"
+  },
+  {
+    "id": "mis_lunar_reconnaissance_orbiter",
+    "name": "Lunar Reconnaissance Orbiter",
+    "destination": "Moon",
+    "agency": "NASA / United States",
+    "status": "Active",
+    "launch_date": "2009-06-18",
+    "end_date": "",
+    "objective": "Map the lunar surface and measure temperature, composition, radiation and illumination conditions to support science and future exploration.",
+    "outcome": "Long-running active lunar mapping mission; supports landing-site selection, resource mapping and lunar science.",
+    "related_equipment": [
+      {
+        "id": "M007",
+        "name": "Lunar Reconnaissance Orbiter (LRO)",
+        "type": "Lunar orbiter",
+        "working_status": "Working",
+        "working_status_color": "yellow"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/lro/"
+  },
+  {
+    "id": "mis_viking_1",
+    "name": "Viking 1",
+    "destination": "Mars",
+    "agency": "NASA / United States",
+    "status": "Ended",
+    "launch_date": "1975-08-20",
+    "end_date": "1982-11-11 (Viking 1 mission page); Viking project overview gives Nov. 13, 1982",
+    "objective": "Image surface and analyze soil and atmosphere, including biology experiments",
+    "outcome": "Successful",
+    "related_equipment": [
+      {
+        "id": "R001",
+        "name": "Viking 1 lander",
+        "type": "lander",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/viking-1/"
+  },
+  {
+    "id": "mis_viking_2",
+    "name": "Viking 2",
+    "destination": "Mars",
+    "agency": "NASA / United States",
+    "status": "Ended",
+    "launch_date": "1975-09-09",
+    "end_date": "1980-04-11/12 (NASA references differ by date convention)",
+    "objective": "Study Martian surface, atmosphere and soil",
+    "outcome": "Successful",
+    "related_equipment": [
+      {
+        "id": "R002",
+        "name": "Viking 2 lander",
+        "type": "lander",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/viking/"
+  },
+  {
+    "id": "mis_mars_pathfinder",
+    "name": "Mars Pathfinder",
+    "destination": "Mars",
+    "agency": "NASA / United States",
+    "status": "Ended",
+    "launch_date": "1996-12-04",
+    "end_date": "1997-09-27 (last data); recovery attempts formally ended 1998-03-10",
+    "objective": "Demonstrate low-cost landing technology and deploy Sojourner",
+    "outcome": "Successful",
+    "related_equipment": [
+      {
+        "id": "R003",
+        "name": "Mars Pathfinder lander",
+        "type": "lander",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      },
+      {
+        "id": "R004",
+        "name": "Sojourner rover",
+        "type": "rover",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/mars-pathfinder/"
+  },
+  {
+    "id": "mis_mars_exploration_rover_mer_a",
+    "name": "Mars Exploration Rover (MER-A)",
+    "destination": "Mars",
+    "agency": "NASA / United States",
+    "status": "Ended",
+    "launch_date": "2003-06-10",
+    "end_date": "2011-05-25",
+    "objective": "Study Martian rocks and soils for evidence of past water and assess the geological history of Gusev Crater.",
+    "outcome": "Highly successful; exceeded its planned 90-sol mission and found strong evidence of ancient water-related environments.",
+    "related_equipment": [
+      {
+        "id": "R005",
+        "name": "Spirit rover",
+        "type": "Surface rover",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/mer-spirit/"
+  },
+  {
+    "id": "mis_mars_exploration_rover_mer_b",
+    "name": "Mars Exploration Rover (MER-B)",
+    "destination": "Mars",
+    "agency": "NASA / United States",
+    "status": "Ended",
+    "launch_date": "2003-07-07",
+    "end_date": "2019-02-13",
+    "objective": "Explore Martian rocks and soils for geological evidence of past water and assess whether ancient environments may have been habitable.",
+    "outcome": "Highly successful; operated for nearly 15 years, found evidence of ancient water-altered environments, and traveled 45.16 km.",
+    "related_equipment": [
+      {
+        "id": "R006",
+        "name": "Opportunity rover",
+        "type": "Surface rover",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/mer-opportunity/"
+  },
+  {
+    "id": "mis_mars_science_laboratory",
+    "name": "Mars Science Laboratory",
+    "destination": "Mars",
+    "agency": "NASA / United States",
+    "status": "Active",
+    "launch_date": "2011-11-26",
+    "end_date": "",
+    "objective": "Assess whether Mars ever had environments capable of supporting microbial life",
+    "outcome": "Successful",
+    "related_equipment": [
+      {
+        "id": "R007",
+        "name": "Curiosity rover",
+        "type": "rover",
+        "working_status": "Working",
+        "working_status_color": "yellow"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/msl-curiosity/"
+  },
+  {
+    "id": "mis_mars_2020",
+    "name": "Mars 2020",
+    "destination": "Mars",
+    "agency": "NASA / United States",
+    "status": "Active",
+    "launch_date": "2020-07-30",
+    "end_date": "",
+    "objective": "Search for signs of ancient microbial life and collect samples for possible return",
+    "outcome": "Successful",
+    "related_equipment": [
+      {
+        "id": "R008",
+        "name": "Perseverance rover",
+        "type": "rover",
+        "working_status": "Working",
+        "working_status_color": "yellow"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/"
+  },
+  {
+    "id": "mis_mars_2020_perseverance_mission_technology_demonstration",
+    "name": "Mars 2020 / Perseverance mission technology demonstration",
+    "destination": "Mars",
+    "agency": "NASA / United States",
+    "status": "Ended",
+    "launch_date": "2020-07-30",
+    "end_date": "2024-01-25",
+    "objective": "Demonstrate that powered, controlled flight is possible in Mars's thin atmosphere, then support rover route scouting and operations demonstrations.",
+    "outcome": "Historic success: first powered, controlled flight on another planet; completed 72 flights, far exceeding the original five-flight plan.",
+    "related_equipment": [
+      {
+        "id": "R009",
+        "name": "Ingenuity Mars Helicopter",
+        "type": "Robotic helicopter / technology demonstrator",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"
+  },
+  {
+    "id": "mis_phoenix_mars_mission",
+    "name": "Phoenix Mars Mission",
+    "destination": "Mars",
+    "agency": "NASA / United States, with international partners",
+    "status": "Ended",
+    "launch_date": "2007-08-04",
+    "end_date": "2008-11-02",
+    "objective": "Study the history of water and habitability in the Martian arctic by sampling soil and subsurface ice.",
+    "outcome": "Successful planned surface science mission; confirmed water ice in the Martian subsurface and detected perchlorate.",
+    "related_equipment": [
+      {
+        "id": "R010",
+        "name": "Phoenix Mars lander",
+        "type": "Stationary lander",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/mars-phoenix/"
+  },
+  {
+    "id": "mis_interior_exploration_using_seismic_investigations_geodesy_and_heat_transport_insight",
+    "name": "Interior Exploration using Seismic Investigations, Geodesy and Heat Transport (InSight)",
+    "destination": "Mars",
+    "agency": "NASA / United States, with international partners",
+    "status": "Ended",
+    "launch_date": "2018-05-05",
+    "end_date": "2022-12-21",
+    "objective": "Measure Mars's internal structure and activity using seismic, heat-flow and precision-tracking measurements.",
+    "outcome": "Successful geophysical mission; measured marsquakes and improved understanding of Mars's interior.",
+    "related_equipment": [
+      {
+        "id": "R011",
+        "name": "InSight Mars lander",
+        "type": "Stationary geophysical lander",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      }
+    ],
+    "source_url": "https://www.jpl.nasa.gov/missions/insight/"
+  },
+  {
+    "id": "mis_2001_mars_odyssey",
+    "name": "2001 Mars Odyssey",
+    "destination": "Mars",
+    "agency": "NASA / United States",
+    "status": "Active",
+    "launch_date": "2001-04-07",
+    "end_date": "",
+    "objective": "Map elements and minerals and relay communications for surface missions",
+    "outcome": "Successful",
+    "related_equipment": [
+      {
+        "id": "R013",
+        "name": "Mars Odyssey",
+        "type": "orbiter",
+        "working_status": "Working",
+        "working_status_color": "yellow"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/odyssey/"
+  },
+  {
+    "id": "mis_mro",
+    "name": "MRO",
+    "destination": "Mars",
+    "agency": "NASA / United States",
+    "status": "Active",
+    "launch_date": "2005-08-12",
+    "end_date": "",
+    "objective": "Map surface, search for evidence of water and support communications",
+    "outcome": "Successful",
+    "related_equipment": [
+      {
+        "id": "R015",
+        "name": "Mars Reconnaissance Orbiter",
+        "type": "orbiter",
+        "working_status": "Working",
+        "working_status_color": "yellow"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/"
+  },
+  {
+    "id": "mis_mars_atmosphere_and_volatile_evolution",
+    "name": "Mars Atmosphere and Volatile Evolution",
+    "destination": "Mars",
+    "agency": "NASA / United States",
+    "status": "Ended",
+    "launch_date": "2013-11-18",
+    "end_date": "2026-06-03",
+    "objective": "Investigate how Mars lost much of its atmosphere",
+    "outcome": "Successful",
+    "related_equipment": [
+      {
+        "id": "R016",
+        "name": "MAVEN",
+        "type": "orbiter",
+        "working_status": "Lost contact or stopped working",
+        "working_status_color": "red"
+      }
+    ],
+    "source_url": "https://science.nasa.gov/mission/maven/"
+  },
+  {
+    "id": "planetary_messenger",
+    "name": "MESSENGER",
+    "destination": "Mercury",
+    "agency": "NASA / JPL",
+    "status": "Ended",
+    "launch_date": "August 2004 (month precision for the card; see note)",
+    "end_date": "2015-04-30",
+    "objective": "Study Mercury's geology, surface composition, magnetic field, and polar deposits.",
+    "outcome": "NASA's MESSENGER was the first spacecraft to orbit Mercury. Its observations expanded knowledge of Mercury's surface composition, geological history, internal magnetic field, and polar deposits. The mission ended when the spacecraft impacted Mercury.",
+    "related_equipment": [],
+    "source_url": "https://science.nasa.gov/mission/messenger/"
+  },
+  {
+    "id": "planetary_magellan",
+    "name": "Magellan",
+    "destination": "Venus",
+    "agency": "NASA / JPL",
+    "status": "Ended",
+    "launch_date": "1989-05-04",
+    "end_date": "1994-10-13",
+    "objective": "Map the surface of Venus using synthetic-aperture radar and study its gravity field.",
+    "outcome": "Magellan mapped nearly all of Venus's surface with radar and revealed extensive volcanic terrain. The spacecraft's mission ended after a commanded plunge into Venus's atmosphere.",
+    "related_equipment": [],
+    "source_url": "https://science.nasa.gov/mission/magellan/"
+  },
+  {
+    "id": "planetary_galileo",
+    "name": "Galileo",
+    "destination": "Jupiter and its moons",
+    "agency": "NASA / JPL",
+    "status": "Ended",
+    "launch_date": "1989-10-18",
+    "end_date": "2003-09-21",
+    "objective": "Study Jupiter, its major moons, and the surrounding magnetosphere.",
+    "outcome": "Galileo orbited Jupiter and conducted close encounters with its major moons, while its atmospheric probe sampled Jupiter's atmosphere. The mission ended with a deliberate impact into Jupiter.",
+    "related_equipment": [],
+    "source_url": "https://science.nasa.gov/mission/galileo/"
+  },
+  {
+    "id": "planetary_cassini",
+    "name": "Cassini-Huygens",
+    "destination": "Saturn system",
+    "agency": "NASA / JPL",
+    "status": "Ended",
+    "launch_date": "1997-10-15",
+    "end_date": "2017-09-15",
+    "objective": "Study Saturn, its rings, atmosphere, magnetosphere, and moons; the Huygens probe descended to Titan.",
+    "outcome": "Cassini examined Saturn and its rings and moons for more than a decade. Its mission ended with a planned plunge into Saturn to help protect potentially habitable moons for future exploration.",
+    "related_equipment": [],
+    "source_url": "https://science.nasa.gov/mission/cassini/"
+  },
+  {
+    "id": "planetary_juno",
+    "name": "Juno",
+    "destination": "Jupiter and its moons",
+    "agency": "NASA / JPL",
+    "status": "Active",
+    "launch_date": "2011-08-05",
+    "end_date": "Active / Extended",
+    "objective": "Investigate Jupiter's origin and evolution, interior, atmosphere, magnetosphere, and selected moons.",
+    "outcome": "Juno studies Jupiter from a polar orbit and, in its extended mission, also observes aspects of the wider Jovian system and selected major moons.",
+    "related_equipment": [],
+    "source_url": "https://science.nasa.gov/mission/juno/"
+  },
+  {
+    "id": "planetary_voyager2",
+    "name": "Voyager 2",
+    "destination": "Jupiter, Saturn, Uranus, Neptune, and interstellar space",
+    "agency": "NASA / JPL",
+    "status": "Ended",
+    "launch_date": "1977",
+    "end_date": "Active / Extended",
+    "objective": "Explore the outer planets and continue measurements beyond the heliosphere.",
+    "outcome": "Voyager 2 completed close flybys of Jupiter, Saturn, Uranus, and Neptune, then continued outward toward interstellar space. It is the only spacecraft to have flown by Uranus and Neptune.",
+    "related_equipment": [],
+    "source_url": "https://science.nasa.gov/mission/voyager/planetary-voyage/"
+  },
+  {
+    "id": "planetary_new_horizons",
+    "name": "New Horizons",
+    "destination": "Pluto system and Kuiper Belt",
+    "agency": "NASA / JPL",
+    "status": "Active",
+    "launch_date": "2006-01-19",
+    "end_date": "Active / Extended",
+    "objective": "Explore the Pluto system and Kuiper Belt objects, and study the distant solar-system environment.",
+    "outcome": "New Horizons made the first close exploration of Pluto and later flew past Kuiper Belt object Arrokoth. NASA reported in July 2026 that the spacecraft had awakened from a long hibernation and was preparing to transmit new science data.",
+    "related_equipment": [],
+    "source_url": "https://science.nasa.gov/mission/new-horizons/"
+  }
+]
