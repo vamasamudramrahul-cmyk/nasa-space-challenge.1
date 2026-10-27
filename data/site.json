@@ -1,0 +1,29 @@
+{
+ "featured_ids": [
+  "M001",
+  "M003",
+  "R001",
+  "R004",
+  "R005",
+  "R006",
+  "R009",
+  "R011"
+ ],
+ "legend": [
+  {
+   "key": "green",
+   "label": "Successful",
+   "definition": "The mission or hardware achieved its recorded goals and ended in a documented, completed way. This describes outcome only; it does not mean the hardware is operating now."
+  },
+  {
+   "key": "yellow",
+   "label": "Working",
+   "definition": "NASA sources in the dataset describe the mission or hardware as active on the checked date. Re-check the source for the current state."
+  },
+  {
+   "key": "red",
+   "label": "Lost contact or stopped working",
+   "definition": "Sources record that contact ended, operations stopped, power was exhausted or hardware was damaged. Loss of contact does not by itself prove the physical hardware has failed."
+  }
+ ]
+}

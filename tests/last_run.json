@@ -1,0 +1,683 @@
+{
+ "total": 135,
+ "passed": 135,
+ "failed": [],
+ "results": [
+  {
+   "name": "Home heading exact",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Home eyebrow exact",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Home description verbatim",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Header label NASA SPACE APPS CHALLENGE",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Hero starfield canvas has size & is visible",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Hero does not lock scroll",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Home has Rovers..Descent stages type cards (6)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "No second search box in three-card container",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Stat \"Achieved equipment\" equals loaded record count",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Earliest artifact year shows Unavailable (no source field)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Mass stat flagged partial",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "No <img> anywhere on home (no unverified imagery)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Home card \"Explore Moon\" opens #/moon",
+   "pass": true,
+   "detail": "http://localhost:8080/#/moon"
+  },
+  {
+   "name": "Home card \"Explore Mars\" opens #/mars",
+   "pass": true,
+   "detail": "http://localhost:8080/#/mars"
+  },
+  {
+   "name": "Home card \"Explore Planets\" opens #/planets",
+   "pass": true,
+   "detail": "http://localhost:8080/#/planets"
+  },
+  {
+   "name": "Moon page shows only Moon records",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Mars page shows only Mars records",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Mars map renders pins for coordinate records",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Non-home pages white, hero hidden",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Destination dropdown opens with 4 items",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Escape closes dropdown and returns focus",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "ArrowDown opens menu and focuses first link",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Keyboard Enter on menu link navigates",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "All 10 dropdown items navigate to a working page",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "name": "Top nav \"Home\" works",
+   "pass": true,
+   "detail": "http://localhost:8080/#/"
+  },
+  {
+   "name": "Top nav \"Compare\" works",
+   "pass": true,
+   "detail": "http://localhost:8080/#/compare"
+  },
+  {
+   "name": "Top nav \"About\" works",
+   "pass": true,
+   "detail": "http://localhost:8080/#/about"
+  },
+  {
+   "name": "Top nav \"Updates\" works",
+   "pass": true,
+   "detail": "http://localhost:8080/#/updates"
+  },
+  {
+   "name": "Catalogue shows every loaded record (data-driven)",
+   "pass": true,
+   "detail": "19"
+  },
+  {
+   "name": "Catalogue contains only Moon/Mars records",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Filter type=Rovers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "AND logic: Rovers + Mars",
+   "pass": true,
+   "detail": "5"
+  },
+  {
+   "name": "AND logic: + status Working",
+   "pass": true,
+   "detail": "2"
+  },
+  {
+   "name": "No-results state shown for impossible combination",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Clear filters restores all records",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Coordinates filter (sourced only)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Launch-year range filter",
+   "pass": true,
+   "detail": "6"
+  },
+  {
+   "name": "Keyword search in catalogue",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Equipment-name filter",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Home type card opens filtered grid",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Descent stages card route",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Status text always shown with colour",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Card opens correct detail page",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Detail section: Overview",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Detail section: Mission information",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Detail section: Dates",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Detail section: Location",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Detail section: Technical details",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Detail section: History and important events",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Detail section: Discoveries and contributions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Detail section: Sources and evidence",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Unknown values labelled, not zero (Spirit dimensions)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Detail has no image element",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Detail source links open record URL",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Disputed coordinates not invented (Lunar Orbiter 1)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Conflicting dates flagged, not resolved (Viking 1 end)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Invalid id shows not-found state",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "In-page nav button works",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Carousel next wraps last -> first continuously",
+   "pass": true,
+   "detail": "['Apollo 11 Lunar Module Eagle', 'Surveyor 1', 'Viking 1 lander', 'Sojourner rover', 'Spirit rover', 'Opportunity rover', 'Ingenuity Mars Helicopter', 'InSight Mars lander', 'Apollo 11 Lunar Module Eagle']"
+  },
+  {
+   "name": "Carousel prev from first wraps to last",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Carousel Explore button goes to detail",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Carousel autoplays every 10 s",
+   "pass": true,
+   "detail": "('Apollo 11 Lunar Module Eagle', 'Surveyor 1', 'Viking 1 lander')"
+  },
+  {
+   "name": "Autoplay pause control works",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Reduced motion: autoplay off by default",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Timeline moon: event count matches data",
+   "pass": true,
+   "detail": "(19, 19)"
+  },
+  {
+   "name": "Timeline mars: event count matches data",
+   "pass": true,
+   "detail": "(51, 51)"
+  },
+  {
+   "name": "Timeline nasa: event count matches data",
+   "pass": true,
+   "detail": "(88, 88)"
+  },
+  {
+   "name": "Timeline filter by event type changes events",
+   "pass": true,
+   "detail": "6"
+  },
+  {
+   "name": "Timeline year filter",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Timeline no-results state",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Moon timeline excludes Mars events",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Timeline dates keep precision (month-only shown as month)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Timeline events link to sources",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "NASA timeline includes planetary events",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Event-type key has text + symbol for 8 types",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Compare empty state before selection",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Compare table appears for 2 records",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Compare shows missing as Unknown, not zero",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Compare cells carry source links",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Compare capped at 4 (others disabled)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Compare accepts ids in URL",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Compare warns on mixed mass scopes",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Compare clear",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Quiz: correct answers evaluated, each shows explanation + source",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Quiz final score",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Quiz: wrong answer marked incorrect with right answer revealed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Every quiz item has source url and explanation",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Header search opens results with content types",
+   "pass": true,
+   "detail": "{'Source', 'Timeline event', 'Mission', 'Comparison', 'Equipment'}"
+  },
+  {
+   "name": "Search result opens correct page",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Search finds planetary mission cards",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Search finds glossary terms",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Search finds sources",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Search finds comparison entries",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Search no-results state, no fake results",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Search type filter chips",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Glossary filter works",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Sources lists every recorded source",
+   "pass": true,
+   "detail": "50"
+  },
+  {
+   "name": "Sources filter works",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Source links are real https URLs",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Planets shows 7 mission cards",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Planet destination chip filters (Saturn: Cassini + Voyager 2)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Planetary cards not in equipment catalogue",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Catalogue text has no planetary missions",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Missions list has Moon/Mars and planetary rows",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Mission page links equipment",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "About explains statistics",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Updates feed lists entries",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Updates says static (not live)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "No permission requested on page load",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Opt-in click requests permission",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Feed still visible after notifications denied",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Blocked permission state handled, feed works",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Unsupported Notification API handled, feed works",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Granted permission shows on-state (stubbed API)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Mobile: hamburger hides nav by default",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Mobile: menu opens",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Mobile: dropdown item navigates",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Mobile 390px: no page-level horizontal overflow on 14 pages",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "name": "Mobile: destination cards full width & clickable",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Tablet 820px: no horizontal overflow",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Every input has an accessible label",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "One visible h1 per page (catalogue)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Skip link + landmarks present",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "First Tab stop is skip link",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Unique equipment ids",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "All equipment Moon/Mars only",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "All timeline mission ids resolve",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "All timeline equipment ids resolve",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "All planetary cards flagged not catalogue-eligible",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "No image asset set on any record (policy: omit unless verified)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "All sources are https URLs",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Status categories only green/yellow/red",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "No missing mass encoded as zero",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "Record ids in quiz resolve",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "name": "No browser console errors across the whole run",
+   "pass": true,
+   "detail": "[]"
+  }
+ ],
+ "run_at": "2026-10-25 07:00:39"
+}

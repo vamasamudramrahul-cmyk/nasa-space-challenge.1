@@ -1,0 +1,1638 @@
+[
+ {
+  "id": "evt_M003_1",
+  "date": {
+   "value": "1966-05-30",
+   "precision": "day",
+   "label": "30 May 1966",
+   "raw": "1966-05-30"
+  },
+  "title": "Launched",
+  "event_type": "Launch",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M003"
+  ],
+  "mission_id": "mis_surveyor-1",
+  "mission": "Surveyor 1",
+  "source_url": "https://science.nasa.gov/mission/surveyor-1/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M003_2",
+  "date": {
+   "value": "1966-06-02",
+   "precision": "day",
+   "label": "2 June 1966",
+   "raw": "1966-06-02"
+  },
+  "title": "Soft-landed on the Moon",
+  "event_type": "Landing / touchdown",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M003"
+  ],
+  "mission_id": "mis_surveyor-1",
+  "mission": "Surveyor 1",
+  "source_url": "https://science.nasa.gov/mission/surveyor-1/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M003_3",
+  "date": {
+   "value": "1966-07-14",
+   "precision": "day",
+   "label": "14 July 1966",
+   "raw": "1966-07-14"
+  },
+  "title": "Primary mission completed",
+  "event_type": "Major mission operation",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M003"
+  ],
+  "mission_id": "mis_surveyor-1",
+  "mission": "Surveyor 1",
+  "source_url": "https://science.nasa.gov/mission/surveyor-1/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M006_1",
+  "date": {
+   "value": "1966-08-10",
+   "precision": "day",
+   "label": "10 August 1966",
+   "raw": "1966-08-10"
+  },
+  "title": "Launched",
+  "event_type": "Launch",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M006"
+  ],
+  "mission_id": "mis_lunar-orbiter-1",
+  "mission": "Lunar Orbiter 1",
+  "source_url": "https://www.nasa.gov/mission/lunar-orbiter-1/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M006_2",
+  "date": {
+   "value": "1966-08-14",
+   "precision": "day",
+   "label": "14 August 1966",
+   "raw": "1966-08-14"
+  },
+  "title": "Entered lunar orbit",
+  "event_type": "Arrival / orbital insertion",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M006"
+  ],
+  "mission_id": "mis_lunar-orbiter-1",
+  "mission": "Lunar Orbiter 1",
+  "source_url": "https://www.nasa.gov/mission/lunar-orbiter-1/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M006_3",
+  "date": {
+   "value": "1966-08-23",
+   "precision": "day",
+   "label": "23 August 1966",
+   "raw": "1966-08-23"
+  },
+  "title": "Captured the first image of Earth from the vicinity of the Moon",
+  "event_type": "Scientific discovery / result",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M006"
+  ],
+  "mission_id": "mis_lunar-orbiter-1",
+  "mission": "Lunar Orbiter 1",
+  "source_url": "https://www.nasa.gov/mission/lunar-orbiter-1/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M006_4",
+  "date": {
+   "value": "1966-10-29",
+   "precision": "day",
+   "label": "29 October 1966",
+   "raw": "1966-10-29"
+  },
+  "title": "Commanded to impact the lunar surface",
+  "event_type": "Mission end / retirement / final shutdown",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M006"
+  ],
+  "mission_id": "mis_lunar-orbiter-1",
+  "mission": "Lunar Orbiter 1",
+  "source_url": "https://www.nasa.gov/mission/lunar-orbiter-1/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M003_4",
+  "date": {
+   "value": "1967-01-07",
+   "precision": "day",
+   "label": "7 January 1967",
+   "raw": "1967-01-07"
+  },
+  "title": "Contact with spacecraft ended",
+  "event_type": "Last confirmed contact",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M003"
+  ],
+  "mission_id": "mis_surveyor-1",
+  "mission": "Surveyor 1",
+  "source_url": "https://science.nasa.gov/mission/surveyor-1/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M001_1",
+  "date": {
+   "value": "1969-07-16",
+   "precision": "day",
+   "label": "16 July 1969",
+   "raw": "1969-07-16"
+  },
+  "title": "Apollo 11 launched from Kennedy Space Center",
+  "event_type": "Launch",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M001"
+  ],
+  "mission_id": "mis_apollo-11",
+  "mission": "Apollo 11",
+  "source_url": "https://www.nasa.gov/mission/apollo-11/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M001_2",
+  "date": {
+   "value": "1969-07-20",
+   "precision": "day",
+   "label": "20 July 1969",
+   "raw": "1969-07-20"
+  },
+  "title": "Eagle landed in the Sea of Tranquility",
+  "event_type": "Landing / touchdown",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M001"
+  ],
+  "mission_id": "mis_apollo-11",
+  "mission": "Apollo 11",
+  "source_url": "https://www.nasa.gov/mission/apollo-11/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M001_3",
+  "date": {
+   "value": "1969-07-21",
+   "precision": "day",
+   "label": "21 July 1969",
+   "raw": "1969-07-21"
+  },
+  "title": "Ascent stage lifted off from the Moon (UTC date)",
+  "event_type": "Major mission operation",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M001"
+  ],
+  "mission_id": "mis_apollo-11",
+  "mission": "Apollo 11",
+  "source_url": "https://www.nasa.gov/mission/apollo-11/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M001_4",
+  "date": {
+   "value": "1969-07-24",
+   "precision": "day",
+   "label": "24 July 1969",
+   "raw": "1969-07-24"
+  },
+  "title": "Apollo 11 crew returned to Earth",
+  "event_type": "Major mission operation",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M001"
+  ],
+  "mission_id": "mis_apollo-11",
+  "mission": "Apollo 11",
+  "source_url": "https://www.nasa.gov/mission/apollo-11/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M002_1",
+  "date": {
+   "value": "1971-07-26",
+   "precision": "day",
+   "label": "26 July 1971",
+   "raw": "1971-07-26"
+  },
+  "title": "Apollo 15 launched",
+  "event_type": "Launch",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M002"
+  ],
+  "mission_id": "mis_apollo-15",
+  "mission": "Apollo 15",
+  "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M002_2",
+  "date": {
+   "value": "1971-07-30",
+   "precision": "day",
+   "label": "30 July 1971",
+   "raw": "1971-07-30"
+  },
+  "title": "Apollo 15 landed on the Moon",
+  "event_type": "Landing / touchdown",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M002"
+  ],
+  "mission_id": "mis_apollo-15",
+  "mission": "Apollo 15",
+  "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M002_3",
+  "date": {
+   "value": "1971-07-31",
+   "precision": "day",
+   "label": "31 July 1971",
+   "raw": "1971-07-31"
+  },
+  "title": "First lunar rover traverse",
+  "event_type": "Major mission operation",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M002"
+  ],
+  "mission_id": "mis_apollo-15",
+  "mission": "Apollo 15",
+  "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M002_4",
+  "date": {
+   "value": "1971-08-02",
+   "precision": "day",
+   "label": "2 August 1971",
+   "raw": "1971-08-02"
+  },
+  "title": "Final Apollo 15 rover traverse completed; rover was left on the Moon",
+  "event_type": "Major mission operation",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M002"
+  ],
+  "mission_id": "mis_apollo-15",
+  "mission": "Apollo 15",
+  "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R001_1",
+  "date": {
+   "value": "1975-08-20",
+   "precision": "day",
+   "label": "20 August 1975",
+   "raw": "1975-08-20"
+  },
+  "title": "Launch",
+  "event_type": "Launch",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R001"
+  ],
+  "mission_id": "mis_viking-1",
+  "mission": "Viking 1",
+  "source_url": "https://science.nasa.gov/mission/viking-1/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R002_1",
+  "date": {
+   "value": "1975-09-09",
+   "precision": "day",
+   "label": "9 September 1975",
+   "raw": "1975-09-09"
+  },
+  "title": "Launch",
+  "event_type": "Launch",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R002"
+  ],
+  "mission_id": "mis_viking-2",
+  "mission": "Viking 2",
+  "source_url": "https://science.nasa.gov/mission/viking/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R001_2",
+  "date": {
+   "value": "1976-06-19",
+   "precision": "day",
+   "label": "19 June 1976",
+   "raw": "1976-06-19"
+  },
+  "title": "Mars orbit insertion",
+  "event_type": "Arrival / orbital insertion",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R001"
+  ],
+  "mission_id": "mis_viking-1",
+  "mission": "Viking 1",
+  "source_url": "https://science.nasa.gov/mission/viking-1/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R001_3",
+  "date": {
+   "value": "1976-07-20",
+   "precision": "day",
+   "label": "20 July 1976",
+   "raw": "1976-07-20"
+  },
+  "title": "Lander touchdown at Chryse Planitia",
+  "event_type": "Landing / touchdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R001"
+  ],
+  "mission_id": "mis_viking-1",
+  "mission": "Viking 1",
+  "source_url": "https://science.nasa.gov/mission/viking-1/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R002_2",
+  "date": {
+   "value": "1976-09-03",
+   "precision": "day",
+   "label": "3 September 1976",
+   "raw": "1976-09-03"
+  },
+  "title": "Lander touchdown at Utopia Planitia",
+  "event_type": "Landing / touchdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R002"
+  ],
+  "mission_id": "mis_viking-2",
+  "mission": "Viking 2",
+  "source_url": "https://science.nasa.gov/mission/viking/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_voyager2",
+  "mission": "Voyager 2",
+  "source_url": "https://science.nasa.gov/mission/voyager/planetary-voyage/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_voyager2_launch_date",
+  "date": {
+   "value": "1977",
+   "precision": "year",
+   "label": "1977",
+   "raw": "1977"
+  },
+  "title": "Voyager 2: Launch",
+  "event_type": "Launch"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_voyager2",
+  "mission": "Voyager 2",
+  "source_url": "https://science.nasa.gov/mission/voyager/planetary-voyage/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_voyager2_ms1",
+  "date": {
+   "value": "1986-01-24",
+   "precision": "day",
+   "label": "24 January 1986",
+   "raw": "1986-01-24"
+  },
+  "title": "Voyager 2: Uranus flyby",
+  "event_type": "Major mission operation"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_magellan",
+  "mission": "Magellan",
+  "source_url": "https://science.nasa.gov/mission/magellan/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_magellan_launch_date",
+  "date": {
+   "value": "1989-05-04",
+   "precision": "day",
+   "label": "4 May 1989",
+   "raw": "1989-05-04"
+  },
+  "title": "Magellan: Launch",
+  "event_type": "Launch"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_voyager2",
+  "mission": "Voyager 2",
+  "source_url": "https://science.nasa.gov/mission/voyager/planetary-voyage/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_voyager2_ms2",
+  "date": {
+   "value": "1989-08-25",
+   "precision": "day",
+   "label": "25 August 1989",
+   "raw": "1989-08-25"
+  },
+  "title": "Voyager 2: Neptune flyby",
+  "event_type": "Major mission operation"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_galileo",
+  "mission": "Galileo",
+  "source_url": "https://science.nasa.gov/mission/galileo/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_galileo_launch_date",
+  "date": {
+   "value": "1989-10-18",
+   "precision": "day",
+   "label": "18 October 1989",
+   "raw": "1989-10-18"
+  },
+  "title": "Galileo: Launch",
+  "event_type": "Launch"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_magellan",
+  "mission": "Magellan",
+  "source_url": "https://science.nasa.gov/mission/magellan/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_magellan_arrival_date",
+  "date": {
+   "value": "1990-08-10",
+   "precision": "day",
+   "label": "10 August 1990",
+   "raw": "1990-08-10"
+  },
+  "title": "Magellan: Arrival at target",
+  "event_type": "Arrival / orbital insertion"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_magellan",
+  "mission": "Magellan",
+  "source_url": "https://science.nasa.gov/mission/magellan/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_magellan_mission_end_date",
+  "date": {
+   "value": "1994-10-13",
+   "precision": "day",
+   "label": "13 October 1994",
+   "raw": "1994-10-13"
+  },
+  "title": "Magellan: Mission end",
+  "event_type": "Mission end / retirement / final shutdown"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_galileo",
+  "mission": "Galileo",
+  "source_url": "https://science.nasa.gov/mission/galileo/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_galileo_arrival_date",
+  "date": {
+   "value": "1995-12",
+   "precision": "month",
+   "label": "December 1995",
+   "raw": "1995-12 (month precision on this page's overview)"
+  },
+  "title": "Galileo: Arrival at target",
+  "event_type": "Arrival / orbital insertion"
+ },
+ {
+  "id": "evt_R003_1",
+  "date": {
+   "value": "1996-12-04",
+   "precision": "day",
+   "label": "4 December 1996",
+   "raw": "1996-12-04"
+  },
+  "title": "Launched",
+  "event_type": "Launch",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R003"
+  ],
+  "mission_id": "mis_mars-pathfinder",
+  "mission": "Mars Pathfinder",
+  "source_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R004_1",
+  "date": {
+   "value": "1996-12-04",
+   "precision": "day",
+   "label": "4 December 1996",
+   "raw": "1996-12-04"
+  },
+  "title": "Launched with Mars Pathfinder",
+  "event_type": "Launch",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R004"
+  ],
+  "mission_id": "mis_mars-pathfinder",
+  "mission": "Mars Pathfinder",
+  "source_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R003_2",
+  "date": {
+   "value": "1997-07-04",
+   "precision": "day",
+   "label": "4 July 1997",
+   "raw": "1997-07-04"
+  },
+  "title": "Landed in Ares Vallis",
+  "event_type": "Landing / touchdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R003"
+  ],
+  "mission_id": "mis_mars-pathfinder",
+  "mission": "Mars Pathfinder",
+  "source_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R004_2",
+  "date": {
+   "value": "1997-07-04",
+   "precision": "day",
+   "label": "4 July 1997",
+   "raw": "1997-07-04"
+  },
+  "title": "Arrived at Mars with Pathfinder lander",
+  "event_type": "Arrival / orbital insertion",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R004"
+  ],
+  "mission_id": "mis_mars-pathfinder",
+  "mission": "Mars Pathfinder",
+  "source_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R003_3",
+  "date": {
+   "value": "1997-07-05",
+   "precision": "day",
+   "label": "5 July 1997",
+   "raw": "1997-07-05"
+  },
+  "title": "Sojourner deployed to the surface",
+  "event_type": "Deployment / release",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R003"
+  ],
+  "mission_id": "mis_mars-pathfinder",
+  "mission": "Mars Pathfinder",
+  "source_url": "https://science.nasa.gov/resource/pathfinders-rover-airbags-martian-terrain/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R004_3",
+  "date": {
+   "value": "1997-07-05",
+   "precision": "day",
+   "label": "5 July 1997",
+   "raw": "1997-07-05"
+  },
+  "title": "Deployed to the Martian surface",
+  "event_type": "Deployment / release",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R004"
+  ],
+  "mission_id": "mis_mars-pathfinder",
+  "mission": "Mars Pathfinder",
+  "source_url": "https://science.nasa.gov/resource/pathfinders-rover-airbags-martian-terrain/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R003_4",
+  "date": {
+   "value": "1997-09-27",
+   "precision": "day",
+   "label": "27 September 1997",
+   "raw": "1997-09-27"
+  },
+  "title": "Last data transmission received",
+  "event_type": "Last confirmed contact",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R003"
+  ],
+  "mission_id": "mis_mars-pathfinder",
+  "mission": "Mars Pathfinder",
+  "source_url": "https://science.nasa.gov/resource/pathfinder-on-mars-2/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R004_4",
+  "date": {
+   "value": "1997-09-27",
+   "precision": "day",
+   "label": "27 September 1997",
+   "raw": "1997-09-27"
+  },
+  "title": "Last data received from Pathfinder/Sojourner",
+  "event_type": "Last confirmed contact",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R004"
+  ],
+  "mission_id": "mis_mars-pathfinder",
+  "mission": "Mars Pathfinder",
+  "source_url": "https://science.nasa.gov/resource/sojourner-yogi/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_cassini",
+  "mission": "Cassini-Huygens",
+  "source_url": "https://science.nasa.gov/mission/cassini/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_cassini_launch_date",
+  "date": {
+   "value": "1997-10-15",
+   "precision": "day",
+   "label": "15 October 1997",
+   "raw": "1997-10-15"
+  },
+  "title": "Cassini-Huygens: Launch",
+  "event_type": "Launch"
+ },
+ {
+  "id": "evt_R003_5",
+  "date": {
+   "value": "1998-03-10",
+   "precision": "day",
+   "label": "10 March 1998",
+   "raw": "1998-03-10"
+  },
+  "title": "Mission formally terminated after unsuccessful recovery attempts",
+  "event_type": "Mission end / retirement / final shutdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R003"
+  ],
+  "mission_id": "mis_mars-pathfinder",
+  "mission": "Mars Pathfinder",
+  "source_url": "https://science.nasa.gov/resource/pathfinder-on-mars-2/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R013_1",
+  "date": {
+   "value": "2001-04-07",
+   "precision": "day",
+   "label": "7 April 2001",
+   "raw": "2001-04-07"
+  },
+  "title": "Launch",
+  "event_type": "Launch",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R013"
+  ],
+  "mission_id": "mis_2001-mars-odyssey",
+  "mission": "2001 Mars Odyssey",
+  "source_url": "https://science.nasa.gov/mission/odyssey/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R013_2",
+  "date": {
+   "value": "2001-10-24",
+   "precision": "day",
+   "label": "24 October 2001",
+   "raw": "2001-10-24"
+  },
+  "title": "Mars orbit insertion",
+  "event_type": "Arrival / orbital insertion",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R013"
+  ],
+  "mission_id": "mis_2001-mars-odyssey",
+  "mission": "2001 Mars Odyssey",
+  "source_url": "https://science.nasa.gov/mission/odyssey/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R005_1",
+  "date": {
+   "value": "2003-06-10",
+   "precision": "day",
+   "label": "10 June 2003",
+   "raw": "2003-06-10"
+  },
+  "title": "Launched from Florida",
+  "event_type": "Launch",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R005"
+  ],
+  "mission_id": "mis_mars-exploration-rover-mer-a",
+  "mission": "Mars Exploration Rover (MER-A)",
+  "source_url": "https://science.nasa.gov/mission/mer-spirit/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R006_1",
+  "date": {
+   "value": "2003-07-07",
+   "precision": "day",
+   "label": "7 July 2003",
+   "raw": "2003-07-07"
+  },
+  "title": "Launched from Cape Canaveral",
+  "event_type": "Launch",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R006"
+  ],
+  "mission_id": "mis_mars-exploration-rover-mer-b",
+  "mission": "Mars Exploration Rover (MER-B)",
+  "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_galileo",
+  "mission": "Galileo",
+  "source_url": "https://science.nasa.gov/mission/galileo/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_galileo_mission_end_date",
+  "date": {
+   "value": "2003-09-21",
+   "precision": "day",
+   "label": "21 September 2003",
+   "raw": "2003-09-21"
+  },
+  "title": "Galileo: Mission end",
+  "event_type": "Mission end / retirement / final shutdown"
+ },
+ {
+  "id": "evt_R005_2",
+  "date": {
+   "value": "2004-01-04",
+   "precision": "day",
+   "label": "4 January 2004",
+   "raw": "2004-01-04"
+  },
+  "title": "Landed in Gusev Crater",
+  "event_type": "Landing / touchdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R005"
+  ],
+  "mission_id": "mis_mars-exploration-rover-mer-a",
+  "mission": "Mars Exploration Rover (MER-A)",
+  "source_url": "https://science.nasa.gov/mission/mer-spirit/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R006_2",
+  "date": {
+   "value": "2004-01-24",
+   "precision": "day",
+   "label": "24 January 2004",
+   "raw": "2004-01-24"
+  },
+  "title": "Landed at Meridiani Planum",
+  "event_type": "Landing / touchdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R006"
+  ],
+  "mission_id": "mis_mars-exploration-rover-mer-b",
+  "mission": "Mars Exploration Rover (MER-B)",
+  "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_messenger",
+  "mission": "MESSENGER",
+  "source_url": "https://science.nasa.gov/mission/messenger/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_messenger_launch_date",
+  "date": {
+   "value": "2004-08",
+   "precision": "month",
+   "label": "August 2004",
+   "raw": "August 2004 (month precision for the card; see note)"
+  },
+  "title": "MESSENGER: Launch",
+  "event_type": "Launch"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_new_horizons",
+  "mission": "New Horizons",
+  "source_url": "https://science.nasa.gov/mission/new-horizons/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_new_horizons_launch_date",
+  "date": {
+   "value": "2006-01-19",
+   "precision": "day",
+   "label": "19 January 2006",
+   "raw": "2006-01-19"
+  },
+  "title": "New Horizons: Launch",
+  "event_type": "Launch"
+ },
+ {
+  "id": "evt_R010_1",
+  "date": {
+   "value": "2007-08-04",
+   "precision": "day",
+   "label": "4 August 2007",
+   "raw": "2007-08-04"
+  },
+  "title": "Launched from Earth",
+  "event_type": "Launch",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R010"
+  ],
+  "mission_id": "mis_phoenix-mars-mission",
+  "mission": "Phoenix Mars Mission",
+  "source_url": "https://science.nasa.gov/mission/mars-phoenix/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R010_2",
+  "date": {
+   "value": "2008-05-25",
+   "precision": "day",
+   "label": "25 May 2008",
+   "raw": "2008-05-25"
+  },
+  "title": "Landed in the northern plains of Mars",
+  "event_type": "Landing / touchdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R010"
+  ],
+  "mission_id": "mis_phoenix-mars-mission",
+  "mission": "Phoenix Mars Mission",
+  "source_url": "https://science.nasa.gov/mission/mars-phoenix/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R010_3",
+  "date": {
+   "value": "2008-11",
+   "precision": "month",
+   "label": "November 2008",
+   "raw": "2008-11"
+  },
+  "title": "Communications ended as the lander entered the dark, cold Martian winter",
+  "event_type": "Last confirmed contact",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R010"
+  ],
+  "mission_id": "mis_phoenix-mars-mission",
+  "mission": "Phoenix Mars Mission",
+  "source_url": "https://science.nasa.gov/mission/mars-phoenix/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R005_3",
+  "date": {
+   "value": "2009-05",
+   "precision": "month",
+   "label": "May 2009",
+   "raw": "2009-05"
+  },
+  "title": "Became embedded in soft soil near a site called Troy",
+  "event_type": "Major mission operation",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R005"
+  ],
+  "mission_id": "mis_mars-exploration-rover-mer-a",
+  "mission": "Mars Exploration Rover (MER-A)",
+  "source_url": "https://science.nasa.gov/mission/mer-spirit/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M007_1",
+  "date": {
+   "value": "2009-06-18",
+   "precision": "day",
+   "label": "18 June 2009",
+   "raw": "2009-06-18"
+  },
+  "title": "Launched",
+  "event_type": "Launch",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M007"
+  ],
+  "mission_id": "mis_lunar-reconnaissance-orbiter",
+  "mission": "Lunar Reconnaissance Orbiter",
+  "source_url": "https://science.nasa.gov/mission/lro/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M007_2",
+  "date": {
+   "value": "2009-06-23",
+   "precision": "day",
+   "label": "23 June 2009",
+   "raw": "2009-06-23"
+  },
+  "title": "Entered lunar orbit",
+  "event_type": "Arrival / orbital insertion",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M007"
+  ],
+  "mission_id": "mis_lunar-reconnaissance-orbiter",
+  "mission": "Lunar Reconnaissance Orbiter",
+  "source_url": "https://science.nasa.gov/mission/lro/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_M007_3",
+  "date": {
+   "value": "2009-09",
+   "precision": "month",
+   "label": "September 2009",
+   "raw": "2009-09"
+  },
+  "title": "Science mapping operations began after commissioning",
+  "event_type": "Major mission operation",
+  "destination": "Moon",
+  "equipment_ids": [
+   "M007"
+  ],
+  "mission_id": "mis_lunar-reconnaissance-orbiter",
+  "mission": "Lunar Reconnaissance Orbiter",
+  "source_url": "https://science.nasa.gov/mission/lro/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R005_4",
+  "date": {
+   "value": "2010-03-22",
+   "precision": "day",
+   "label": "22 March 2010",
+   "raw": "2010-03-22"
+  },
+  "title": "Last confirmed communication",
+  "event_type": "Last confirmed contact",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R005"
+  ],
+  "mission_id": "mis_mars-exploration-rover-mer-a",
+  "mission": "Mars Exploration Rover (MER-A)",
+  "source_url": "https://science.nasa.gov/mission/mer-spirit/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R005_5",
+  "date": {
+   "value": "2011-05-25",
+   "precision": "day",
+   "label": "25 May 2011",
+   "raw": "2011-05-25"
+  },
+  "title": "NASA ended efforts to contact Spirit",
+  "event_type": "Mission end / retirement / final shutdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R005"
+  ],
+  "mission_id": "mis_mars-exploration-rover-mer-a",
+  "mission": "Mars Exploration Rover (MER-A)",
+  "source_url": "https://science.nasa.gov/mission/mer-spirit/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_juno",
+  "mission": "Juno",
+  "source_url": "https://science.nasa.gov/mission/juno/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_juno_launch_date",
+  "date": {
+   "value": "2011-08-05",
+   "precision": "day",
+   "label": "5 August 2011",
+   "raw": "2011-08-05"
+  },
+  "title": "Juno: Launch",
+  "event_type": "Launch"
+ },
+ {
+  "id": "evt_R007_1",
+  "date": {
+   "value": "2011-11-26",
+   "precision": "day",
+   "label": "26 November 2011",
+   "raw": "2011-11-26"
+  },
+  "title": "Launch",
+  "event_type": "Launch",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R007"
+  ],
+  "mission_id": "mis_mars-science-laboratory",
+  "mission": "Mars Science Laboratory",
+  "source_url": "https://science.nasa.gov/mission/msl-curiosity/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R007_2",
+  "date": {
+   "value": "2012-08-06",
+   "precision": "day",
+   "label": "6 August 2012",
+   "raw": "2012-08-06"
+  },
+  "title": "Landing in Gale Crater",
+  "event_type": "Landing / touchdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R007"
+  ],
+  "mission_id": "mis_mars-science-laboratory",
+  "mission": "Mars Science Laboratory",
+  "source_url": "https://science.nasa.gov/mission/msl-curiosity/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R016_1",
+  "date": {
+   "value": "2013-11-18",
+   "precision": "day",
+   "label": "18 November 2013",
+   "raw": "2013-11-18"
+  },
+  "title": "Launch",
+  "event_type": "Launch",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R016"
+  ],
+  "mission_id": "mis_mars-atmosphere-and-volatile-evolution",
+  "mission": "Mars Atmosphere and Volatile Evolution",
+  "source_url": "https://science.nasa.gov/mission/maven/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R016_2",
+  "date": {
+   "value": "2014-09-21",
+   "precision": "day",
+   "label": "21 September 2014",
+   "raw": "2014-09-21"
+  },
+  "title": "Mars orbit insertion",
+  "event_type": "Arrival / orbital insertion",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R016"
+  ],
+  "mission_id": "mis_mars-atmosphere-and-volatile-evolution",
+  "mission": "Mars Atmosphere and Volatile Evolution",
+  "source_url": "https://science.nasa.gov/mission/maven/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R006_3",
+  "date": {
+   "value": "2015-03-24",
+   "precision": "day",
+   "label": "24 March 2015",
+   "raw": "2015-03-24"
+  },
+  "title": "Exceeded the marathon distance on another world",
+  "event_type": "Major mission operation",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R006"
+  ],
+  "mission_id": "mis_mars-exploration-rover-mer-b",
+  "mission": "Mars Exploration Rover (MER-B)",
+  "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_messenger",
+  "mission": "MESSENGER",
+  "source_url": "https://science.nasa.gov/mission/messenger/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_messenger_mission_end_date",
+  "date": {
+   "value": "2015-04-30",
+   "precision": "day",
+   "label": "30 April 2015",
+   "raw": "2015-04-30"
+  },
+  "title": "MESSENGER: Mission end",
+  "event_type": "Mission end / retirement / final shutdown"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_new_horizons",
+  "mission": "New Horizons",
+  "source_url": "https://science.nasa.gov/mission/new-horizons/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_new_horizons_ms1",
+  "date": {
+   "value": "2015-07-14",
+   "precision": "day",
+   "label": "14 July 2015",
+   "raw": "2015-07-14"
+  },
+  "title": "New Horizons: Pluto flyby",
+  "event_type": "Major mission operation"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_juno",
+  "mission": "Juno",
+  "source_url": "https://science.nasa.gov/mission/juno/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_juno_arrival_date",
+  "date": {
+   "value": "2016-07-04",
+   "precision": "day",
+   "label": "4 July 2016",
+   "raw": "2016-07-04"
+  },
+  "title": "Juno: Arrival at target",
+  "event_type": "Arrival / orbital insertion"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_cassini",
+  "mission": "Cassini-Huygens",
+  "source_url": "https://science.nasa.gov/mission/cassini/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_cassini_mission_end_date",
+  "date": {
+   "value": "2017-09-15",
+   "precision": "day",
+   "label": "15 September 2017",
+   "raw": "2017-09-15"
+  },
+  "title": "Cassini-Huygens: Mission end",
+  "event_type": "Mission end / retirement / final shutdown"
+ },
+ {
+  "id": "evt_R011_1",
+  "date": {
+   "value": "2018-05-05",
+   "precision": "day",
+   "label": "5 May 2018",
+   "raw": "2018-05-05"
+  },
+  "title": "Launched",
+  "event_type": "Launch",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R011"
+  ],
+  "mission_id": "mis_interior-exploration-using-seismic-investigations-geodesy-and-heat-transport-insight",
+  "mission": "Interior Exploration using Seismic Investigations, Geodesy and Heat Transport (InSight)",
+  "source_url": "https://www.jpl.nasa.gov/missions/insight/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R006_4",
+  "date": {
+   "value": "2018-06-10",
+   "precision": "day",
+   "label": "10 June 2018",
+   "raw": "2018-06-10"
+  },
+  "title": "Last communication during a planet-wide dust storm",
+  "event_type": "Last confirmed contact",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R006"
+  ],
+  "mission_id": "mis_mars-exploration-rover-mer-b",
+  "mission": "Mars Exploration Rover (MER-B)",
+  "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R011_2",
+  "date": {
+   "value": "2018-11-26",
+   "precision": "day",
+   "label": "26 November 2018",
+   "raw": "2018-11-26"
+  },
+  "title": "Landed on Elysium Planitia",
+  "event_type": "Landing / touchdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R011"
+  ],
+  "mission_id": "mis_interior-exploration-using-seismic-investigations-geodesy-and-heat-transport-insight",
+  "mission": "Interior Exploration using Seismic Investigations, Geodesy and Heat Transport (InSight)",
+  "source_url": "https://www.jpl.nasa.gov/missions/insight/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "destination": "Planetary",
+  "equipment_ids": [],
+  "mission_id": "planetary_new_horizons",
+  "mission": "New Horizons",
+  "source_url": "https://science.nasa.gov/mission/new-horizons/",
+  "source_scope": "planetary card: official NASA mission page (mission-level, not per-field)",
+  "id": "evt_planetary_new_horizons_ms2",
+  "date": {
+   "value": "2019-01-01",
+   "precision": "day",
+   "label": "1 January 2019",
+   "raw": "2019-01-01"
+  },
+  "title": "New Horizons: Arrokoth flyby",
+  "event_type": "Major mission operation"
+ },
+ {
+  "id": "evt_R006_5",
+  "date": {
+   "value": "2019-02-13",
+   "precision": "day",
+   "label": "13 February 2019",
+   "raw": "2019-02-13"
+  },
+  "title": "NASA declared the mission complete after final recovery attempts",
+  "event_type": "Mission end / retirement / final shutdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R006"
+  ],
+  "mission_id": "mis_mars-exploration-rover-mer-b",
+  "mission": "Mars Exploration Rover (MER-B)",
+  "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R011_3",
+  "date": {
+   "value": "2019-04",
+   "precision": "month",
+   "label": "April 2019",
+   "raw": "2019-04"
+  },
+  "title": "First marsquake detected",
+  "event_type": "Scientific discovery / result",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R011"
+  ],
+  "mission_id": "mis_interior-exploration-using-seismic-investigations-geodesy-and-heat-transport-insight",
+  "mission": "Interior Exploration using Seismic Investigations, Geodesy and Heat Transport (InSight)",
+  "source_url": "https://www.jpl.nasa.gov/missions/insight/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R009_1",
+  "date": {
+   "value": "2020-07-30",
+   "precision": "day",
+   "label": "30 July 2020",
+   "raw": "2020-07-30"
+  },
+  "title": "Launched with the Mars 2020 mission",
+  "event_type": "Launch",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R009"
+  ],
+  "mission_id": "mis_mars-2020-perseverance-mission-technology-demonstration",
+  "mission": "Mars 2020 / Perseverance mission technology demonstration",
+  "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R009_2",
+  "date": {
+   "value": "2021-02-18",
+   "precision": "day",
+   "label": "18 February 2021",
+   "raw": "2021-02-18"
+  },
+  "title": "Arrived at Mars attached to Perseverance",
+  "event_type": "Arrival / orbital insertion",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R009"
+  ],
+  "mission_id": "mis_mars-2020-perseverance-mission-technology-demonstration",
+  "mission": "Mars 2020 / Perseverance mission technology demonstration",
+  "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R009_3",
+  "date": {
+   "value": "2021-04-04",
+   "precision": "day",
+   "label": "4 April 2021",
+   "raw": "2021-04-04"
+  },
+  "title": "Deployed to the Martian surface",
+  "event_type": "Deployment / release",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R009"
+  ],
+  "mission_id": "mis_mars-2020-perseverance-mission-technology-demonstration",
+  "mission": "Mars 2020 / Perseverance mission technology demonstration",
+  "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R009_4",
+  "date": {
+   "value": "2021-04-19",
+   "precision": "day",
+   "label": "19 April 2021",
+   "raw": "2021-04-19"
+  },
+  "title": "Completed the first powered, controlled flight on another planet",
+  "event_type": "Major mission operation",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R009"
+  ],
+  "mission_id": "mis_mars-2020-perseverance-mission-technology-demonstration",
+  "mission": "Mars 2020 / Perseverance mission technology demonstration",
+  "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R011_4",
+  "date": {
+   "value": "2022-12-21",
+   "precision": "day",
+   "label": "21 December 2022",
+   "raw": "2022-12-21"
+  },
+  "title": "NASA announced the mission's retirement after repeated missed communications",
+  "event_type": "Mission end / retirement / final shutdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R011"
+  ],
+  "mission_id": "mis_interior-exploration-using-seismic-investigations-geodesy-and-heat-transport-insight",
+  "mission": "Interior Exploration using Seismic Investigations, Geodesy and Heat Transport (InSight)",
+  "source_url": "https://www.jpl.nasa.gov/missions/insight/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R009_5",
+  "date": {
+   "value": "2024-01-18",
+   "precision": "day",
+   "label": "18 January 2024",
+   "raw": "2024-01-18"
+  },
+  "title": "Made its 72nd and final flight; rotor-blade damage was identified",
+  "event_type": "Major mission operation",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R009"
+  ],
+  "mission_id": "mis_mars-2020-perseverance-mission-technology-demonstration",
+  "mission": "Mars 2020 / Perseverance mission technology demonstration",
+  "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R009_6",
+  "date": {
+   "value": "2024-01-25",
+   "precision": "day",
+   "label": "25 January 2024",
+   "raw": "2024-01-25"
+  },
+  "title": "NASA announced the end of flight operations",
+  "event_type": "Mission end / retirement / final shutdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R009"
+  ],
+  "mission_id": "mis_mars-2020-perseverance-mission-technology-demonstration",
+  "mission": "Mars 2020 / Perseverance mission technology demonstration",
+  "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+  "source_scope": "record-level URL (does not by itself verify this event)"
+ },
+ {
+  "id": "evt_R008_1",
+  "date": {
+   "value": "2025-09",
+   "precision": "month",
+   "label": "September 2025",
+   "raw": "2025-09"
+  },
+  "title": "Peer-reviewed study reported potential biosignatures in the Cheyava Falls/Sapphire Canyon sample; the result is not proof of life",
+  "event_type": "Scientific discovery / result",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R008"
+  ],
+  "mission_id": "mis_mars-2020",
+  "mission": "Mars 2020",
+  "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R016_3",
+  "date": {
+   "value": "2025-12-06",
+   "precision": "day",
+   "label": "6 December 2025",
+   "raw": "2025-12-06"
+  },
+  "title": "Last signal received before unexpected loss of contact",
+  "event_type": "Last confirmed contact",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R016"
+  ],
+  "mission_id": "mis_mars-atmosphere-and-volatile-evolution",
+  "mission": "Mars Atmosphere and Volatile Evolution",
+  "source_url": "https://science.nasa.gov/mission/maven/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R013_3",
+  "date": {
+   "value": "2026-04-07",
+   "precision": "day",
+   "label": "7 April 2026",
+   "raw": "2026-04-07"
+  },
+  "title": "25th anniversary of launch; NASA described Odyssey as active and continuing science/relay work",
+  "event_type": "Major mission operation",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R013"
+  ],
+  "mission_id": "mis_2001-mars-odyssey",
+  "mission": "2001 Mars Odyssey",
+  "source_url": "https://science.nasa.gov/mission/odyssey/odyssey-celebrates-25-years/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R016_4",
+  "date": {
+   "value": "2026-06-03",
+   "precision": "day",
+   "label": "3 June 2026",
+   "raw": "2026-06-03"
+  },
+  "title": "NASA declared mission ended after review found spacecraft not recoverable",
+  "event_type": "Mission end / retirement / final shutdown",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R016"
+  ],
+  "mission_id": "mis_mars-atmosphere-and-volatile-evolution",
+  "mission": "Mars Atmosphere and Volatile Evolution",
+  "source_url": "https://science.nasa.gov/mission/maven/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R007_3",
+  "date": {
+   "value": "2026-08-26",
+   "precision": "day",
+   "label": "26 August 2026",
+   "raw": "2026-08-26"
+  },
+  "title": "Reached a 1 km elevation gain during its climb up Mount Sharp, according to NASA update",
+  "event_type": "Major mission operation",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R007"
+  ],
+  "mission_id": "mis_mars-science-laboratory",
+  "mission": "Mars Science Laboratory",
+  "source_url": "https://science.nasa.gov/mission/msl-curiosity/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R008_2",
+  "date": {
+   "value": "2026-10-11",
+   "precision": "day",
+   "label": "11 October 2026",
+   "raw": "2026-10-11"
+  },
+  "title": "Rover odometer reached 45.22 km, setting a new off-world driving-distance record",
+  "event_type": "Major mission operation",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R008"
+  ],
+  "mission_id": "mis_mars-2020",
+  "mission": "Mars 2020",
+  "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R007_4",
+  "date": {
+   "value": "2026-10-19",
+   "precision": "day",
+   "label": "19 October 2026",
+   "raw": "2026-10-19"
+  },
+  "title": "NASA published Curiosity planning updates for sols 5036–5042, confirming continuing operations",
+  "event_type": "Major mission operation",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R007"
+  ],
+  "mission_id": "mis_mars-science-laboratory",
+  "mission": "Mars Science Laboratory",
+  "source_url": "https://science.nasa.gov/mission/msl-curiosity/science-updates/",
+  "source_scope": "event-specific URL"
+ },
+ {
+  "id": "evt_R015_1",
+  "date": {
+   "value": "2026-10-23",
+   "precision": "day",
+   "label": "23 October 2026",
+   "raw": "2026-10-23"
+  },
+  "title": "NASA's Mars missions overview continued to list MRO as active",
+  "event_type": "Major mission operation",
+  "destination": "Mars",
+  "equipment_ids": [
+   "R015"
+  ],
+  "mission_id": "mis_mro",
+  "mission": "MRO",
+  "source_url": "https://science.nasa.gov/mars/",
+  "source_scope": "event-specific URL"
+ }
+]

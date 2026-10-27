@@ -1,0 +1,19 @@
+{
+ "note": "Definitions are project-editorial wording written for this prototype. Each links to the catalogue records where the term is used and to the NASA page recorded for those records as context. The linked NASA page is not a verbatim definition source; formal source review of each definition is pending.",
+ "review_status": "Editorial draft - source review pending",
+ "terms": [
+  {"id": "gl_lander", "term": "Lander", "definition": "A spacecraft designed to touch down on the surface of a body such as the Moon or Mars and, in most cases, remain there.", "related_equipment": ["R001", "R002", "R010", "R011"]},
+  {"id": "gl_rover", "term": "Rover", "definition": "A wheeled surface vehicle that can move across the ground after landing.", "related_equipment": ["M002", "R004", "R005", "R006", "R007", "R008"]},
+  {"id": "gl_orbiter", "term": "Orbiter", "definition": "A spacecraft that travels around a planet or moon in orbit instead of landing on it.", "related_equipment": ["M006", "M007", "R013", "R015", "R016"]},
+  {"id": "gl_descent_stage", "term": "Descent stage", "definition": "The part of a lander used to descend to the surface. In the Apollo 11 record, the descent stage stayed on the Moon while the ascent stage left.", "related_equipment": ["M001"]},
+  {"id": "gl_helicopter", "term": "Helicopter (technology demonstration)", "definition": "A rotorcraft flown in the atmosphere of another world. The catalogue's Ingenuity record describes a technology demonstration that arrived attached to the Perseverance rover.", "related_equipment": ["R009"]},
+  {"id": "gl_sol", "term": "Sol", "definition": "A Martian solar day, used to count days of surface operations on Mars. The Pathfinder and Sojourner records count operations in sols.", "related_equipment": ["R004", "R007"]},
+  {"id": "gl_orbit_insertion", "term": "Orbit insertion", "definition": "The manoeuvre that places a spacecraft into orbit around a target body. The catalogue timeline lists it as a separate event from launch and landing.", "related_equipment": ["R001", "R013", "R016", "M006"]},
+  {"id": "gl_last_contact", "term": "Last confirmed contact", "definition": "The last date on which a record shows a signal or data received from the hardware. It is kept separate from the date a mission was formally ended, and from any statement about the hardware's physical condition.", "related_equipment": ["R005", "R006", "R016"]},
+  {"id": "gl_mission_end", "term": "Mission end (formal)", "definition": "The date or announcement by which a mission is recorded as ended or retired. It can differ from the last contact date.", "related_equipment": ["R003", "R006", "R011"]},
+  {"id": "gl_mission_outcome", "term": "Mission outcome", "definition": "A recorded assessment of whether the mission met its goals. In this site it is a separate field from whether hardware is operating, and from where hardware is.", "related_equipment": ["M001", "R001"]},
+  {"id": "gl_operational_status", "term": "Operational status", "definition": "What the cited sources say about whether the mission or hardware is currently active, ended, or out of contact, as of the checked date.", "related_equipment": ["R007", "R016"]},
+  {"id": "gl_physical_location", "term": "Physical location category", "definition": "Where the hardware is recorded to be (for example on a surface, in orbit, or deliberately impacted). It is not a statement about whether it works, and it is not a precise coordinate.", "related_equipment": ["M006", "R005"]},
+  {"id": "gl_landing_site_coordinate", "term": "Landing-site coordinate", "definition": "A published coordinate for where a lander touched down. It is not a survey of the hardware, and it is not the current position of a rover that has moved.", "related_equipment": ["M001", "R001", "R002", "R010"]}
+ ]
+}

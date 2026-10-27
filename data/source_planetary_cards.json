@@ -1,0 +1,133 @@
+{
+  "title": "Planetary Exploration - Mission-level Cards",
+  "as_of_date": "2026-10-25",
+  "scope_note": "These are mission-level story cards for destinations beyond the Moon/Mars equipment catalogue. They must never be added to equipment catalogue filter results. Confirm status again from the cited NASA page at release.",
+  "missions": [
+    {
+      "id": "planetary_messenger",
+      "mission_name": "MESSENGER",
+      "target": "Mercury",
+      "mission_type": "Orbiter",
+      "mission_status": "Ended",
+      "launch_date_display": "August 2004 (month precision for the card; see note)",
+      "mission_end_date": "2015-04-30",
+      "objective": "Study Mercury's geology, surface composition, magnetic field, and polar deposits.",
+      "summary": "NASA's MESSENGER was the first spacecraft to orbit Mercury. Its observations expanded knowledge of Mercury's surface composition, geological history, internal magnetic field, and polar deposits. The mission ended when the spacecraft impacted Mercury.",
+      "date_note": "The NASA mission page header and key-date text differ by one calendar day for the launch, so this card deliberately uses month-level precision.",
+      "official_source_url": "https://science.nasa.gov/mission/messenger/",
+      "image_policy": "Omit mission image until a specific asset and credit/reuse conditions are verified",
+      "equipment_catalogue_eligible": false
+    },
+    {
+      "id": "planetary_magellan",
+      "mission_name": "Magellan",
+      "target": "Venus",
+      "mission_type": "Radar-mapping orbiter",
+      "mission_status": "Ended",
+      "launch_date": "1989-05-04",
+      "arrival_date": "1990-08-10",
+      "mission_end_date": "1994-10-13",
+      "objective": "Map the surface of Venus using synthetic-aperture radar and study its gravity field.",
+      "summary": "Magellan mapped nearly all of Venus's surface with radar and revealed extensive volcanic terrain. The spacecraft's mission ended after a commanded plunge into Venus's atmosphere.",
+      "official_source_url": "https://science.nasa.gov/mission/magellan/",
+      "image_policy": "Omit mission image until a specific asset and credit/reuse conditions are verified",
+      "equipment_catalogue_eligible": false
+    },
+    {
+      "id": "planetary_galileo",
+      "mission_name": "Galileo",
+      "target": "Jupiter and its moons",
+      "mission_type": "Orbiter and atmospheric probe",
+      "mission_status": "Ended",
+      "launch_date": "1989-10-18",
+      "arrival_date": "1995-12 (month precision on this page's overview)",
+      "mission_end_date": "2003-09-21",
+      "objective": "Study Jupiter, its major moons, and the surrounding magnetosphere.",
+      "summary": "Galileo orbited Jupiter and conducted close encounters with its major moons, while its atmospheric probe sampled Jupiter's atmosphere. The mission ended with a deliberate impact into Jupiter.",
+      "official_source_url": "https://science.nasa.gov/mission/galileo/",
+      "image_policy": "Omit mission image until a specific asset and credit/reuse conditions are verified",
+      "equipment_catalogue_eligible": false
+    },
+    {
+      "id": "planetary_cassini",
+      "mission_name": "Cassini-Huygens",
+      "target": "Saturn system",
+      "mission_type": "Orbiter and probe (international collaboration)",
+      "mission_status": "Ended",
+      "launch_date": "1997-10-15",
+      "mission_end_date": "2017-09-15",
+      "objective": "Study Saturn, its rings, atmosphere, magnetosphere, and moons; the Huygens probe descended to Titan.",
+      "summary": "Cassini examined Saturn and its rings and moons for more than a decade. Its mission ended with a planned plunge into Saturn to help protect potentially habitable moons for future exploration.",
+      "official_source_url": "https://science.nasa.gov/mission/cassini/",
+      "official_end_of_mission_source_url": "https://science.nasa.gov/mission/cassini/faq/",
+      "image_policy": "Omit mission image until a specific asset and credit/reuse conditions are verified",
+      "equipment_catalogue_eligible": false
+    },
+    {
+      "id": "planetary_juno",
+      "mission_name": "Juno",
+      "target": "Jupiter and its moons",
+      "mission_type": "Orbiter",
+      "mission_status": "Active mission (recheck at release)",
+      "launch_date": "2011-08-05",
+      "arrival_date": "2016-07-04",
+      "objective": "Investigate Jupiter's origin and evolution, interior, atmosphere, magnetosphere, and selected moons.",
+      "summary": "Juno studies Jupiter from a polar orbit and, in its extended mission, also observes aspects of the wider Jovian system and selected major moons.",
+      "official_source_url": "https://science.nasa.gov/mission/juno/",
+      "status_source_url": "https://www.jpl.nasa.gov/missions/juno/",
+      "status_checked_as_of": "2026-10-25",
+      "image_policy": "Omit mission image until a specific asset and credit/reuse conditions are verified",
+      "equipment_catalogue_eligible": false
+    },
+    {
+      "id": "planetary_voyager2",
+      "mission_name": "Voyager 2",
+      "target": "Jupiter, Saturn, Uranus, Neptune, and interstellar space",
+      "mission_type": "Multi-planet flyby / extended mission",
+      "mission_status": "Extended mission; recheck detailed spacecraft status at release",
+      "launch_year": 1977,
+      "key_milestones": [
+        {
+          "date": "1986-01-24",
+          "event": "Uranus flyby"
+        },
+        {
+          "date": "1989-08-25",
+          "event": "Neptune flyby"
+        }
+      ],
+      "objective": "Explore the outer planets and continue measurements beyond the heliosphere.",
+      "summary": "Voyager 2 completed close flybys of Jupiter, Saturn, Uranus, and Neptune, then continued outward toward interstellar space. It is the only spacecraft to have flown by Uranus and Neptune.",
+      "official_source_url": "https://science.nasa.gov/mission/voyager/planetary-voyage/",
+      "current_position_source_url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/",
+      "status_note": "Use a release-date check before displaying detailed operational status or live position.",
+      "image_policy": "Omit mission image until a specific asset and credit/reuse conditions are verified",
+      "equipment_catalogue_eligible": false
+    },
+    {
+      "id": "planetary_new_horizons",
+      "mission_name": "New Horizons",
+      "target": "Pluto system and Kuiper Belt",
+      "mission_type": "Flyby / extended exploration",
+      "mission_status": "Active mission according to NASA's July 2026 update (recheck at release)",
+      "launch_date": "2006-01-19",
+      "key_milestones": [
+        {
+          "date": "2015-07-14",
+          "event": "Pluto flyby"
+        },
+        {
+          "date": "2019-01-01",
+          "event": "Arrokoth flyby"
+        }
+      ],
+      "objective": "Explore the Pluto system and Kuiper Belt objects, and study the distant solar-system environment.",
+      "summary": "New Horizons made the first close exploration of Pluto and later flew past Kuiper Belt object Arrokoth. NASA reported in July 2026 that the spacecraft had awakened from a long hibernation and was preparing to transmit new science data.",
+      "official_source_url": "https://science.nasa.gov/mission/new-horizons/",
+      "recent_status_source_url": "https://science.nasa.gov/missions/new-horizons/nasas-new-horizons-spacecraft-wakes-from-hibernation-in-good-health/",
+      "status_checked_as_of": "2026-10-25",
+      "image_policy": "Omit mission image until a specific asset and credit/reuse conditions are verified",
+      "equipment_catalogue_eligible": false
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+[
+ {
+  "id": "mis_2001-mars-odyssey",
+  "name": "2001 Mars Odyssey",
+  "agency": "NASA / United States",
+  "destination": "Mars",
+  "objective": "Map elements and minerals and relay communications for surface missions",
+  "equipment_ids": [
+   "R013"
+  ],
+  "source_url": "https://science.nasa.gov/mission/odyssey/"
+ },
+ {
+  "id": "mis_apollo-11",
+  "name": "Apollo 11",
+  "agency": "NASA / United States",
+  "destination": "Moon",
+  "objective": "Land astronauts on the Moon, perform surface exploration and return the crew safely to Earth.",
+  "equipment_ids": [
+   "M001"
+  ],
+  "source_url": "https://www.nasa.gov/mission/apollo-11/"
+ },
+ {
+  "id": "mis_apollo-15",
+  "name": "Apollo 15",
+  "agency": "NASA / United States",
+  "destination": "Moon",
+  "objective": "Allow astronauts to explore a wider area, transport scientific tools and samples, and extend the range of lunar surface traverses.",
+  "equipment_ids": [
+   "M002"
+  ],
+  "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+ },
+ {
+  "id": "mis_interior-exploration-using-seismic-investigations-geodesy-and-heat-transport-insight",
+  "name": "Interior Exploration using Seismic Investigations, Geodesy and Heat Transport (InSight)",
+  "agency": "NASA / United States, with international partners",
+  "destination": "Mars",
+  "objective": "Measure Mars's internal structure and activity using seismic, heat-flow and precision-tracking measurements.",
+  "equipment_ids": [
+   "R011"
+  ],
+  "source_url": "https://www.jpl.nasa.gov/missions/insight/"
+ },
+ {
+  "id": "mis_lunar-orbiter-1",
+  "name": "Lunar Orbiter 1",
+  "agency": "NASA / United States",
+  "destination": "Moon",
+  "objective": "Photograph candidate Apollo and Surveyor landing sites and collect lunar environmental measurements.",
+  "equipment_ids": [
+   "M006"
+  ],
+  "source_url": "https://www.nasa.gov/mission/lunar-orbiter-1/"
+ },
+ {
+  "id": "mis_lunar-reconnaissance-orbiter",
+  "name": "Lunar Reconnaissance Orbiter",
+  "agency": "NASA / United States",
+  "destination": "Moon",
+  "objective": "Map the lunar surface and measure temperature, composition, radiation and illumination conditions to support science and future exploration.",
+  "equipment_ids": [
+   "M007"
+  ],
+  "source_url": "https://science.nasa.gov/mission/lro/"
+ },
+ {
+  "id": "mis_mro",
+  "name": "MRO",
+  "agency": "NASA / United States",
+  "destination": "Mars",
+  "objective": "Map surface, search for evidence of water and support communications",
+  "equipment_ids": [
+   "R015"
+  ],
+  "source_url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/"
+ },
+ {
+  "id": "mis_mars-2020",
+  "name": "Mars 2020",
+  "agency": "NASA / United States",
+  "destination": "Mars",
+  "objective": "Search for signs of ancient microbial life and collect samples for possible return",
+  "equipment_ids": [
+   "R008"
+  ],
+  "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/"
+ },
+ {
+  "id": "mis_mars-2020-perseverance-mission-technology-demonstration",
+  "name": "Mars 2020 / Perseverance mission technology demonstration",
+  "agency": "NASA / United States",
+  "destination": "Mars",
+  "objective": "Demonstrate that powered, controlled flight is possible in Mars's thin atmosphere, then support rover route scouting and operations demonstrations.",
+  "equipment_ids": [
+   "R009"
+  ],
+  "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/"
+ },
+ {
+  "id": "mis_mars-atmosphere-and-volatile-evolution",
+  "name": "Mars Atmosphere and Volatile Evolution",
+  "agency": "NASA / United States",
+  "destination": "Mars",
+  "objective": "Investigate how Mars lost much of its atmosphere",
+  "equipment_ids": [
+   "R016"
+  ],
+  "source_url": "https://science.nasa.gov/mission/maven/"
+ },
+ {
+  "id": "mis_mars-exploration-rover-mer-a",
+  "name": "Mars Exploration Rover (MER-A)",
+  "agency": "NASA / United States",
+  "destination": "Mars",
+  "objective": "Study Martian rocks and soils for evidence of past water and assess the geological history of Gusev Crater.",
+  "equipment_ids": [
+   "R005"
+  ],
+  "source_url": "https://science.nasa.gov/mission/mer-spirit/"
+ },
+ {
+  "id": "mis_mars-exploration-rover-mer-b",
+  "name": "Mars Exploration Rover (MER-B)",
+  "agency": "NASA / United States",
+  "destination": "Mars",
+  "objective": "Explore Martian rocks and soils for geological evidence of past water and assess whether ancient environments may have been habitable.",
+  "equipment_ids": [
+   "R006"
+  ],
+  "source_url": "https://science.nasa.gov/mission/mer-opportunity/"
+ },
+ {
+  "id": "mis_mars-pathfinder",
+  "name": "Mars Pathfinder",
+  "agency": "NASA / United States",
+  "destination": "Mars",
+  "objective": "Demonstrate low-cost landing technology and deploy Sojourner",
+  "equipment_ids": [
+   "R003",
+   "R004"
+  ],
+  "source_url": "https://science.nasa.gov/mission/mars-pathfinder/"
+ },
+ {
+  "id": "mis_mars-science-laboratory",
+  "name": "Mars Science Laboratory",
+  "agency": "NASA / United States",
+  "destination": "Mars",
+  "objective": "Assess whether Mars ever had environments capable of supporting microbial life",
+  "equipment_ids": [
+   "R007"
+  ],
+  "source_url": "https://science.nasa.gov/mission/msl-curiosity/"
+ },
+ {
+  "id": "mis_phoenix-mars-mission",
+  "name": "Phoenix Mars Mission",
+  "agency": "NASA / United States, with international partners",
+  "destination": "Mars",
+  "objective": "Study the history of water and habitability in the Martian arctic by sampling soil and subsurface ice.",
+  "equipment_ids": [
+   "R010"
+  ],
+  "source_url": "https://science.nasa.gov/mission/mars-phoenix/"
+ },
+ {
+  "id": "mis_surveyor-1",
+  "name": "Surveyor 1",
+  "agency": "NASA / United States",
+  "destination": "Moon",
+  "objective": "Demonstrate a soft lunar landing and return surface images and basic information about the lunar surface.",
+  "equipment_ids": [
+   "M003"
+  ],
+  "source_url": "https://science.nasa.gov/mission/surveyor-1/"
+ },
+ {
+  "id": "mis_viking-1",
+  "name": "Viking 1",
+  "agency": "NASA / United States",
+  "destination": "Mars",
+  "objective": "Image surface and analyze soil and atmosphere, including biology experiments",
+  "equipment_ids": [
+   "R001"
+  ],
+  "source_url": "https://science.nasa.gov/mission/viking-1/"
+ },
+ {
+  "id": "mis_viking-2",
+  "name": "Viking 2",
+  "agency": "NASA / United States",
+  "destination": "Mars",
+  "objective": "Study Martian surface, atmosphere and soil",
+  "equipment_ids": [
+   "R002"
+  ],
+  "source_url": "https://science.nasa.gov/mission/viking/"
+ }
+]

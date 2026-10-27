@@ -1,0 +1,8 @@
+{
+ "note": "These entries are a static list that ships with the site. They describe changes to this prototype's content and are not a live feed; new entries appear only when the site is redeployed.",
+ "updates": [
+  {"id": "u3", "date": "2026-10-25", "title": "Planetary Exploration section added", "summary": "Seven mission-level cards for destinations beyond the Moon and Mars. They are kept separate from the equipment catalogue.", "link": "#/planets"},
+  {"id": "u2", "date": "2026-10-25", "title": "Moon and Mars timelines and comparison added", "summary": "Browse source-linked events by destination and compare equipment records side by side. Missing values are shown as unknown.", "link": "#/timeline/nasa"},
+  {"id": "u1", "date": "2026-10-25", "title": "Working equipment catalogue released as a prototype", "summary": "The catalogue is a working subset of NASA Moon and Mars equipment records. It is not a complete inventory and several fields are still unverified.", "link": "#/catalogue"}
+ ]
+}

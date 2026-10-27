@@ -1,0 +1,2646 @@
+[
+ {
+  "id": "M001",
+  "name": "Apollo 11 Lunar Module Eagle",
+  "mission": "Apollo 11",
+  "mission_id": "mis_apollo-11",
+  "agency": "NASA / United States",
+  "crew": "Crewed",
+  "type_raw": "Crewed lunar module (descent stage remains on Moon; ascent stage returned to lunar orbit and was jettisoned)",
+  "type_categories": [
+   "Landers",
+   "Descent stages",
+   "Spacecraft"
+  ],
+  "destination": "Moon",
+  "destination_detail": "Moon — Sea of Tranquility",
+  "status_category": "green",
+  "status_category_basis": "Mission outcome recorded as successful; descent stage is non-operational (this is not a statement that hardware operates).",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "SURFACE_HARDWARE_REMAINS",
+  "mission_outcome": "Successful first crewed lunar landing; two astronauts landed, conducted surface activities and returned in the ascent stage to the command module.",
+  "operational_status": "Historical mission hardware; descent stage is non-operational and remains on the Moon",
+  "physical_location": "Descent stage remains on lunar surface near Tranquility Base; ascent stage did not remain at the surface",
+  "mission_objective": "Land astronauts on the Moon, perform surface exploration and return the crew safely to Earth.",
+  "dates": {
+   "launch": {
+    "value": "1969-07-16",
+    "precision": "day",
+    "label": "16 July 1969",
+    "raw": "1969-07-16"
+   },
+   "arrival_or_landing": {
+    "value": "1969-07-20",
+    "precision": "day",
+    "label": "20 July 1969",
+    "raw": "1969-07-20"
+   },
+   "last_communication": null,
+   "mission_end": {
+    "value": "1969-07-21",
+    "precision": "day",
+    "label": "21 July 1969",
+    "raw": "1969-07-21 (ascent stage lunar liftoff; descent stage left on surface)"
+   }
+  },
+  "coordinates": {
+   "latitude": 0.67408,
+   "longitude": 23.47297,
+   "convention": "east-positive",
+   "reference": null
+  },
+  "coordinate_note": "Approximate Apollo 11 landing-site coordinate; not a survey of the module itself",
+  "map_location_status": "CANDIDATE_PIN_REQUIRES_STANDARD_PRECISION",
+  "specs": {
+   "crew_landed": 2,
+   "surface_stay_hours_approx": 21.6,
+   "descent_stage_remains_on_moon": true
+  },
+  "instruments": [
+   "Apollo Lunar Surface Experiments Package (ALSEP) was deployed by the crew but was not part of the Lunar Module itself; do not list it as onboard LM instruments"
+  ],
+  "power_source": "Descent/ascent stages used mission-specific electrical power systems; exact stage-specific details need a technical handbook citation",
+  "dimensions": null,
+  "mobility": "Not mobile after landing; descent stage served as landing platform",
+  "remaining_hardware": "Descent stage and surface equipment remain near Tranquility Base. Ascent stage was jettisoned after rendezvous and its eventual impact location is not reliably confirmed here.",
+  "mass": null,
+  "mass_comparable_scope": null,
+  "abandoned_surface": true,
+  "discoveries": [
+   "Returned lunar samples and surface observations; the landing itself demonstrated crewed lunar landing and ascent operations"
+  ],
+  "history": [
+   {
+    "date": "1969-07-16",
+    "event": "Apollo 11 launched from Kennedy Space Center"
+   },
+   {
+    "date": "1969-07-20",
+    "event": "Eagle landed in the Sea of Tranquility"
+   },
+   {
+    "date": "1969-07-21",
+    "event": "Ascent stage lifted off from the Moon (UTC date)"
+   },
+   {
+    "date": "1969-07-24",
+    "event": "Apollo 11 crew returned to Earth"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "Apollo 11 launched 1969-07-16 and returned to Earth 1969-07-24.",
+    "source_url": "https://www.nasa.gov/mission/apollo-11/",
+    "confidence": "High"
+   },
+   {
+    "claim": "Eagle landed on the Moon on 1969-07-20; the descent stage remains at the landing site while the ascent stage lifted off.",
+    "source_url": "https://www.nasa.gov/history/alsj/a11/a11.html",
+    "confidence": "High"
+   }
+  ],
+  "associated": [
+   "The descent stage remained near Tranquility Base.",
+   "The ascent stage lifted off on 1969-07-21 UTC and did not remain at the surface.",
+   "The command/service module is separate mission hardware."
+  ],
+  "uncertainty_notes": [
+   "Do not describe the complete Lunar Module as intact on the surface: the ascent stage left the Moon.",
+   "Coordinate is for the landing site, not a precise survey of the descent stage."
+  ],
+  "missing_data_notes": [
+   "Stage-specific mass/dimensions, detailed electrical specifications and direct image URL/credit for the chosen asset require source-specific verification."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Stage-specific mass/dimensions not yet verified",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "Medium",
+  "confidence_notes": "High for mission dates and crewed landing; medium for landing-site coordinate; stage-by-stage final disposition kept explicit",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://www.nasa.gov/mission/apollo-11/",
+  "source_note": "NASA Apollo 11 mission page and Apollo Lunar Surface Journal; dates and mission objective checked against NASA.",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Lunar Module with stage-specific disposition; only descent stage remains on Moon",
+  "artifact_year": null
+ },
+ {
+  "id": "M002",
+  "name": "Apollo Lunar Roving Vehicle (Apollo 15 example)",
+  "mission": "Apollo 15",
+  "mission_id": "mis_apollo-15",
+  "agency": "NASA / United States",
+  "crew": "Crewed mission equipment",
+  "type_raw": "Crewed lunar surface rover",
+  "type_categories": [
+   "Rovers"
+  ],
+  "destination": "Moon",
+  "destination_detail": "Moon — Hadley–Apennine region, near Hadley Rille",
+  "status_category": "green",
+  "status_category_basis": "Rover operations ended with Apollo 15 surface activities after successful traverses.",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "SURFACE_HARDWARE_REMAINS",
+  "mission_outcome": "Successfully extended crew mobility during Apollo 15 surface EVAs; rover traveled 27.8 km across three traverses.",
+  "operational_status": "Historical, non-operational hardware; left on the Moon after Apollo 15",
+  "physical_location": "Moon surface — left near the Apollo 15 landing site; exact final parking coordinate not independently verified here",
+  "mission_objective": "Allow astronauts to explore a wider area, transport scientific tools and samples, and extend the range of lunar surface traverses.",
+  "dates": {
+   "launch": {
+    "value": "1971-07-26",
+    "precision": "day",
+    "label": "26 July 1971",
+    "raw": "1971-07-26"
+   },
+   "arrival_or_landing": {
+    "value": "1971-07-30",
+    "precision": "day",
+    "label": "30 July 1971",
+    "raw": "1971-07-30 (Apollo 15 lunar landing)"
+   },
+   "last_communication": null,
+   "mission_end": {
+    "value": "1971-08-02",
+    "precision": "day",
+    "label": "2 August 1971",
+    "raw": "1971-08-02 (rover operations ended with Apollo 15 surface activities)"
+   }
+  },
+  "coordinates": null,
+  "coordinate_note": "Apollo 15 landing region known; exact rover parking point should be verified before a precise map pin",
+  "map_location_status": "NO_VERIFIED_NUMERIC_POSITION",
+  "specs": {
+   "mass_kg": 210,
+   "length_m": 3.1,
+   "wheelbase_m": 2.3,
+   "wheel_count": 4,
+   "max_payload_kg_approx": 490,
+   "apollo_15_distance_km": 27.8,
+   "apollo_15_drive_time": "3 hours 2 minutes"
+  },
+  "instruments": [
+   "The rover itself provided crew mobility and carried scientific equipment; do not confuse transported Apollo science tools with built-in rover sensors.",
+   "Vehicle systems included navigation/heading display, communications equipment and TV camera system."
+  ],
+  "power_source": "Two 36-volt silver-zinc batteries; four individually powered wheel motors",
+  "dimensions": {
+   "length_m": 3.1,
+   "wheelbase_m": 2.3,
+   "height_m": 1.138,
+   "height_source_value": "44.8 inches converted to 1.138 m"
+  },
+  "mobility": "Four-wheel electric drive; independent steering systems; folded for transport in the Lunar Module",
+  "remaining_hardware": "Apollo 15 rover remains on the Moon near the final parking area; Apollo 16 and Apollo 17 used separate rovers at their own sites",
+  "mass": {
+   "value": 210,
+   "unit": "kg",
+   "basis": "NASA technical reference; deployed lunar rover mass"
+  },
+  "mass_comparable_scope": "Deployed rover mass",
+  "abandoned_surface": true,
+  "discoveries": [
+   "Enabled astronauts to reach and sample more sites across the Hadley–Apennine region",
+   "On Apollo 15, traversed 27.8 km over three driving traverses"
+  ],
+  "history": [
+   {
+    "date": "1971-07-26",
+    "event": "Apollo 15 launched"
+   },
+   {
+    "date": "1971-07-30",
+    "event": "Apollo 15 landed on the Moon"
+   },
+   {
+    "date": "1971-07-31",
+    "event": "First lunar rover traverse"
+   },
+   {
+    "date": "1971-08-02",
+    "event": "Final Apollo 15 rover traverse completed; rover was left on the Moon"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "Three LRVs were driven on Apollo 15, 16 and 17; Apollo 15 rover drove 27.8 km in 3 h 2 min.",
+    "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+    "confidence": "High"
+   },
+   {
+    "claim": "The LRV weighed about 210 kg, was 3.1 m long and was designed to carry a large payload on the lunar surface.",
+    "source_url": "https://ntrs.nasa.gov/api/citations/20050175879/downloads/20050175879.pdf",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "This dataset entry describes the Apollo 15 rover as a representative LRV; Apollo 16 and Apollo 17 rovers are separate hardware items.",
+   "Use rover parking coordinates, not the Lunar Module landing coordinate, if a precise map pin is needed."
+  ],
+  "missing_data_notes": [
+   "Exact parking coordinate, full motor/telemetry specifications and direct image asset URL/credit need validation."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Exact Apollo 15 LRV parking point not verified",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "Medium",
+  "confidence_notes": "High for rover mass, dimensions and Apollo 15 traverse distance; medium for final parked coordinate",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+  "source_note": "NASA NSSDC Apollo LRV page and NASA Apollo 15 press kit.",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "M003",
+  "name": "Surveyor 1",
+  "mission": "Surveyor 1",
+  "mission_id": "mis_surveyor-1",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "Stationary lunar lander",
+  "type_categories": [
+   "Landers",
+   "Spacecraft"
+  ],
+  "destination": "Moon",
+  "destination_detail": "Moon — Oceanus Procellarum",
+  "status_category": "red",
+  "status_category_basis": "Record states contact with the spacecraft ended on 1967-01-07.",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "SURFACE_HARDWARE_REMAINS",
+  "mission_outcome": "Successful; first true soft landing on the Moon and demonstrated landing technology for later crewed missions.",
+  "operational_status": "Historical, non-operational hardware; contact ended 1967-01-07",
+  "physical_location": "Moon surface — Oceanus Procellarum",
+  "mission_objective": "Demonstrate a soft lunar landing and return surface images and basic information about the lunar surface.",
+  "dates": {
+   "launch": {
+    "value": "1966-05-30",
+    "precision": "day",
+    "label": "30 May 1966",
+    "raw": "1966-05-30"
+   },
+   "arrival_or_landing": {
+    "value": "1966-06-02",
+    "precision": "day",
+    "label": "2 June 1966",
+    "raw": "1966-06-02"
+   },
+   "last_communication": {
+    "value": "1967-01-07",
+    "precision": "day",
+    "label": "7 January 1967",
+    "raw": "1967-01-07"
+   },
+   "mission_end": {
+    "value": "1967-01-07",
+    "precision": "day",
+    "label": "7 January 1967",
+    "raw": "1967-01-07"
+   }
+  },
+  "coordinates": {
+   "latitude": -2.4745,
+   "longitude": 316.6602,
+   "convention": "east-positive, 0-360 degrees",
+   "reference": "NASA NSSDC lunar artifact/impact table"
+  },
+  "coordinate_note": "NASA NSSDC catalogued landing coordinate; retain source precision and do not imply modern survey accuracy.",
+  "map_location_status": "CANDIDATE_PIN_REQUIRES_STANDARD_PRECISION",
+  "specs": {
+   "mass_kg": 995.2,
+   "images_returned": "More than 11,000",
+   "primary_mission_completed": "1966-07-14",
+   "last_contact_date": "1967-01-07",
+   "images_returned_approx": 11000
+  },
+  "instruments": [
+   "Television imaging system / TV camera"
+  ],
+  "power_source": "Solar cells and rechargeable storage battery (details need technical-reference verification)",
+  "dimensions": null,
+  "mobility": "Stationary lander",
+  "remaining_hardware": "Lander remains on the lunar surface; present physical condition not directly observed",
+  "mass": {
+   "value": 995.2,
+   "unit": "kg",
+   "basis": "NASA Science launch/spacecraft mass listing"
+  },
+  "mass_comparable_scope": null,
+  "abandoned_surface": true,
+  "discoveries": [
+   "Returned more than 11,000 images",
+   "Demonstrated a successful soft landing and helped characterize the surface for Apollo planning"
+  ],
+  "history": [
+   {
+    "date": "1966-05-30",
+    "event": "Launched"
+   },
+   {
+    "date": "1966-06-02",
+    "event": "Soft-landed on the Moon"
+   },
+   {
+    "date": "1966-07-14",
+    "event": "Primary mission completed"
+   },
+   {
+    "date": "1967-01-07",
+    "event": "Contact with spacecraft ended"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "Surveyor 1 launched 1966-05-30 and landed 1966-06-02.",
+    "source_url": "https://science.nasa.gov/mission/surveyor-1/",
+    "confidence": "High"
+   },
+   {
+    "claim": "Surveyor 1 mass was about 995.2 kg and contact ended 1967-01-07.",
+    "source_url": "https://science.nasa.gov/mission/surveyor-1/",
+    "confidence": "High"
+   },
+   {
+    "claim": "Surveyor 1 transmitted more than 11,000 photographs and its primary mission lasted about 30 days.",
+    "source_url": "https://www.jpl.nasa.gov/missions/surveyor-1/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA NSSDC lists Surveyor 1 at 2.4745 S, 316.6602 E.",
+    "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_artifact_impacts.html",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA records the launch on 1966-05-30, landing on 1966-06-02, and final contact on 1967-01-07.",
+    "source_url": "https://science.nasa.gov/mission/surveyor-1/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "Contact-end date is not the same as primary mission completion date."
+  ],
+  "missing_data_notes": [
+   "Exact coordinates, dimensions, battery/solar specifications and direct official image asset URL need verification."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "Medium",
+  "confidence_notes": "High for launch/landing, mass, primary mission and contact-end dates; medium for engineering details",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/surveyor-1/",
+  "source_note": "NASA Science and NASA/JPL Surveyor 1 mission pages.",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "M006",
+  "name": "Lunar Orbiter 1",
+  "mission": "Lunar Orbiter 1",
+  "mission_id": "mis_lunar-orbiter-1",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "Lunar orbiter (intentionally deorbited to impact)",
+  "type_categories": [
+   "Orbiters",
+   "Spacecraft"
+  ],
+  "destination": "Moon",
+  "destination_detail": "Moon orbit; impact on lunar far side",
+  "status_category": "green",
+  "status_category_basis": "Mission ended by a commanded lunar impact after a successful mapping mission (planned end).",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "IMPACTED_ON_MOON; COORDINATE_DISPUTED",
+  "mission_outcome": "Successful mapping mission; first U.S. spacecraft to orbit the Moon and captured the first image of Earth from the vicinity of the Moon.",
+  "operational_status": "Mission ended after commanded lunar impact on 1966-10-29",
+  "physical_location": "Moon surface — commanded lunar impact; published impact coordinates conflict between NASA mission page and NASA NSSDC catalog",
+  "mission_objective": "Photograph candidate Apollo and Surveyor landing sites and collect lunar environmental measurements.",
+  "dates": {
+   "launch": {
+    "value": "1966-08-10",
+    "precision": "day",
+    "label": "10 August 1966",
+    "raw": "1966-08-10"
+   },
+   "arrival_or_landing": {
+    "value": "1966-08-14",
+    "precision": "day",
+    "label": "14 August 1966",
+    "raw": "1966-08-14 (lunar orbit insertion)"
+   },
+   "last_communication": {
+    "value": "1966-10-29",
+    "precision": "day",
+    "label": "29 October 1966",
+    "raw": "1966-10-29"
+   },
+   "mission_end": {
+    "value": "1966-10-29",
+    "precision": "day",
+    "label": "29 October 1966",
+    "raw": "1966-10-29"
+   }
+  },
+  "coordinates": null,
+  "coordinate_note": "Unresolved source discrepancy: NASA mission page reports about 6.7 N, 162 E; NASA NSSDC catalog lists 6.35 N, 160.71 E. Do not publish a single precise pin until the reference system is reconciled.",
+  "map_location_status": "CONFLICTING_IMPACT_COORDINATES",
+  "specs": {
+   "mass_kg": 386.9,
+   "frames_exposed": 413,
+   "area_covered_km2_approx": 5180000,
+   "candidate_impact_coordinates": [
+    {
+     "latitude": 6.7,
+     "longitude": 162.0,
+     "source": "NASA Lunar Orbiter 1 mission page"
+    },
+    {
+     "latitude": 6.35,
+     "longitude": 160.71,
+     "source": "NASA NSSDC lunar artifact/impact table"
+    }
+   ]
+  },
+  "instruments": [
+   "Imaging system",
+   "Micrometeoroid detectors",
+   "Radiation dosimeters"
+  ],
+  "power_source": "Solar panels and batteries",
+  "dimensions": null,
+  "mobility": "Orbital manoeuvres only; no surface mobility",
+  "remaining_hardware": "Spacecraft intentionally impacted the Moon on 1966-10-29",
+  "mass": {
+   "value": 386.9,
+   "unit": "kg",
+   "basis": "NASA mission page"
+  },
+  "mass_comparable_scope": null,
+  "abandoned_surface": true,
+  "discoveries": [
+   "First U.S. spacecraft to orbit the Moon",
+   "First image of Earth taken from the vicinity of the Moon",
+   "Photographed candidate Apollo landing sites"
+  ],
+  "history": [
+   {
+    "date": "1966-08-10",
+    "event": "Launched"
+   },
+   {
+    "date": "1966-08-14",
+    "event": "Entered lunar orbit"
+   },
+   {
+    "date": "1966-08-23",
+    "event": "Captured the first image of Earth from the vicinity of the Moon"
+   },
+   {
+    "date": "1966-10-29",
+    "event": "Commanded to impact the lunar surface"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "Lunar Orbiter 1 launched 1966-08-10 and entered lunar orbit 1966-08-14.",
+    "source_url": "https://www.nasa.gov/mission/lunar-orbiter-1/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA reports mass 386.9 kg and impact coordinates 6°42′ N, 162° E on 1966-10-29.",
+    "source_url": "https://www.nasa.gov/mission/lunar-orbiter-1/",
+    "confidence": "High"
+   },
+   {
+    "claim": "The spacecraft captured the first image of Earth from the vicinity of the Moon.",
+    "source_url": "https://www.nasa.gov/mission/lunar-orbiter-1/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA NSSDC lists 6.35 N, 160.71 E and notes that other references report about 6.7 N, 162 E.",
+    "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_artifact_impacts.html",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "Impact coordinate is from NASA's published mission page; decimal latitude is a unit conversion.",
+   "Coordinate disagreement is preserved explicitly; neither candidate is silently chosen for the map layer."
+  ],
+  "missing_data_notes": [
+   "Detailed dimensions and direct image asset URL/credit need follow-up."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "NASA mission-page and NSSDC impact coordinates conflict; map pin withheld",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "High",
+  "confidence_notes": "High for mission dates, mass, instruments, image achievement and impact coordinate",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://www.nasa.gov/mission/lunar-orbiter-1/",
+  "source_note": "NASA official Lunar Orbiter 1 mission page provides key dates, mass, instruments and impact coordinates.",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "M007",
+  "name": "Lunar Reconnaissance Orbiter (LRO)",
+  "mission": "Lunar Reconnaissance Orbiter",
+  "mission_id": "mis_lunar-reconnaissance-orbiter",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "Lunar orbiter",
+  "type_categories": [
+   "Orbiters",
+   "Spacecraft"
+  ],
+  "destination": "Moon",
+  "destination_detail": "Moon orbit",
+  "status_category": "yellow",
+  "status_category_basis": "Record: active mission per NASA Science page checked 2026-10-23.",
+  "mission_status_class": "ACTIVE",
+  "hardware_status_class": "ACTIVE_LUNAR_ORBIT",
+  "mission_outcome": "Long-running active lunar mapping mission; supports landing-site selection, resource mapping and lunar science.",
+  "operational_status": "Active mission according to NASA Science page checked 2026-10-23",
+  "physical_location": "Lunar orbit",
+  "mission_objective": "Map the lunar surface and measure temperature, composition, radiation and illumination conditions to support science and future exploration.",
+  "dates": {
+   "launch": {
+    "value": "2009-06-18",
+    "precision": "day",
+    "label": "18 June 2009",
+    "raw": "2009-06-18"
+   },
+   "arrival_or_landing": {
+    "value": "2009-06-23",
+    "precision": "day",
+    "label": "23 June 2009",
+    "raw": "2009-06-23 (lunar orbit insertion)"
+   },
+   "last_communication": null,
+   "mission_end": null
+  },
+  "coordinates": null,
+  "coordinate_note": "Orbiter; use time-stamped orbital ephemeris, not a fixed surface coordinate",
+  "map_location_status": "NO_STATIC_SURFACE_COORDINATE; USE TIME-STAMPED ORBITAL DATA",
+  "specs": {
+   "launch_date": "2009-06-18",
+   "mission_class": "Lunar mapping and exploration science",
+   "longest_lived_lunar_orbiter_claim": "NASA describes LRO as the longest-lived lunar orbiting mission",
+   "spacecraft_mass_kg": 1850,
+   "mass_dry_kg_approx": 949,
+   "mass_fully_fuelled_kg_approx": 1846,
+   "mass_scope_note": "The mass field is a rounded mission-page spacecraft value; dry and fully fuelled figures are not interchangeable."
+  },
+  "instruments": [
+   "Lunar Orbiter Laser Altimeter (LOLA)",
+   "Lunar Reconnaissance Orbiter Camera (LROC)",
+   "Diviner Lunar Radiometer Experiment",
+   "Lyman Alpha Mapping Project (LAMP)",
+   "Cosmic Ray Telescope for the Effects of Radiation (CRaTER)",
+   "Lunar Exploration Neutron Detector (LEND)",
+   "Mini-RF synthetic aperture radar"
+  ],
+  "power_source": "Solar arrays and batteries",
+  "dimensions": null,
+  "mobility": "Orbital manoeuvres; no surface mobility",
+  "remaining_hardware": "Spacecraft remains in lunar orbit while mission operations continue",
+  "mass": {
+   "value": 1850,
+   "unit": "kg",
+   "basis": "NASA mission quick-facts spacecraft mass, rounded; mission technical paper gives about 1,846 kg fully fuelled and under 949 kg dry"
+  },
+  "mass_comparable_scope": null,
+  "abandoned_surface": false,
+  "discoveries": [
+   "High-resolution global topography and imaging",
+   "Mapped temperature and radiation environments",
+   "Identified regions relevant to water ice and future landing-site selection"
+  ],
+  "history": [
+   {
+    "date": "2009-06-18",
+    "event": "Launched"
+   },
+   {
+    "date": "2009-06-23",
+    "event": "Entered lunar orbit"
+   },
+   {
+    "date": "2009-09",
+    "event": "Science mapping operations began after commissioning"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "LRO launched 2009-06-18 and has studied the Moon since 2009.",
+    "source_url": "https://science.nasa.gov/mission/lro/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA labels LRO an active mission and describes its surface mapping and resource-identification role.",
+    "source_url": "https://science.nasa.gov/mission/lro/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "Active mission label reflects NASA's page on 2026-10-23; verify current status again at release time."
+  ],
+  "missing_data_notes": [
+   "Mass/dimensions, current orbit parameters, instrument status and selected image asset URLs/credits require further validation."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Time-dependent orbital elements not included",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "Medium",
+  "confidence_notes": "High for launch, orbit insertion, mission role and active status; medium for current instrument-by-instrument status",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/lro/",
+  "source_note": "NASA Science official LRO mission page.",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "R001",
+  "name": "Viking 1 lander",
+  "mission": "Viking 1",
+  "mission_id": "mis_viking-1",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "lander",
+  "type_categories": [
+   "Landers",
+   "Spacecraft"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars",
+  "status_category": "red",
+  "status_category_basis": "Record: communications stopped after a faulty command on 1982-11-11.",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "SURFACE_HARDWARE_REMAINS",
+  "mission_outcome": "Successful",
+  "operational_status": "Ended; communications stopped after a faulty command on 1982-11-11. NASA's Viking project overview gives a slightly different Nov. 13 end-of-mission date.",
+  "physical_location": "surface",
+  "mission_objective": "Image surface and analyze soil and atmosphere, including biology experiments",
+  "dates": {
+   "launch": {
+    "value": "1975-08-20",
+    "precision": "day",
+    "label": "20 August 1975",
+    "raw": "1975-08-20"
+   },
+   "arrival_or_landing": {
+    "value": "1976-07-20",
+    "precision": "day",
+    "label": "20 July 1976",
+    "raw": "1976-07-20"
+   },
+   "last_communication": {
+    "value": "1982-11-11",
+    "precision": "day",
+    "label": "11 November 1982",
+    "raw": "1982-11-11 (communications interrupted after a faulty command)"
+   },
+   "mission_end": {
+    "value": "1982-11-11",
+    "precision": "day",
+    "label": "11 November 1982",
+    "raw": "1982-11-11 (Viking 1 mission page); Viking project overview gives Nov. 13, 1982"
+   }
+  },
+  "coordinates": {
+   "latitude": 22.483,
+   "longitude": -47.94,
+   "convention": "east-positive; reference frame as cited",
+   "reference": "NASA Viking 1 mission page"
+  },
+  "coordinate_note": "NASA-published landing coordinates; retain source precision.",
+  "map_location_status": "CANDIDATE_PIN_REQUIRES_STANDARD_PRECISION",
+  "specs": {
+   "spacecraft_pair_mass_kg": 3527,
+   "lander_mass_kg": 978,
+   "orbiter_mass_kg": 2339,
+   "lander_power_source": "Two SNAP-19 radioisotope thermoelectric generators (RTGs)",
+   "combined_spacecraft_mass_kg_approx": 3527,
+   "associated_orbiter_instruments": [
+    "Orbiter imaging system (two vidicon cameras)",
+    "Infrared spectrometer for water-vapor mapping (MAWD)",
+    "Infrared radiometer for thermal mapping (IRTM)"
+   ],
+   "mass_scope_note": "Top-level mass describes the lander item, not the full Viking orbiter-plus-lander pair.",
+   "lander_mass_at_landing_kg": 657,
+   "lander_mass_alternate_NASA_mission_page_kg": 978,
+   "lander_mass_scope_note": "NASA pages publish 657 kg in the lander technical-specs table and 978 kg in the mission overview. Top-level comparable surface-hardware mass uses the 657 kg landing-phase value; keep 978 kg visible as an alternate source figure until mission-phase definitions are reconciled."
+  },
+  "instruments": [
+   "Lander imaging system (two facsimile cameras)",
+   "Gas Chromatograph Mass Spectrometer (GCMS)",
+   "Seismometer",
+   "X-ray Fluorescence Spectrometer",
+   "Biological laboratory",
+   "Weather instrument package (temperature, pressure and wind)",
+   "Remote sampler arm"
+  ],
+  "power_source": null,
+  "dimensions": null,
+  "mobility": null,
+  "remaining_hardware": null,
+  "mass": {
+   "value": 657,
+   "unit": "kg",
+   "basis": "NASA Viking lander technical specifications: mass at landing"
+  },
+  "mass_comparable_scope": "Lander mass at landing",
+  "abandoned_surface": true,
+  "discoveries": [
+   "Returned surface images and atmospheric/soil measurements; biological experiments found chemical activity but no clear evidence of living microorganisms."
+  ],
+  "history": [
+   {
+    "date": "1975-08-20",
+    "event": "Launch",
+    "source_url": "https://science.nasa.gov/mission/viking-1/"
+   },
+   {
+    "date": "1976-06-19",
+    "event": "Mars orbit insertion",
+    "source_url": "https://science.nasa.gov/mission/viking-1/"
+   },
+   {
+    "date": "1976-07-20",
+    "event": "Lander touchdown at Chryse Planitia",
+    "source_url": "https://science.nasa.gov/mission/viking-1/"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "NASA gives Viking 1 lander mass as 978 kg, landing on 1976-07-20, and communications failure on 1982-11-11.",
+    "source_url": "https://science.nasa.gov/mission/viking-1/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA's Viking project overview lists the lander end date as 1982-11-13, a two-day discrepancy with the detailed Viking 1 page.",
+    "source_url": "https://science.nasa.gov/mission/viking/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA Viking spacecraft-and-science page lists the lander mass as 657 kg in its lander technical-specifications table.",
+    "source_url": "https://science.nasa.gov/mission/viking/spacecraft-and-science/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA's Viking 1 overview describes each lander as 978 kg; the discrepancy with the 657 kg technical-specifications value is preserved as a mass-phase/scope issue.",
+    "source_url": "https://science.nasa.gov/mission/viking-1/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "NASA pages differ slightly on the final lander shutdown date (Nov. 11 vs Nov. 13, 1982); preserve this as a source discrepancy until reconciled.",
+   "NASA publishes 657 kg in its Viking lander technical-specifications table and 978 kg in its Viking mission overview; top-level mass is set to 657 kg at landing, while 978 kg is preserved as a conflicting/phase-dependent source value."
+  ],
+  "missing_data_notes": [
+   "Detailed subsystem dimensions and image asset-level credit records remain to be collected."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "NASA sources differ on formal Viking 1 lander end date by two days",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "High",
+  "confidence_notes": "high_for_NASA_listed_facts",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/viking-1/",
+  "source_note": "NASA Mars mission archive",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Viking 1 lander only; orbiter payloads are listed separately",
+  "artifact_year": null
+ },
+ {
+  "id": "R002",
+  "name": "Viking 2 lander",
+  "mission": "Viking 2",
+  "mission_id": "mis_viking-2",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "lander",
+  "type_categories": [
+   "Landers",
+   "Spacecraft"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars",
+  "status_category": "red",
+  "status_category_basis": "Record: ended; final operations 1980-04-11/12 (reason for the end is not stated in the seed).",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "SURFACE_HARDWARE_REMAINS",
+  "mission_outcome": "Successful",
+  "operational_status": "Ended; NASA references give 1980-04-11 or 1980-04-12 for final operations. Lander remains at Utopia Planitia.",
+  "physical_location": "surface",
+  "mission_objective": "Study Martian surface, atmosphere and soil",
+  "dates": {
+   "launch": {
+    "value": "1975-09-09",
+    "precision": "day",
+    "label": "9 September 1975",
+    "raw": "1975-09-09"
+   },
+   "arrival_or_landing": {
+    "value": "1976-09-03",
+    "precision": "day",
+    "label": "3 September 1976",
+    "raw": "1976-09-03"
+   },
+   "last_communication": {
+    "value": "1980-04-11",
+    "precision": "conflicting",
+    "label": "Sources differ (see note)",
+    "raw": "1980-04-11/12 (source/date convention discrepancy)"
+   },
+   "mission_end": {
+    "value": "1980-04-11",
+    "precision": "conflicting",
+    "label": "Sources differ (see note)",
+    "raw": "1980-04-11/12 (NASA references differ by date convention)"
+   }
+  },
+  "coordinates": {
+   "latitude": 47.64,
+   "longitude": 134.29,
+   "convention": "east-positive; reference frame as cited",
+   "reference": "NASA Viking project page"
+  },
+  "coordinate_note": "NASA-published landing coordinates; planetocentric reference noted by NASA.",
+  "map_location_status": "CANDIDATE_PIN_REQUIRES_STANDARD_PRECISION",
+  "specs": {
+   "lander_power_source": "Two SNAP-19 radioisotope thermoelectric generators (RTGs)",
+   "lander_mass_kg": 978,
+   "orbiter_mass_kg": 2339,
+   "combined_spacecraft_mass_kg_approx": 3527,
+   "associated_orbiter_instruments": [
+    "Orbiter imaging system (two vidicon cameras)",
+    "Infrared spectrometer for water-vapor mapping (MAWD)",
+    "Infrared radiometer for thermal mapping (IRTM)"
+   ],
+   "mass_scope_note": "Top-level mass describes the lander item, not the full Viking orbiter-plus-lander pair.",
+   "lander_mass_at_landing_kg": 657,
+   "lander_mass_alternate_NASA_mission_page_kg": 978,
+   "lander_mass_scope_note": "NASA pages publish 657 kg in the lander technical-specs table and 978 kg in the mission overview. Top-level comparable surface-hardware mass uses the 657 kg landing-phase value; keep 978 kg visible as an alternate source figure until mission-phase definitions are reconciled."
+  },
+  "instruments": [
+   "Lander imaging system (two facsimile cameras)",
+   "Gas Chromatograph Mass Spectrometer (GCMS)",
+   "Seismometer",
+   "X-ray Fluorescence Spectrometer",
+   "Biological laboratory",
+   "Weather instrument package (temperature, pressure and wind)",
+   "Remote sampler arm"
+  ],
+  "power_source": null,
+  "dimensions": null,
+  "mobility": null,
+  "remaining_hardware": null,
+  "mass": {
+   "value": 657,
+   "unit": "kg",
+   "basis": "NASA Viking lander technical specifications: mass at landing"
+  },
+  "mass_comparable_scope": "Lander mass at landing",
+  "abandoned_surface": true,
+  "discoveries": [
+   "Returned surface images and weather measurements at Utopia Planitia.",
+   "Biology experiments found chemical activity but did not establish the presence of living microorganisms."
+  ],
+  "history": [
+   {
+    "date": "1975-09-09",
+    "event": "Launch",
+    "source_url": "https://science.nasa.gov/mission/viking/"
+   },
+   {
+    "date": "1976-09-03",
+    "event": "Lander touchdown at Utopia Planitia",
+    "source_url": "https://science.nasa.gov/mission/viking/"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "NASA gives Viking 2 launch on 1975-09-09, landing on 1976-09-03, and lander end-of-mission around 1980-04-12.",
+    "source_url": "https://science.nasa.gov/mission/viking-2/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA lists the Viking 2 landing point at 47.64 N, 134.29 E in a planetocentric coordinate frame.",
+    "source_url": "https://science.nasa.gov/mission/viking/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA Viking spacecraft-and-science page lists the lander mass as 657 kg in its lander technical-specifications table.",
+    "source_url": "https://science.nasa.gov/mission/viking/spacecraft-and-science/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA's Viking 1 overview describes each lander as 978 kg; the discrepancy with the 657 kg technical-specifications value is preserved as a mass-phase/scope issue.",
+    "source_url": "https://science.nasa.gov/mission/viking-1/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "This record describes the lander only; the Viking 2 orbiter should be represented as a separate linked equipment record if the website needs component-level detail.",
+   "NASA publishes 657 kg in its Viking lander technical-specifications table and 978 kg in its Viking mission overview; top-level mass is set to 657 kg at landing, while 978 kg is preserved as a conflicting/phase-dependent source value."
+  ],
+  "missing_data_notes": [
+   "Lander-specific mass, instrument list, final communication and image credits need dedicated source extraction."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "NASA sources differ by one day on the final Viking 2 lander date",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "High",
+  "confidence_notes": "high_for_NASA_listed_dates_and_site",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/viking/",
+  "source_note": "NASA Mars mission archive",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Viking 2 lander only; orbiter payloads are listed separately",
+  "artifact_year": null
+ },
+ {
+  "id": "R003",
+  "name": "Mars Pathfinder lander",
+  "mission": "Mars Pathfinder",
+  "mission_id": "mis_mars-pathfinder",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "lander",
+  "type_categories": [
+   "Landers",
+   "Spacecraft"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars",
+  "status_category": "red",
+  "status_category_basis": "Record: last data 1997-09-27; recovery attempts failed; mission formally terminated 1998-03-10.",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "SURFACE_HARDWARE_REMAINS",
+  "mission_outcome": "Successful",
+  "operational_status": "Ended; final data received 1997-09-27 after 83 sols; attempts to restore communication continued for months and the mission was formally terminated 1998-03-10.",
+  "physical_location": "surface",
+  "mission_objective": "Demonstrate low-cost landing technology and deploy Sojourner",
+  "dates": {
+   "launch": {
+    "value": "1996-12-04",
+    "precision": "day",
+    "label": "4 December 1996",
+    "raw": "1996-12-04"
+   },
+   "arrival_or_landing": {
+    "value": "1997-07-04",
+    "precision": "day",
+    "label": "4 July 1997",
+    "raw": "1997-07-04"
+   },
+   "last_communication": {
+    "value": "1997-09-27",
+    "precision": "day",
+    "label": "27 September 1997",
+    "raw": "1997-09-27 10:23 UTC (last data transmission)"
+   },
+   "mission_end": {
+    "value": "1997-09-27",
+    "precision": "day",
+    "label": "27 September 1997",
+    "raw": "1997-09-27 (last data); recovery attempts formally ended 1998-03-10"
+   }
+  },
+  "coordinates": null,
+  "coordinate_note": null,
+  "map_location_status": "NAMED_LANDING_REGION_ONLY",
+  "specs": {},
+  "instruments": [
+   "Imager for Mars Pathfinder (IMP)",
+   "Atmospheric Structure Instrument / meteorology sensors",
+   "Accelerometers and engineering sensors used during entry and landing"
+  ],
+  "power_source": null,
+  "dimensions": null,
+  "mobility": null,
+  "remaining_hardware": null,
+  "mass": null,
+  "mass_comparable_scope": null,
+  "abandoned_surface": true,
+  "discoveries": [
+   "Demonstrated an airbag-assisted landing approach and delivered the Sojourner rover for surface investigations."
+  ],
+  "history": [
+   {
+    "date": "1996-12-04",
+    "event": "Launched",
+    "source_url": "https://science.nasa.gov/mission/mars-pathfinder/"
+   },
+   {
+    "date": "1997-07-04",
+    "event": "Landed in Ares Vallis",
+    "source_url": "https://science.nasa.gov/mission/mars-pathfinder/"
+   },
+   {
+    "date": "1997-07-05",
+    "event": "Sojourner deployed to the surface",
+    "source_url": "https://science.nasa.gov/resource/pathfinders-rover-airbags-martian-terrain/"
+   },
+   {
+    "date": "1997-09-27",
+    "event": "Last data transmission received",
+    "source_url": "https://science.nasa.gov/resource/pathfinder-on-mars-2/"
+   },
+   {
+    "date": "1998-03-10",
+    "event": "Mission formally terminated after unsuccessful recovery attempts",
+    "source_url": "https://science.nasa.gov/resource/pathfinder-on-mars-2/"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "NASA identifies Ares Vallis as the landing site and 1997-09-27 as the last data transmission/end of surface operations.",
+    "source_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA Photojournal records final data on 1997-09-27 and formal termination of recovery attempts on 1998-03-10.",
+    "source_url": "https://science.nasa.gov/resource/pathfinder-on-mars-2/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [
+   "The Sojourner rover carried the Alpha Proton X-ray Spectrometer (APXS); APXS is not a lander instrument."
+  ],
+  "uncertainty_notes": [
+   "The entry is the lander; Sojourner is a separate linked record. Instrument attribution must remain component-specific."
+  ],
+  "missing_data_notes": [
+   "Need verified mass, dimensions, power and exact last communication/missions-end details."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Last data date and formal mission closeout date are distinct",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "High",
+  "confidence_notes": "high_for_launch_landing_and_landing_method",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+  "source_note": "NASA Mars Pathfinder page",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Mars Pathfinder stationary lander; Sojourner rover is a related but separate record",
+  "artifact_year": null
+ },
+ {
+  "id": "R004",
+  "name": "Sojourner rover",
+  "mission": "Mars Pathfinder",
+  "mission_id": "mis_mars-pathfinder",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "rover",
+  "type_categories": [
+   "Rovers"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars",
+  "status_category": "red",
+  "status_category_basis": "Record: last Pathfinder transmission 1997-09-27; recovery efforts ended 1998-03-10.",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "ROVER_REMAINS; FINAL_POSITION_UNCONFIRMED",
+  "mission_outcome": "Successful",
+  "operational_status": "Ended; Sojourner operated for 83 sols, far beyond its planned 7-sol lifetime. The last Pathfinder transmission was 1997-09-27; formal recovery efforts ended 1998-03-10.",
+  "physical_location": "surface",
+  "mission_objective": "Demonstrate rover mobility and analyze nearby rocks and soil",
+  "dates": {
+   "launch": {
+    "value": "1996-12-04",
+    "precision": "day",
+    "label": "4 December 1996",
+    "raw": "1996-12-04"
+   },
+   "arrival_or_landing": {
+    "value": "1997-07-04",
+    "precision": "day",
+    "label": "4 July 1997",
+    "raw": "1997-07-04"
+   },
+   "last_communication": {
+    "value": "1997-09-27",
+    "precision": "day",
+    "label": "27 September 1997",
+    "raw": "1997-09-27 10:23 UTC via Pathfinder (last mission data transmission)"
+   },
+   "mission_end": {
+    "value": "1997-09-27",
+    "precision": "day",
+    "label": "27 September 1997",
+    "raw": "1997-09-27 (last data); formal recovery effort closeout 1998-03-10"
+   }
+  },
+  "coordinates": null,
+  "coordinate_note": null,
+  "map_location_status": "CURRENT_ROVER_POSITION_UNKNOWN",
+  "specs": {},
+  "instruments": [
+   "Alpha Proton X-ray Spectrometer (APXS)",
+   "Front and rear hazard-avoidance cameras"
+  ],
+  "power_source": "Solar panel and rechargeable batteries",
+  "dimensions": {
+   "length_m_approx": 0.65,
+   "width_m_approx": 0.48,
+   "height_m_approx": 0.3
+  },
+  "mobility": null,
+  "remaining_hardware": null,
+  "mass": {
+   "value": 10.6,
+   "unit": "kg",
+   "basis": "NASA Pathfinder mission summary; rover mass"
+  },
+  "mass_comparable_scope": "Rover mass",
+  "abandoned_surface": true,
+  "discoveries": [
+   "Demonstrated mobile robotic exploration on Mars and analyzed rocks and soil near the Pathfinder landing site."
+  ],
+  "history": [
+   {
+    "date": "1996-12-04",
+    "event": "Launched with Mars Pathfinder",
+    "source_url": "https://science.nasa.gov/mission/mars-pathfinder/"
+   },
+   {
+    "date": "1997-07-04",
+    "event": "Arrived at Mars with Pathfinder lander",
+    "source_url": "https://science.nasa.gov/mission/mars-pathfinder/"
+   },
+   {
+    "date": "1997-07-05",
+    "event": "Deployed to the Martian surface",
+    "source_url": "https://science.nasa.gov/resource/pathfinders-rover-airbags-martian-terrain/"
+   },
+   {
+    "date": "1997-09-27",
+    "event": "Last data received from Pathfinder/Sojourner",
+    "source_url": "https://science.nasa.gov/resource/sojourner-yogi/"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "NASA reports Sojourner mass of about 10.5–10.6 kg, 83 sols of operation, and a planned life of seven sols.",
+    "source_url": "https://science.nasa.gov/resource/sojourner-yogi/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA records the final Pathfinder transmission on 1997-09-27 and mission recovery closeout on 1998-03-10.",
+    "source_url": "https://science.nasa.gov/resource/sojourner-yogi/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "This initial record keeps instrument details limited pending a dedicated Sojourner technical source; do not copy the lander's full instrument list onto the rover."
+  ],
+  "missing_data_notes": [
+   "Mass, dimensions, power source, wheel capability, end-of-communication date and image credits require verification."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Rover final position coordinate not verified",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "Medium",
+  "confidence_notes": "moderate",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/mars-pathfinder/",
+  "source_note": "NASA Mars Pathfinder page",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "R005",
+  "name": "Spirit rover",
+  "mission": "Mars Exploration Rover (MER-A)",
+  "mission_id": "mis_mars-exploration-rover-mer-a",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "Surface rover",
+  "type_categories": [
+   "Rovers"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars — Gusev Crater",
+  "status_category": "red",
+  "status_category_basis": "Record: last confirmed communication 2010-03-22; contact attempts ended 2011.",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "ROVER_REMAINS; FINAL_POSITION_APPROXIMATE",
+  "mission_outcome": "Highly successful; exceeded its planned 90-sol mission and found strong evidence of ancient water-related environments.",
+  "operational_status": "Mission ended; last confirmed communication 2010-03-22; NASA ended contact attempts in 2011",
+  "physical_location": "Mars surface — Gusev Crater region; exact final position should be verified from mission mapping",
+  "mission_objective": "Study Martian rocks and soils for evidence of past water and assess the geological history of Gusev Crater.",
+  "dates": {
+   "launch": {
+    "value": "2003-06-10",
+    "precision": "day",
+    "label": "10 June 2003",
+    "raw": "2003-06-10"
+   },
+   "arrival_or_landing": {
+    "value": "2004-01-04",
+    "precision": "day",
+    "label": "4 January 2004",
+    "raw": "2004-01-04"
+   },
+   "last_communication": {
+    "value": "2010-03-22",
+    "precision": "day",
+    "label": "22 March 2010",
+    "raw": "2010-03-22"
+   },
+   "mission_end": {
+    "value": "2011-05-25",
+    "precision": "day",
+    "label": "25 May 2011",
+    "raw": "2011-05-25"
+   }
+  },
+  "coordinates": null,
+  "coordinate_note": "Landing site is Gusev Crater; final position requires a separate mapping source",
+  "map_location_status": "FINAL_POSITION_NOT_PRECISELY_MAPPED",
+  "specs": {
+   "mass_kg": 1062,
+   "planned_mission": "90 sols",
+   "actual_surface_operation": "6 years, 2 months, 19 days",
+   "distance_traveled_km": 7.73,
+   "rover_mass_kg": 185,
+   "NASA_mission_page_spacecraft_mass_kg": 1062,
+   "mass_scope_note": "The top-level mass is rover-only. The 1,062 kg mission-page spacecraft figure is retained as separately labelled and must not be shown as the rover's mass."
+  },
+  "instruments": [
+   "Panoramic Camera (Pancam)",
+   "Microscopic Imager",
+   "Miniature Thermal Emission Spectrometer (Mini-TES)",
+   "Mössbauer Spectrometer",
+   "Alpha Particle X-ray Spectrometer (APXS)",
+   "Rock Abrasion Tool (RAT)",
+   "Magnet arrays",
+   "Hazard-avoidance and navigation cameras"
+  ],
+  "power_source": "Solar arrays; radioisotope heater units provided warmth",
+  "dimensions": null,
+  "mobility": "Six-wheeled rover; became immobilized in soft soil in 2009",
+  "remaining_hardware": "Rover remains on Mars; exact final location and condition need dedicated mapping confirmation",
+  "mass": {
+   "value": 185,
+   "unit": "kg",
+   "basis": "Mars Exploration Rover vehicle mass"
+  },
+  "mass_comparable_scope": "Rover vehicle mass",
+  "abandoned_surface": true,
+  "discoveries": [
+   "Evidence that Mars was once much wetter",
+   "Geological evidence of water-altered materials",
+   "Observations of Martian dust devils and wind-driven surface changes"
+  ],
+  "history": [
+   {
+    "date": "2003-06-10",
+    "event": "Launched from Florida"
+   },
+   {
+    "date": "2004-01-04",
+    "event": "Landed in Gusev Crater"
+   },
+   {
+    "date": "2009-05",
+    "event": "Became embedded in soft soil near a site called Troy"
+   },
+   {
+    "date": "2010-03-22",
+    "event": "Last confirmed communication"
+   },
+   {
+    "date": "2011-05-25",
+    "event": "NASA ended efforts to contact Spirit"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "Spirit landed in Gusev Crater on 2004-01-04, traveled about 7.73 km, and weighed 1062 kg.",
+    "source_url": "https://science.nasa.gov/mission/mer-spirit/",
+    "confidence": "High"
+   },
+   {
+    "claim": "Spirit's last communication was 2010-03-22; NASA ended contact attempts and declared the mission complete on 2011-05-25.",
+    "source_url": "https://science.nasa.gov/mission/mer-spirit/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA's MER rover reference describes the rover vehicle as approximately 185 kg, distinct from the larger spacecraft/landing system mass.",
+    "source_url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "Last communication in March 2010 and formal end of contact attempts in May 2011 are separate events.",
+   "The final rover position is not represented as exact without a dedicated map source."
+  ],
+  "missing_data_notes": [
+   "Exact final coordinates, dimensions, power output history and a directly usable official image URL still need verification."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Final site lacks numeric coordinates; rover mass separated from system mass",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "Medium",
+  "confidence_notes": "High for mission dates, status, instruments and broad discoveries; medium for hardware-location detail",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/mer-spirit/",
+  "source_note": "NASA Science and NASA/JPL mission pages. NASA Science gives mission dates, major science results and instruments.",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "R006",
+  "name": "Opportunity rover",
+  "mission": "Mars Exploration Rover (MER-B)",
+  "mission_id": "mis_mars-exploration-rover-mer-b",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "Surface rover",
+  "type_categories": [
+   "Rovers"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars — Meridiani Planum; final known area Perseverance Valley",
+  "status_category": "red",
+  "status_category_basis": "Record: last communication 2018-06-10 during a dust storm; mission declared ended 2019-02-13.",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "ROVER_REMAINS; FINAL_POSITION_APPROXIMATE",
+  "mission_outcome": "Highly successful; operated for nearly 15 years, found evidence of ancient water-altered environments, and traveled 45.16 km.",
+  "operational_status": "Mission ended; last communication 2018-06-10; NASA declared end of mission 2019-02-13 after a planet-wide dust storm",
+  "physical_location": "Mars surface — Perseverance Valley, Endeavour Crater rim",
+  "mission_objective": "Explore Martian rocks and soils for geological evidence of past water and assess whether ancient environments may have been habitable.",
+  "dates": {
+   "launch": {
+    "value": "2003-07-07",
+    "precision": "day",
+    "label": "7 July 2003",
+    "raw": "2003-07-07"
+   },
+   "arrival_or_landing": {
+    "value": "2004-01-24",
+    "precision": "day",
+    "label": "24 January 2004",
+    "raw": "2004-01-24"
+   },
+   "last_communication": {
+    "value": "2018-06-10",
+    "precision": "day",
+    "label": "10 June 2018",
+    "raw": "2018-06-10"
+   },
+   "mission_end": {
+    "value": "2019-02-13",
+    "precision": "day",
+    "label": "13 February 2019",
+    "raw": "2019-02-13"
+   }
+  },
+  "coordinates": null,
+  "coordinate_note": "Final named region is Perseverance Valley; exact final coordinates require a dedicated NASA map source",
+  "map_location_status": "FINAL_POSITION_NOT_PRECISELY_MAPPED",
+  "specs": {
+   "mass_kg": 1062,
+   "planned_mission": "90 sols",
+   "distance_traveled_km": 45.16,
+   "planned_distance_m": 1000,
+   "rover_mass_kg": 185,
+   "NASA_mission_page_spacecraft_mass_kg": 1062,
+   "mass_scope_note": "The top-level mass is rover-only. The 1,062 kg mission-page spacecraft figure is retained as separately labelled and must not be shown as the rover's mass."
+  },
+  "instruments": [
+   "Panoramic Camera (Pancam)",
+   "Navigation Cameras (Navcam)",
+   "Miniature Thermal Emission Spectrometer (Mini-TES)",
+   "Mössbauer Spectrometer",
+   "Alpha Particle X-ray Spectrometer (APXS)",
+   "Microscopic Imager (MI)",
+   "Rock Abrasion Tool (RAT)",
+   "Magnet arrays",
+   "Hazard Avoidance Cameras (Hazcams)"
+  ],
+  "power_source": "Solar arrays",
+  "dimensions": null,
+  "mobility": "Six-wheeled rover; traveled about 45.16 km over its mission",
+  "remaining_hardware": "Rover remains on Mars at its final known area in Perseverance Valley; exact current physical condition is not directly observed",
+  "mass": {
+   "value": 185,
+   "unit": "kg",
+   "basis": "Mars Exploration Rover vehicle mass"
+  },
+  "mass_comparable_scope": "Rover vehicle mass",
+  "abandoned_surface": true,
+  "discoveries": [
+   "Found evidence that ancient Mars had environments that could have sustained microbial life",
+   "Studied sulfate-rich rocks and water-related alteration in Meridiani Planum",
+   "Set a surface-distance record on another world at the time, traveling 45.16 km"
+  ],
+  "history": [
+   {
+    "date": "2003-07-07",
+    "event": "Launched from Cape Canaveral"
+   },
+   {
+    "date": "2004-01-24",
+    "event": "Landed at Meridiani Planum"
+   },
+   {
+    "date": "2015-03-24",
+    "event": "Exceeded the marathon distance on another world"
+   },
+   {
+    "date": "2018-06-10",
+    "event": "Last communication during a planet-wide dust storm"
+   },
+   {
+    "date": "2019-02-13",
+    "event": "NASA declared the mission complete after final recovery attempts"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "Opportunity launched 2003-07-07, landed 2004-01-24, and traveled 45.16 km.",
+    "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
+    "confidence": "High"
+   },
+   {
+    "claim": "Opportunity last communicated on 2018-06-10 and NASA declared end of mission on 2019-02-13.",
+    "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
+    "confidence": "High"
+   },
+   {
+    "claim": "The final known resting area is Perseverance Valley.",
+    "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA's MER rover reference describes the rover vehicle as approximately 185 kg, distinct from the larger spacecraft/landing system mass.",
+    "source_url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "The last signal date (2018-06-10) is distinct from the formal mission end (2019-02-13).",
+   "NASA's page uses both rounded and exact distance values in different contexts; 45.16 km is used here."
+  ],
+  "missing_data_notes": [
+   "Exact final coordinates, dimensions, last image asset URL and detailed per-instrument discovery links still need validation."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Final site lacks numeric coordinates; rover mass separated from system mass",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "Medium",
+  "confidence_notes": "High for launch/landing, final communication, formal mission end, instruments and distance; medium for exact final position",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/mer-opportunity/",
+  "source_note": "NASA Science official mission page, including mission dates, instruments, odometry and end-of-mission date.",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "R007",
+  "name": "Curiosity rover",
+  "mission": "Mars Science Laboratory",
+  "mission_id": "mis_mars-science-laboratory",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "rover",
+  "type_categories": [
+   "Rovers"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars",
+  "status_category": "yellow",
+  "status_category_basis": "Record: active; NASA updates current in October 2026.",
+  "mission_status_class": "ACTIVE",
+  "hardware_status_class": "ACTIVE_MARS_SURFACE_ROVER",
+  "mission_outcome": "Successful",
+  "operational_status": "Active; NASA's Curiosity mission page and updates were current in October 2026.",
+  "physical_location": "surface",
+  "mission_objective": "Assess whether Mars ever had environments capable of supporting microbial life",
+  "dates": {
+   "launch": {
+    "value": "2011-11-26",
+    "precision": "day",
+    "label": "26 November 2011",
+    "raw": "2011-11-26"
+   },
+   "arrival_or_landing": {
+    "value": "2012-08-06",
+    "precision": "day",
+    "label": "6 August 2012",
+    "raw": "2012-08-06"
+   },
+   "last_communication": null,
+   "mission_end": null
+  },
+  "coordinates": null,
+  "coordinate_note": null,
+  "map_location_status": "CURRENT_ROVER_POSITION_TIME_DEPENDENT",
+  "specs": {
+   "rover_mass_kg": 899,
+   "rover_dimensions_m": {
+    "length": 3.0,
+    "width": 2.8,
+    "height": 2.1
+   }
+  },
+  "instruments": [
+   "Mast Camera (Mastcam)",
+   "Chemistry and Camera (ChemCam)",
+   "Chemistry and Mineralogy (CheMin)",
+   "Sample Analysis at Mars (SAM)",
+   "Alpha Particle X-ray Spectrometer (APXS)",
+   "Mars Hand Lens Imager (MAHLI)",
+   "Mars Descent Imager (MARDI)",
+   "Dynamic Albedo of Neutrons (DAN)",
+   "Radiation Assessment Detector (RAD)",
+   "Rover Environmental Monitoring Station (REMS)"
+  ],
+  "power_source": null,
+  "dimensions": {
+   "length_m": 3.0,
+   "width_m": 2.8,
+   "height_m": 2.1,
+   "arm_length_m_approx": 2.1
+  },
+  "mobility": null,
+  "remaining_hardware": null,
+  "mass": {
+   "value": 899,
+   "unit": "kg",
+   "basis": "Curiosity rover vehicle mass"
+  },
+  "mass_comparable_scope": null,
+  "abandoned_surface": false,
+  "discoveries": [
+   "Found chemical and mineral evidence that ancient Mars had environments capable of supporting microbial life."
+  ],
+  "history": [
+   {
+    "date": "2011-11-26",
+    "event": "Launch",
+    "source_url": "https://science.nasa.gov/mission/msl-curiosity/"
+   },
+   {
+    "date": "2012-08-06",
+    "event": "Landing in Gale Crater",
+    "source_url": "https://science.nasa.gov/mission/msl-curiosity/"
+   },
+   {
+    "date": "2026-08-26",
+    "event": "Reached a 1 km elevation gain during its climb up Mount Sharp, according to NASA update",
+    "source_url": "https://science.nasa.gov/mission/msl-curiosity/"
+   },
+   {
+    "date": "2026-10-19",
+    "event": "NASA published Curiosity planning updates for sols 5036–5042, confirming continuing operations",
+    "source_url": "https://science.nasa.gov/mission/msl-curiosity/science-updates/"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "NASA lists Curiosity as an active mission with launch on 2011-11-26 and landing on 2012-08-06.",
+    "source_url": "https://science.nasa.gov/mission/msl-curiosity/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA launch materials identify the Curiosity rover mass as 899 kg and dimensions as approximately 3.0 × 2.8 × 2.1 m.",
+    "source_url": "https://mars.nasa.gov/files/mars2020/Mars2020_Fact_Sheet.pdf",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "NASA identifies Curiosity as an active mission; operational status is time-sensitive and should be checked before release."
+  ],
+  "missing_data_notes": [
+   "Full current location, exact dimensions/mass fields and official image credits need source-specific completion."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Current exact rover coordinates are dynamic and not time-stamped in this export",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "High",
+  "confidence_notes": "high_for_objective_dates_and_instrument_names",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/msl-curiosity/",
+  "source_note": "NASA Mars missions page",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "R008",
+  "name": "Perseverance rover",
+  "mission": "Mars 2020",
+  "mission_id": "mis_mars-2020",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "rover",
+  "type_categories": [
+   "Rovers"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars",
+  "status_category": "yellow",
+  "status_category_basis": "Record: active; NASA reported driving distance on 2026-10-11.",
+  "mission_status_class": "ACTIVE",
+  "hardware_status_class": "ACTIVE_MARS_SURFACE_ROVER",
+  "mission_outcome": "Successful",
+  "operational_status": "Active; NASA reported on 2026-10-12 that Perseverance had driven 45.22 km by 2026-10-11, surpassing Opportunity's 45.16 km record.",
+  "physical_location": "surface",
+  "mission_objective": "Search for signs of ancient microbial life and collect samples for possible return",
+  "dates": {
+   "launch": {
+    "value": "2020-07-30",
+    "precision": "day",
+    "label": "30 July 2020",
+    "raw": "2020-07-30"
+   },
+   "arrival_or_landing": {
+    "value": "2021-02-18",
+    "precision": "day",
+    "label": "18 February 2021",
+    "raw": "2021-02-18"
+   },
+   "last_communication": null,
+   "mission_end": null
+  },
+  "coordinates": null,
+  "coordinate_note": "Named landing region only in this dataset; precise current coordinates need a time-stamped rover-location source.",
+  "map_location_status": "CURRENT_ROVER_POSITION_TIME_DEPENDENT",
+  "specs": {
+   "launch_date": "2020-07-30",
+   "landing_date": "2021-02-18",
+   "rover_mass_kg": 1025,
+   "rover_dimensions_m": {
+    "length": 3.0,
+    "width": 2.7,
+    "height": 2.2
+   },
+   "distance_driven_km_as_of_2026-10-11": 45.22,
+   "potential_biosignature_note": "NASA reported in 2025 that the Cheyava Falls/Sapphire Canyon sample contains potential biosignatures; this is not confirmation of past life.",
+   "named_location_only": "Jezero Crater, Mars"
+  },
+  "instruments": [
+   "Mastcam-Z",
+   "SuperCam",
+   "Planetary Instrument for X-ray Lithochemistry (PIXL)",
+   "Scanning Habitable Environments with Raman & Luminescence for Organics & Chemicals (SHERLOC)",
+   "Radar Imager for Mars' Subsurface Experiment (RIMFAX)",
+   "Mars Environmental Dynamics Analyzer (MEDA)",
+   "Mars Oxygen In-Situ Resource Utilization Experiment (MOXIE; technology demonstration)",
+   "Navigation and hazard-avoidance cameras"
+  ],
+  "power_source": null,
+  "dimensions": {
+   "length_m": 3.0,
+   "width_m": 2.7,
+   "height_m": 2.2,
+   "arm_length_m_approx": 2.1
+  },
+  "mobility": null,
+  "remaining_hardware": null,
+  "mass": {
+   "value": 1025,
+   "unit": "kg",
+   "basis": "Perseverance rover vehicle mass"
+  },
+  "mass_comparable_scope": null,
+  "abandoned_surface": false,
+  "discoveries": [
+   "Collects and caches rock/regolith samples and investigates Jezero Crater for evidence of ancient microbial life and past habitability."
+  ],
+  "history": [
+   {
+    "date": "2025-09",
+    "event": "Peer-reviewed study reported potential biosignatures in the Cheyava Falls/Sapphire Canyon sample; the result is not proof of life",
+    "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/"
+   },
+   {
+    "date": "2026-10-11",
+    "event": "Rover odometer reached 45.22 km, setting a new off-world driving-distance record",
+    "source_url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "NASA lists Perseverance as an active mission that launched 2020-07-30 and landed 2021-02-18.",
+    "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA lists rover mass of 1,025 kg and dimensions of approximately 3.0 × 2.7 × 2.2 m.",
+    "source_url": "https://www.jpl.nasa.gov/news/press_kits/mars_2020/launch/quick_facts/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA reported the rover reached 45.22 km of travel on 2026-10-11; the Cheyava Falls sample result is described as a potential biosignature, not confirmed life.",
+    "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "Current operational status and location can change; use NASA mission page or live location data at publication."
+  ],
+  "missing_data_notes": [
+   "Dimensions, mass, power, detailed milestone chronology and image asset credits need additional extraction."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Current exact rover coordinates are dynamic and not time-stamped in this export",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "High",
+  "confidence_notes": "high_for_instrument_names_and_mission_objective",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+  "source_note": "NASA Mars missions page",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "R009",
+  "name": "Ingenuity Mars Helicopter",
+  "mission": "Mars 2020 / Perseverance mission technology demonstration",
+  "mission_id": "mis_mars-2020-perseverance-mission-technology-demonstration",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "Robotic helicopter / technology demonstrator",
+  "type_categories": [
+   "Helicopters"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars — Jezero Crater region; final airfield called Valinor Hills in Neretva Vallis",
+  "status_category": "red",
+  "status_category_basis": "Record: flight operations ended 2024-01-25 after rotor-blade damage.",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "SURFACE_HARDWARE_REMAINS",
+  "mission_outcome": "Historic success: first powered, controlled flight on another planet; completed 72 flights, far exceeding the original five-flight plan.",
+  "operational_status": "Flight mission ended 2024-01-25 after rotor-blade damage on its final flight; NASA later received a final communication via Perseverance in 2024",
+  "physical_location": "Mars surface — final airfield in Neretva Vallis / Valinor Hills",
+  "mission_objective": "Demonstrate that powered, controlled flight is possible in Mars's thin atmosphere, then support rover route scouting and operations demonstrations.",
+  "dates": {
+   "launch": {
+    "value": "2020-07-30",
+    "precision": "day",
+    "label": "30 July 2020",
+    "raw": "2020-07-30"
+   },
+   "arrival_or_landing": {
+    "value": "2021-02-18",
+    "precision": "day",
+    "label": "18 February 2021",
+    "raw": "2021-02-18 (arrived attached to Perseverance); deployed 2021-04-04"
+   },
+   "last_communication": {
+    "value": "2024-04-16",
+    "precision": "day",
+    "label": "16 April 2024",
+    "raw": "2024-04-16 (NASA/JPL reported final team communication through Perseverance)"
+   },
+   "mission_end": {
+    "value": "2024-01-25",
+    "precision": "day",
+    "label": "25 January 2024",
+    "raw": "2024-01-25"
+   }
+  },
+  "coordinates": null,
+  "coordinate_note": "Final named airfield is known; exact coordinates need a dedicated source-backed map check",
+  "map_location_status": "FINAL_POSITION_NOT_PRECISELY_MAPPED",
+  "specs": {
+   "rotor_diameter_m": 1.2,
+   "flight_count": 72,
+   "total_flight_time": "More than two hours"
+  },
+  "instruments": [
+   "Navigation cameras and onboard sensors for autonomous flight; technology demonstrator rather than a science-instrument payload"
+  ],
+  "power_source": "Solar-powered rechargeable battery",
+  "dimensions": {
+   "rotor_diameter_m": 1.2
+  },
+  "mobility": "Vertical take-off and landing; autonomous flight; no longer flight-capable after rotor damage",
+  "remaining_hardware": "Helicopter remains at its final airfield; a damaged rotor blade was imaged on the surface nearby",
+  "mass": {
+   "value": 1.8,
+   "unit": "kg",
+   "basis": "NASA mission description; verify exact configuration before publication"
+  },
+  "mass_comparable_scope": null,
+  "abandoned_surface": true,
+  "discoveries": [
+   "Proved powered, controlled flight on another planet is possible",
+   "Provided aerial scouting and operational data for future Mars rotorcraft design"
+  ],
+  "history": [
+   {
+    "date": "2020-07-30",
+    "event": "Launched with the Mars 2020 mission"
+   },
+   {
+    "date": "2021-02-18",
+    "event": "Arrived at Mars attached to Perseverance"
+   },
+   {
+    "date": "2021-04-04",
+    "event": "Deployed to the Martian surface"
+   },
+   {
+    "date": "2021-04-19",
+    "event": "Completed the first powered, controlled flight on another planet"
+   },
+   {
+    "date": "2024-01-18",
+    "event": "Made its 72nd and final flight; rotor-blade damage was identified"
+   },
+   {
+    "date": "2024-01-25",
+    "event": "NASA announced the end of flight operations"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "Ingenuity completed 72 flights and its final flight was 2024-01-18.",
+    "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA announced mission end after rotor-blade damage on the final flight.",
+    "source_url": "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-mars-helicopter-mission-ends/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA/JPL described its final location as Valinor Hills in Neretva Vallis.",
+    "source_url": "https://www.jpl.nasa.gov/news/nasas-ingenuity-mars-helicopter-team-says-goodbye-for-now/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "Mission end date and final communication date describe different events; retain both separately."
+  ],
+  "missing_data_notes": [
+   "Exact final coordinates and a direct official image asset URL still need verification."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Final helicopter coordinates not verified",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "Medium",
+  "confidence_notes": "High for flight count, dates, outcome and final named region; medium for exact mass and final coordinates",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+  "source_note": "NASA Science, NASA JPL and NASA news release pages.",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "R010",
+  "name": "Phoenix Mars lander",
+  "mission": "Phoenix Mars Mission",
+  "mission_id": "mis_phoenix-mars-mission",
+  "agency": "NASA / United States, with international partners",
+  "crew": "Robotic",
+  "type_raw": "Stationary lander",
+  "type_categories": [
+   "Landers",
+   "Spacecraft"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars — northern plains, Green Valley in Vastitas Borealis",
+  "status_category": "red",
+  "status_category_basis": "Record: mission ended November 2008; no longer communicating.",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "SURFACE_HARDWARE_REMAINS",
+  "mission_outcome": "Successful planned surface science mission; confirmed water ice in the Martian subsurface and detected perchlorate.",
+  "operational_status": "Mission ended in November 2008 as seasonal darkness and cold reduced power; no longer communicating",
+  "physical_location": "Mars surface — northern plains / Vastitas Borealis",
+  "mission_objective": "Study the history of water and habitability in the Martian arctic by sampling soil and subsurface ice.",
+  "dates": {
+   "launch": {
+    "value": "2007-08-04",
+    "precision": "day",
+    "label": "4 August 2007",
+    "raw": "2007-08-04"
+   },
+   "arrival_or_landing": {
+    "value": "2008-05-25",
+    "precision": "day",
+    "label": "25 May 2008",
+    "raw": "2008-05-25"
+   },
+   "last_communication": null,
+   "mission_end": {
+    "value": "2008-11-02",
+    "precision": "day",
+    "label": "2 November 2008",
+    "raw": "2008-11-02"
+   }
+  },
+  "coordinates": {
+   "latitude": 68.22,
+   "longitude": 234.25,
+   "convention": "east-positive, 0-360 degrees",
+   "reference": null
+  },
+  "coordinate_note": "NASA Science landing-site value; coordinates rounded to 0.01 degree",
+  "map_location_status": "CANDIDATE_PIN_REQUIRES_STANDARD_PRECISION",
+  "specs": {
+   "robotic_arm_dig_depth_m": 0.5,
+   "landing_latitude_deg": 68.22,
+   "landing_longitude_deg_east_0_360": 234.25
+  },
+  "instruments": [
+   "Surface Stereo Imager (SSI)",
+   "Robotic Arm Camera (RAC)",
+   "Microscopy, Electrochemistry, and Conductivity Analyzer (MECA)",
+   "Thermal and Evolved Gas Analyzer (TEGA)",
+   "Meteorological Station (MET)"
+  ],
+  "power_source": "Solar arrays",
+  "dimensions": null,
+  "mobility": "Stationary lander; robotic arm could dig and deliver soil/ice samples to onboard instruments",
+  "remaining_hardware": "Lander remains on Mars; exact current condition is not directly verified",
+  "mass": null,
+  "mass_comparable_scope": null,
+  "abandoned_surface": true,
+  "discoveries": [
+   "Verified water ice in the subsurface",
+   "Detected perchlorate salts in Martian soil"
+  ],
+  "history": [
+   {
+    "date": "2007-08-04",
+    "event": "Launched from Earth"
+   },
+   {
+    "date": "2008-05-25",
+    "event": "Landed in the northern plains of Mars"
+   },
+   {
+    "date": "2008-11",
+    "event": "Communications ended as the lander entered the dark, cold Martian winter"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "Phoenix landed in Green Valley, Vastitas Borealis on 2008-05-25 at 68.22 N, 234.25 E.",
+    "source_url": "https://science.nasa.gov/mission/mars-phoenix/",
+    "confidence": "High"
+   },
+   {
+    "claim": "Phoenix's mission ended 2008-11-02 after solar-power loss during the Martian winter; it confirmed subsurface water ice and detected perchlorate.",
+    "source_url": "https://www.jpl.nasa.gov/missions/phoenix/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "Landing coordinates are rounded; do not display as survey-grade precision.",
+   "Mission-end date is the formal end date listed by NASA Science, not a claim that the lander was physically removed."
+  ],
+  "missing_data_notes": [
+   "Mass, full dimensions, precise final signal timestamp and direct image asset URL still require validation."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Mass/dimensions need additional mission-page confirmation",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "Medium",
+  "confidence_notes": "High for dates, instruments and core results; medium for end date precision and physical details",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/mars-phoenix/",
+  "source_note": "NASA JPL Phoenix mission page and NASA Science mission overview.",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "R011",
+  "name": "InSight Mars lander",
+  "mission": "Interior Exploration using Seismic Investigations, Geodesy and Heat Transport (InSight)",
+  "mission_id": "mis_interior-exploration-using-seismic-investigations-geodesy-and-heat-transport-insight",
+  "agency": "NASA / United States, with international partners",
+  "crew": "Robotic",
+  "type_raw": "Stationary geophysical lander",
+  "type_categories": [
+   "Landers",
+   "Spacecraft"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars — Elysium Planitia",
+  "status_category": "red",
+  "status_category_basis": "Record: retired December 2022 after missed communications and exhausted power.",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "SURFACE_HARDWARE_REMAINS",
+  "mission_outcome": "Successful geophysical mission; measured marsquakes and improved understanding of Mars's interior.",
+  "operational_status": "Mission ended; NASA retired the mission in December 2022 after two consecutive missed communication attempts and exhausted power",
+  "physical_location": "Mars surface — Elysium Planitia",
+  "mission_objective": "Measure Mars's internal structure and activity using seismic, heat-flow and precision-tracking measurements.",
+  "dates": {
+   "launch": {
+    "value": "2018-05-05",
+    "precision": "day",
+    "label": "5 May 2018",
+    "raw": "2018-05-05"
+   },
+   "arrival_or_landing": {
+    "value": "2018-11-26",
+    "precision": "day",
+    "label": "26 November 2018",
+    "raw": "2018-11-26"
+   },
+   "last_communication": null,
+   "mission_end": {
+    "value": "2022-12-21",
+    "precision": "day",
+    "label": "21 December 2022",
+    "raw": "2022-12-21"
+   }
+  },
+  "coordinates": null,
+  "coordinate_note": "Landing site is established; exact coordinates need verification before map display",
+  "map_location_status": "NAMED_LANDING_REGION_ONLY",
+  "specs": {
+   "mission_class": "Stationary geophysical lander"
+  },
+  "instruments": [
+   "Seismic Experiment for Interior Structure (SEIS)",
+   "Heat-flow probe (HP3; did not achieve planned deep deployment)",
+   "Rotation and Interior Structure Experiment (RISE) radio science"
+  ],
+  "power_source": "Solar arrays and rechargeable batteries",
+  "dimensions": null,
+  "mobility": "Stationary lander; deployed instruments using a robotic arm",
+  "remaining_hardware": "Lander remains on Mars; current physical condition not directly observed",
+  "mass": null,
+  "mass_comparable_scope": null,
+  "abandoned_surface": true,
+  "discoveries": [
+   "Detected marsquakes",
+   "Provided constraints on Mars's crust, mantle and core",
+   "Measured meteorite impacts and seismic activity"
+  ],
+  "history": [
+   {
+    "date": "2018-05-05",
+    "event": "Launched"
+   },
+   {
+    "date": "2018-11-26",
+    "event": "Landed on Elysium Planitia"
+   },
+   {
+    "date": "2019-04",
+    "event": "First marsquake detected"
+   },
+   {
+    "date": "2022-12-21",
+    "event": "NASA announced the mission's retirement after repeated missed communications"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "InSight launched 2018-05-05 and landed 2018-11-26.",
+    "source_url": "https://www.jpl.nasa.gov/missions/insight/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA retired InSight after two consecutive missed contact attempts and depleted power.",
+    "source_url": "https://www.nasa.gov/missions/insight/nasa-retires-insight-mars-lander-mission-after-years-of-science/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "The formal retirement announcement date is used as mission_end_date; exact last successful telemetry timestamp is not asserted."
+  ],
+  "missing_data_notes": [
+   "Exact coordinates, last received signal timestamp, mass/dimensions and direct image asset URL require verification."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Exact numeric landing coordinates and final signal time not validated in this pass",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "Medium",
+  "confidence_notes": "High for launch, landing, mission objective and retirement; medium for instrument deployment status details",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://www.jpl.nasa.gov/missions/insight/",
+  "source_note": "NASA JPL InSight mission page and NASA mission-end announcement.",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "R013",
+  "name": "Mars Odyssey",
+  "mission": "2001 Mars Odyssey",
+  "mission_id": "mis_2001-mars-odyssey",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "orbiter",
+  "type_categories": [
+   "Orbiters",
+   "Spacecraft"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars",
+  "status_category": "yellow",
+  "status_category_basis": "Record: active; listed as ongoing by NASA in April 2026.",
+  "mission_status_class": "ACTIVE",
+  "hardware_status_class": "ACTIVE_MARS_ORBIT",
+  "mission_outcome": "Successful",
+  "operational_status": "Active; NASA celebrated 25 years since launch in April 2026 and lists the mission as ongoing.",
+  "physical_location": "orbit",
+  "mission_objective": "Map elements and minerals and relay communications for surface missions",
+  "dates": {
+   "launch": {
+    "value": "2001-04-07",
+    "precision": "day",
+    "label": "7 April 2001",
+    "raw": "2001-04-07"
+   },
+   "arrival_or_landing": {
+    "value": "2001-10-24",
+    "precision": "day",
+    "label": "24 October 2001",
+    "raw": "2001-10-24"
+   },
+   "last_communication": null,
+   "mission_end": null
+  },
+  "coordinates": null,
+  "coordinate_note": null,
+  "map_location_status": "NO_STATIC_SURFACE_COORDINATE; USE TIME-STAMPED ORBITAL DATA",
+  "specs": {
+   "spacecraft_mass_kg": 725,
+   "dimensions_m": {
+    "length": 2.2,
+    "height": 1.7,
+    "width": 2.6
+   },
+   "power_source": "solar arrays and batteries"
+  },
+  "instruments": [
+   "Thermal Emission Imaging System (THEMIS)",
+   "Gamma Ray Spectrometer (GRS)",
+   "Mars Radiation Environment Experiment (MARIE; ceased science operation in 2003)"
+  ],
+  "power_source": null,
+  "dimensions": {
+   "length_m": 2.2,
+   "width_m": 2.6,
+   "height_m": 1.7
+  },
+  "mobility": null,
+  "remaining_hardware": null,
+  "mass": {
+   "value": 725,
+   "unit": "kg",
+   "basis": "Mars Odyssey spacecraft mass"
+  },
+  "mass_comparable_scope": null,
+  "abandoned_surface": false,
+  "discoveries": [
+   "Created a global map of Martian chemical elements and minerals and continues atmospheric, surface and communications-relay work."
+  ],
+  "history": [
+   {
+    "date": "2001-04-07",
+    "event": "Launch",
+    "source_url": "https://science.nasa.gov/mission/odyssey/"
+   },
+   {
+    "date": "2001-10-24",
+    "event": "Mars orbit insertion",
+    "source_url": "https://science.nasa.gov/mission/odyssey/"
+   },
+   {
+    "date": "2026-04-07",
+    "event": "25th anniversary of launch; NASA described Odyssey as active and continuing science/relay work",
+    "source_url": "https://science.nasa.gov/mission/odyssey/odyssey-celebrates-25-years/"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "mission status, dates, dimensions, mass and instruments",
+    "source_url": "https://science.nasa.gov/mission/odyssey/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA lists Mars Odyssey as an active mission with launch on 2001-04-07 and Mars orbit insertion on 2001-10-24.",
+    "source_url": "https://science.nasa.gov/mission/odyssey/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA reported the mission's 25th launch anniversary in April 2026 and continuing science and relay work.",
+    "source_url": "https://science.nasa.gov/mission/odyssey/odyssey-celebrates-25-years/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "MARIE stopped collecting data in 2003; do not label every instrument as currently operational."
+  ],
+  "missing_data_notes": [
+   "Need current orbital parameters, detailed milestones and image asset-level credits."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Current time-stamped orbit parameters not included",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "High",
+  "confidence_notes": "high_for_NASA_listed_specs_instruments_and_status",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/odyssey/",
+  "source_note": "NASA Mars missions page",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "R015",
+  "name": "Mars Reconnaissance Orbiter",
+  "mission": "MRO",
+  "mission_id": "mis_mro",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "orbiter",
+  "type_categories": [
+   "Orbiters",
+   "Spacecraft"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars",
+  "status_category": "yellow",
+  "status_category_basis": "Record: listed as active in the NASA Mars overview as of the 2026 audit.",
+  "mission_status_class": "ACTIVE",
+  "hardware_status_class": "ACTIVE_MARS_ORBIT",
+  "mission_outcome": "Successful",
+  "operational_status": "Active; NASA's Mars mission overview lists MRO as an active mission as of the 2026 audit.",
+  "physical_location": "orbit",
+  "mission_objective": "Map surface, search for evidence of water and support communications",
+  "dates": {
+   "launch": {
+    "value": "2005-08-12",
+    "precision": "day",
+    "label": "12 August 2005",
+    "raw": "2005-08-12"
+   },
+   "arrival_or_landing": {
+    "value": "2006-03-10",
+    "precision": "day",
+    "label": "10 March 2006",
+    "raw": "2006-03-10"
+   },
+   "last_communication": null,
+   "mission_end": null
+  },
+  "coordinates": null,
+  "coordinate_note": null,
+  "map_location_status": "NO_STATIC_SURFACE_COORDINATE; USE TIME-STAMPED ORBITAL DATA",
+  "specs": {
+   "status_checked": "NASA labels MRO an active mission"
+  },
+  "instruments": [
+   "High Resolution Imaging Science Experiment (HiRISE)",
+   "Context Camera (CTX)",
+   "Mars Color Imager (MARCI)",
+   "Compact Reconnaissance Imaging Spectrometer for Mars (CRISM)",
+   "Mars Climate Sounder (MCS)",
+   "Shallow Radar (SHARAD)",
+   "Electra telecommunications package",
+   "Optical Navigation Camera (engineering demonstration)"
+  ],
+  "power_source": null,
+  "dimensions": null,
+  "mobility": null,
+  "remaining_hardware": null,
+  "mass": null,
+  "mass_comparable_scope": null,
+  "abandoned_surface": false,
+  "discoveries": [
+   "Provides high-resolution imaging of Mars, maps mineral signatures, investigates subsurface layering and supports communications with surface missions."
+  ],
+  "history": [
+   {
+    "date": "2026-10-23",
+    "event": "NASA's Mars missions overview continued to list MRO as active",
+    "source_url": "https://science.nasa.gov/mars/"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "science and engineering instrument names and functions",
+    "source_url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/science-instruments/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA's Mars mission overview lists Mars Reconnaissance Orbiter as active and gives launch 2005-08-12 / arrival 2006-03-10.",
+    "source_url": "https://science.nasa.gov/mars/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "Some instruments may be in reduced or changed operational modes over the mission lifetime; status must be recorded per instrument where relevant."
+  ],
+  "missing_data_notes": [
+   "Add spacecraft-level dimensions, mass, power, orbit data, and current mission status from the main mission page."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Mass/dimensions and current orbit parameters still need source extraction",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "High",
+  "confidence_notes": "high_for_instrument_names_and_roles",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/",
+  "source_note": "NASA Mars missions page",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ },
+ {
+  "id": "R016",
+  "name": "MAVEN",
+  "mission": "Mars Atmosphere and Volatile Evolution",
+  "mission_id": "mis_mars-atmosphere-and-volatile-evolution",
+  "agency": "NASA / United States",
+  "crew": "Robotic",
+  "type_raw": "orbiter",
+  "type_categories": [
+   "Orbiters",
+   "Spacecraft"
+  ],
+  "destination": "Mars",
+  "destination_detail": "Mars",
+  "status_category": "red",
+  "status_category_basis": "Record: unexpected loss of contact after 2025-12-06; mission declared ended 2026-06-03.",
+  "mission_status_class": "ENDED",
+  "hardware_status_class": "INACTIVE_SPACECRAFT_IN_MARS_ORBIT",
+  "mission_outcome": "Successful",
+  "operational_status": "ended",
+  "physical_location": "orbit",
+  "mission_objective": "Investigate how Mars lost much of its atmosphere",
+  "dates": {
+   "launch": {
+    "value": "2013-11-18",
+    "precision": "day",
+    "label": "18 November 2013",
+    "raw": "2013-11-18"
+   },
+   "arrival_or_landing": {
+    "value": "2014-09-21",
+    "precision": "day",
+    "label": "21 September 2014",
+    "raw": "2014-09-21"
+   },
+   "last_communication": {
+    "value": "2025-12-06",
+    "precision": "day",
+    "label": "6 December 2025",
+    "raw": "2025-12-06"
+   },
+   "mission_end": {
+    "value": "2026-06-03",
+    "precision": "day",
+    "label": "3 June 2026",
+    "raw": "2026-06-03"
+   }
+  },
+  "coordinates": null,
+  "coordinate_note": null,
+  "map_location_status": "NO_STATIC_SURFACE_COORDINATE; USE TIME-STAMPED ORBITAL DATA",
+  "specs": {
+   "dimensions_m": {
+    "length": 11.4,
+    "width": 2.29,
+    "height": 3.47
+   },
+   "dry_mass_kg": 809,
+   "wet_mass_kg": 2454,
+   "solar_power_w_range": [
+    1150,
+    1700
+   ],
+   "mass_dry_kg": 809,
+   "mass_wet_launch_kg": 2454,
+   "mass_scope_note": "Top-level mass uses wet/launch mass; dry mass is separately shown above."
+  },
+  "instruments": [
+   "Solar Wind Ion Analyzer (SWIA)",
+   "Solar Wind Electron Analyzer (SWEA)",
+   "Solar Energetic Particle (SEP)",
+   "Solar Wind Ion Mass Spectrometer (SWIMS)",
+   "Suprathermal and Thermal Ion Composition (STATIC)",
+   "Magnetometer (MAG)",
+   "Langmuir Probe and Waves (LPW)",
+   "Imaging Ultraviolet Spectrograph (IUVS)"
+  ],
+  "power_source": null,
+  "dimensions": {
+   "length_m": 11.4,
+   "width_m": 2.29,
+   "height_m": 3.47
+  },
+  "mobility": null,
+  "remaining_hardware": null,
+  "mass": {
+   "value": 2454,
+   "unit": "kg",
+   "basis": "NASA MAVEN wet/launch mass; dry mass of 809 kg is retained in technical_specifications"
+  },
+  "mass_comparable_scope": null,
+  "abandoned_surface": false,
+  "discoveries": [
+   "Investigated how solar wind and solar activity drive loss of the Martian atmosphere to space."
+  ],
+  "history": [
+   {
+    "date": "2013-11-18",
+    "event": "Launch",
+    "source_url": "https://science.nasa.gov/mission/maven/"
+   },
+   {
+    "date": "2014-09-21",
+    "event": "Mars orbit insertion",
+    "source_url": "https://science.nasa.gov/mission/maven/"
+   },
+   {
+    "date": "2025-12-06",
+    "event": "Last signal received before unexpected loss of contact",
+    "source_url": "https://science.nasa.gov/mission/maven/"
+   },
+   {
+    "date": "2026-06-03",
+    "event": "NASA declared mission ended after review found spacecraft not recoverable",
+    "source_url": "https://science.nasa.gov/mission/maven/"
+   }
+  ],
+  "claims": [
+   {
+    "claim": "mission end, last signal, dimensions, mass, power and mission objective",
+    "source_url": "https://science.nasa.gov/mission/maven/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA gives MAVEN Mars orbit insertion as 2014-09-21, last signal as 2025-12-06, and end of mission as 2026-06-03.",
+    "source_url": "https://science.nasa.gov/mission/maven/",
+    "confidence": "High"
+   },
+   {
+    "claim": "NASA lists eight science instruments and distinguishes 809 kg dry mass from 2,454 kg wet launch mass.",
+    "source_url": "https://science.nasa.gov/mission/maven/",
+    "confidence": "High"
+   }
+  ],
+  "associated": [],
+  "uncertainty_notes": [
+   "NASA states the spacecraft was not recoverable after loss of signal; no unsupported claim about exact physical fate should be made."
+  ],
+  "missing_data_notes": [
+   "Instrument naming and subsystem grouping should be reconciled to NASA's canonical payload list before publication."
+  ],
+  "audit_flags": [
+   "Direct official image asset URL missing",
+   "Former duplicate STATIC instrument entry corrected",
+   "NASA-only scope filter applied; record retained as NASA mission hardware.",
+   "Direct image URL missing; image asset selection and rights audit remain separate."
+  ],
+  "confidence": "High",
+  "confidence_notes": "high_for_NASA_listed_status_dates_and_spacecraft_specs",
+  "review_state": "RECORD_LEVEL_CONSISTENCY_CHECKED_WITH_OPEN_EVIDENCE_GAPS",
+  "last_audited": "2026-10-23",
+  "source_url": "https://science.nasa.gov/mission/maven/",
+  "source_note": "NASA Mars missions page",
+  "source_checked": "2026-10-23",
+  "image": null,
+  "image_asset_status": "MISSING_DIRECT_ASSET_URL",
+  "record_scope": "Single equipment item unless otherwise noted",
+  "artifact_year": null
+ }
+]

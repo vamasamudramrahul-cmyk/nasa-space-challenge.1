@@ -1,0 +1,1017 @@
+[
+ {
+  "id": "src_mars-nasa-gov-files-mars2020-mars2020-fact-sheet-pdf",
+  "url": "https://mars.nasa.gov/files/mars2020/Mars2020_Fact_Sheet.pdf",
+  "organisation": "NASA Mars Exploration Program",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R007",
+    "claim": "NASA launch materials identify the Curiosity rover mass as 899 kg and dimensions as approximately 3.0 × 2.8 × 2.1 m.",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_nssdc-gsfc-nasa-gov-planetary-lunar-apollo-lrv-html",
+  "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html",
+  "organisation": "NASA NSSDC",
+  "title": null,
+  "record_level_for": [
+   "M002"
+  ],
+  "claims": [
+   {
+    "equipment_id": "M002",
+    "claim": "Three LRVs were driven on Apollo 15, 16 and 17; Apollo 15 rover drove 27.8 km in 3 h 2 min.",
+    "confidence": "High"
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_nssdc-gsfc-nasa-gov-planetary-lunar-lunar-artifact-impacts-html",
+  "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_artifact_impacts.html",
+  "organisation": "NASA NSSDC",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "M003",
+    "claim": "NASA NSSDC lists Surveyor 1 at 2.4745 S, 316.6602 E.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "M006",
+    "claim": "NASA NSSDC lists 6.35 N, 160.71 E and notes that other references report about 6.7 N, 162 E.",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_ntrs-nasa-gov-api-citations-20050175879-downloads-20050175879-pdf",
+  "url": "https://ntrs.nasa.gov/api/citations/20050175879/downloads/20050175879.pdf",
+  "organisation": "ntrs.nasa.gov",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "M002",
+    "claim": "The LRV weighed about 210 kg, was 3.1 m long and was designed to carry a large payload on the lunar surface.",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_science-nasa-gov-blogs-perseverance-mars-rover-2026-10-12-nasas-perseverance-set",
+  "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R008",
+    "claim": "Rover odometer reached 45.22 km, setting a new off-world driving-distance record",
+    "confidence": null
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_science-nasa-gov-mars",
+  "url": "https://science.nasa.gov/mars/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R015",
+    "claim": "NASA's Mars mission overview lists Mars Reconnaissance Orbiter as active and gives launch 2005-08-12 / arrival 2006-03-10.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R015",
+    "claim": "NASA's Mars missions overview continued to list MRO as active",
+    "confidence": null
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_science-nasa-gov-mission-cassini",
+  "url": "https://science.nasa.gov/mission/cassini/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "planetary_cassini"
+  ],
+  "claims": [],
+  "checked": [
+   "2026-10-25"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-cassini-faq",
+  "url": "https://science.nasa.gov/mission/cassini/faq/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "planetary_cassini"
+  ],
+  "claims": [],
+  "checked": [
+   "2026-10-25"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-galileo",
+  "url": "https://science.nasa.gov/mission/galileo/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "planetary_galileo"
+  ],
+  "claims": [],
+  "checked": [
+   "2026-10-25"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-juno",
+  "url": "https://science.nasa.gov/mission/juno/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "planetary_juno"
+  ],
+  "claims": [],
+  "checked": [
+   "2026-10-25"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-lro",
+  "url": "https://science.nasa.gov/mission/lro/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "M007"
+  ],
+  "claims": [
+   {
+    "equipment_id": "M007",
+    "claim": "LRO launched 2009-06-18 and has studied the Moon since 2009.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "M007",
+    "claim": "NASA labels LRO an active mission and describes its surface mapping and resource-identification role.",
+    "confidence": "High"
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-magellan",
+  "url": "https://science.nasa.gov/mission/magellan/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "planetary_magellan"
+  ],
+  "claims": [],
+  "checked": [
+   "2026-10-25"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-mars-2020-perseverance",
+  "url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "R008"
+  ],
+  "claims": [
+   {
+    "equipment_id": "R008",
+    "claim": "NASA lists Perseverance as an active mission that launched 2020-07-30 and landed 2021-02-18.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R008",
+    "claim": "NASA reported the rover reached 45.22 km of travel on 2026-10-11; the Cheyava Falls sample result is described as a potential biosignature, not confirmed life.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R008",
+    "claim": "Peer-reviewed study reported potential biosignatures in the Cheyava Falls/Sapphire Canyon sample; the result is not proof of life",
+    "confidence": null
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-mars-2020-perseverance-ingenuity-mars-helicopter",
+  "url": "https://science.nasa.gov/mission/mars-2020-perseverance/ingenuity-mars-helicopter/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "R009"
+  ],
+  "claims": [
+   {
+    "equipment_id": "R009",
+    "claim": "Ingenuity completed 72 flights and its final flight was 2024-01-18.",
+    "confidence": "High"
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-mars-exploration-rovers-spirit-and-opportunity",
+  "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R005",
+    "claim": "NASA's MER rover reference describes the rover vehicle as approximately 185 kg, distinct from the larger spacecraft/landing system mass.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R006",
+    "claim": "NASA's MER rover reference describes the rover vehicle as approximately 185 kg, distinct from the larger spacecraft/landing system mass.",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_science-nasa-gov-mission-mars-pathfinder",
+  "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "R003",
+   "R004"
+  ],
+  "claims": [
+   {
+    "equipment_id": "R003",
+    "claim": "NASA identifies Ares Vallis as the landing site and 1997-09-27 as the last data transmission/end of surface operations.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R003",
+    "claim": "Launched",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R003",
+    "claim": "Landed in Ares Vallis",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R004",
+    "claim": "Launched with Mars Pathfinder",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R004",
+    "claim": "Arrived at Mars with Pathfinder lander",
+    "confidence": null
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-mars-phoenix",
+  "url": "https://science.nasa.gov/mission/mars-phoenix/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "R010"
+  ],
+  "claims": [
+   {
+    "equipment_id": "R010",
+    "claim": "Phoenix landed in Green Valley, Vastitas Borealis on 2008-05-25 at 68.22 N, 234.25 E.",
+    "confidence": "High"
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-mars-reconnaissance-orbiter",
+  "url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "R015"
+  ],
+  "claims": [],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-mars-reconnaissance-orbiter-science-instruments",
+  "url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/science-instruments/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R015",
+    "claim": "science and engineering instrument names and functions",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_science-nasa-gov-mission-maven",
+  "url": "https://science.nasa.gov/mission/maven/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "R016"
+  ],
+  "claims": [
+   {
+    "equipment_id": "R016",
+    "claim": "mission end, last signal, dimensions, mass, power and mission objective",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R016",
+    "claim": "NASA gives MAVEN Mars orbit insertion as 2014-09-21, last signal as 2025-12-06, and end of mission as 2026-06-03.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R016",
+    "claim": "NASA lists eight science instruments and distinguishes 809 kg dry mass from 2,454 kg wet launch mass.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R016",
+    "claim": "Launch",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R016",
+    "claim": "Mars orbit insertion",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R016",
+    "claim": "Last signal received before unexpected loss of contact",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R016",
+    "claim": "NASA declared mission ended after review found spacecraft not recoverable",
+    "confidence": null
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-mer-opportunity",
+  "url": "https://science.nasa.gov/mission/mer-opportunity/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "R006"
+  ],
+  "claims": [
+   {
+    "equipment_id": "R006",
+    "claim": "Opportunity launched 2003-07-07, landed 2004-01-24, and traveled 45.16 km.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R006",
+    "claim": "Opportunity last communicated on 2018-06-10 and NASA declared end of mission on 2019-02-13.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R006",
+    "claim": "The final known resting area is Perseverance Valley.",
+    "confidence": "High"
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-mer-spirit",
+  "url": "https://science.nasa.gov/mission/mer-spirit/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "R005"
+  ],
+  "claims": [
+   {
+    "equipment_id": "R005",
+    "claim": "Spirit landed in Gusev Crater on 2004-01-04, traveled about 7.73 km, and weighed 1062 kg.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R005",
+    "claim": "Spirit's last communication was 2010-03-22; NASA ended contact attempts and declared the mission complete on 2011-05-25.",
+    "confidence": "High"
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-messenger",
+  "url": "https://science.nasa.gov/mission/messenger/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "planetary_messenger"
+  ],
+  "claims": [],
+  "checked": [
+   "2026-10-25"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-msl-curiosity",
+  "url": "https://science.nasa.gov/mission/msl-curiosity/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "R007"
+  ],
+  "claims": [
+   {
+    "equipment_id": "R007",
+    "claim": "NASA lists Curiosity as an active mission with launch on 2011-11-26 and landing on 2012-08-06.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R007",
+    "claim": "Launch",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R007",
+    "claim": "Landing in Gale Crater",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R007",
+    "claim": "Reached a 1 km elevation gain during its climb up Mount Sharp, according to NASA update",
+    "confidence": null
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-msl-curiosity-science-updates",
+  "url": "https://science.nasa.gov/mission/msl-curiosity/science-updates/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R007",
+    "claim": "NASA published Curiosity planning updates for sols 5036–5042, confirming continuing operations",
+    "confidence": null
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_science-nasa-gov-mission-new-horizons",
+  "url": "https://science.nasa.gov/mission/new-horizons/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "planetary_new_horizons"
+  ],
+  "claims": [],
+  "checked": [
+   "2026-10-25"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-odyssey",
+  "url": "https://science.nasa.gov/mission/odyssey/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "R013"
+  ],
+  "claims": [
+   {
+    "equipment_id": "R013",
+    "claim": "mission status, dates, dimensions, mass and instruments",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R013",
+    "claim": "NASA lists Mars Odyssey as an active mission with launch on 2001-04-07 and Mars orbit insertion on 2001-10-24.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R013",
+    "claim": "Launch",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R013",
+    "claim": "Mars orbit insertion",
+    "confidence": null
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-odyssey-odyssey-celebrates-25-years",
+  "url": "https://science.nasa.gov/mission/odyssey/odyssey-celebrates-25-years/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R013",
+    "claim": "NASA reported the mission's 25th launch anniversary in April 2026 and continuing science and relay work.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R013",
+    "claim": "25th anniversary of launch; NASA described Odyssey as active and continuing science/relay work",
+    "confidence": null
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_science-nasa-gov-mission-surveyor-1",
+  "url": "https://science.nasa.gov/mission/surveyor-1/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "M003"
+  ],
+  "claims": [
+   {
+    "equipment_id": "M003",
+    "claim": "Surveyor 1 launched 1966-05-30 and landed 1966-06-02.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "M003",
+    "claim": "Surveyor 1 mass was about 995.2 kg and contact ended 1967-01-07.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "M003",
+    "claim": "NASA records the launch on 1966-05-30, landing on 1966-06-02, and final contact on 1967-01-07.",
+    "confidence": "High"
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-viking-1",
+  "url": "https://science.nasa.gov/mission/viking-1/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "R001"
+  ],
+  "claims": [
+   {
+    "equipment_id": "R001",
+    "claim": "NASA gives Viking 1 lander mass as 978 kg, landing on 1976-07-20, and communications failure on 1982-11-11.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R001",
+    "claim": "NASA's Viking 1 overview describes each lander as 978 kg; the discrepancy with the 657 kg technical-specifications value is preserved as a mass-phase/scope issue.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R001",
+    "claim": "Launch",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R001",
+    "claim": "Mars orbit insertion",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R001",
+    "claim": "Lander touchdown at Chryse Planitia",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R002",
+    "claim": "NASA's Viking 1 overview describes each lander as 978 kg; the discrepancy with the 657 kg technical-specifications value is preserved as a mass-phase/scope issue.",
+    "confidence": "High"
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-viking-2",
+  "url": "https://science.nasa.gov/mission/viking-2/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R002",
+    "claim": "NASA gives Viking 2 launch on 1975-09-09, landing on 1976-09-03, and lander end-of-mission around 1980-04-12.",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_science-nasa-gov-mission-viking",
+  "url": "https://science.nasa.gov/mission/viking/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "R002"
+  ],
+  "claims": [
+   {
+    "equipment_id": "R001",
+    "claim": "NASA's Viking project overview lists the lander end date as 1982-11-13, a two-day discrepancy with the detailed Viking 1 page.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R002",
+    "claim": "NASA lists the Viking 2 landing point at 47.64 N, 134.29 E in a planetocentric coordinate frame.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R002",
+    "claim": "Launch",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R002",
+    "claim": "Lander touchdown at Utopia Planitia",
+    "confidence": null
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-viking-spacecraft-and-science",
+  "url": "https://science.nasa.gov/mission/viking/spacecraft-and-science/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R001",
+    "claim": "NASA Viking spacecraft-and-science page lists the lander mass as 657 kg in its lander technical-specifications table.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R002",
+    "claim": "NASA Viking spacecraft-and-science page lists the lander mass as 657 kg in its lander technical-specifications table.",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_science-nasa-gov-mission-voyager-planetary-voyage",
+  "url": "https://science.nasa.gov/mission/voyager/planetary-voyage/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "planetary_voyager2"
+  ],
+  "claims": [],
+  "checked": [
+   "2026-10-25"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-mission-voyager-where-are-voyager-1-and-voyager-2-now",
+  "url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "planetary_voyager2"
+  ],
+  "claims": [],
+  "checked": [
+   "2026-10-25"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-missions-new-horizons-nasas-new-horizons-spacecraft-wakes-from-",
+  "url": "https://science.nasa.gov/missions/new-horizons/nasas-new-horizons-spacecraft-wakes-from-hibernation-in-good-health/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [
+   "planetary_new_horizons"
+  ],
+  "claims": [],
+  "checked": [
+   "2026-10-25"
+  ]
+ },
+ {
+  "id": "src_science-nasa-gov-resource-pathfinder-on-mars-2",
+  "url": "https://science.nasa.gov/resource/pathfinder-on-mars-2/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R003",
+    "claim": "NASA Photojournal records final data on 1997-09-27 and formal termination of recovery attempts on 1998-03-10.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R003",
+    "claim": "Last data transmission received",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R003",
+    "claim": "Mission formally terminated after unsuccessful recovery attempts",
+    "confidence": null
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_science-nasa-gov-resource-pathfinders-rover-airbags-martian-terrain",
+  "url": "https://science.nasa.gov/resource/pathfinders-rover-airbags-martian-terrain/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R003",
+    "claim": "Sojourner deployed to the surface",
+    "confidence": null
+   },
+   {
+    "equipment_id": "R004",
+    "claim": "Deployed to the Martian surface",
+    "confidence": null
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_science-nasa-gov-resource-sojourner-yogi",
+  "url": "https://science.nasa.gov/resource/sojourner-yogi/",
+  "organisation": "NASA Science",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R004",
+    "claim": "NASA reports Sojourner mass of about 10.5–10.6 kg, 83 sols of operation, and a planned life of seven sols.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R004",
+    "claim": "NASA records the final Pathfinder transmission on 1997-09-27 and mission recovery closeout on 1998-03-10.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "R004",
+    "claim": "Last data received from Pathfinder/Sojourner",
+    "confidence": null
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_www-jpl-nasa-gov-missions-insight",
+  "url": "https://www.jpl.nasa.gov/missions/insight/",
+  "organisation": "NASA JPL",
+  "title": null,
+  "record_level_for": [
+   "R011"
+  ],
+  "claims": [
+   {
+    "equipment_id": "R011",
+    "claim": "InSight launched 2018-05-05 and landed 2018-11-26.",
+    "confidence": "High"
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_www-jpl-nasa-gov-missions-juno",
+  "url": "https://www.jpl.nasa.gov/missions/juno/",
+  "organisation": "NASA JPL",
+  "title": null,
+  "record_level_for": [
+   "planetary_juno"
+  ],
+  "claims": [],
+  "checked": [
+   "2026-10-25"
+  ]
+ },
+ {
+  "id": "src_www-jpl-nasa-gov-missions-phoenix",
+  "url": "https://www.jpl.nasa.gov/missions/phoenix/",
+  "organisation": "NASA JPL",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R010",
+    "claim": "Phoenix's mission ended 2008-11-02 after solar-power loss during the Martian winter; it confirmed subsurface water ice and detected perchlorate.",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_www-jpl-nasa-gov-missions-surveyor-1",
+  "url": "https://www.jpl.nasa.gov/missions/surveyor-1/",
+  "organisation": "NASA JPL",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "M003",
+    "claim": "Surveyor 1 transmitted more than 11,000 photographs and its primary mission lasted about 30 days.",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_www-jpl-nasa-gov-news-nasas-ingenuity-mars-helicopter-team-says-goodbye-for-now",
+  "url": "https://www.jpl.nasa.gov/news/nasas-ingenuity-mars-helicopter-team-says-goodbye-for-now/",
+  "organisation": "NASA JPL",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R009",
+    "claim": "NASA/JPL described its final location as Valinor Hills in Neretva Vallis.",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_www-jpl-nasa-gov-news-press-kits-mars-2020-launch-quick-facts",
+  "url": "https://www.jpl.nasa.gov/news/press_kits/mars_2020/launch/quick_facts/",
+  "organisation": "NASA JPL",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R008",
+    "claim": "NASA lists rover mass of 1,025 kg and dimensions of approximately 3.0 × 2.7 × 2.2 m.",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_www-nasa-gov-history-alsj-a11-a11-html",
+  "url": "https://www.nasa.gov/history/alsj/a11/a11.html",
+  "organisation": "NASA",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "M001",
+    "claim": "Eagle landed on the Moon on 1969-07-20; the descent stage remains at the landing site while the ascent stage lifted off.",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_www-nasa-gov-mission-apollo-11",
+  "url": "https://www.nasa.gov/mission/apollo-11/",
+  "organisation": "NASA",
+  "title": null,
+  "record_level_for": [
+   "M001"
+  ],
+  "claims": [
+   {
+    "equipment_id": "M001",
+    "claim": "Apollo 11 launched 1969-07-16 and returned to Earth 1969-07-24.",
+    "confidence": "High"
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_www-nasa-gov-mission-lunar-orbiter-1",
+  "url": "https://www.nasa.gov/mission/lunar-orbiter-1/",
+  "organisation": "NASA",
+  "title": null,
+  "record_level_for": [
+   "M006"
+  ],
+  "claims": [
+   {
+    "equipment_id": "M006",
+    "claim": "Lunar Orbiter 1 launched 1966-08-10 and entered lunar orbit 1966-08-14.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "M006",
+    "claim": "NASA reports mass 386.9 kg and impact coordinates 6°42′ N, 162° E on 1966-10-29.",
+    "confidence": "High"
+   },
+   {
+    "equipment_id": "M006",
+    "claim": "The spacecraft captured the first image of Earth from the vicinity of the Moon.",
+    "confidence": "High"
+   }
+  ],
+  "checked": [
+   "2026-10-23"
+  ]
+ },
+ {
+  "id": "src_www-nasa-gov-missions-insight-nasa-retires-insight-mars-lander-mission-after-yea",
+  "url": "https://www.nasa.gov/missions/insight/nasa-retires-insight-mars-lander-mission-after-years-of-science/",
+  "organisation": "NASA",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R011",
+    "claim": "NASA retired InSight after two consecutive missed contact attempts and depleted power.",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ },
+ {
+  "id": "src_www-nasa-gov-news-release-after-three-years-on-mars-nasas-ingenuity-mars-helicop",
+  "url": "https://www.nasa.gov/news-release/after-three-years-on-mars-nasas-ingenuity-mars-helicopter-mission-ends/",
+  "organisation": "NASA",
+  "title": null,
+  "record_level_for": [],
+  "claims": [
+   {
+    "equipment_id": "R009",
+    "claim": "NASA announced mission end after rotor-blade damage on the final flight.",
+    "confidence": "High"
+   }
+  ],
+  "checked": []
+ }
+]
