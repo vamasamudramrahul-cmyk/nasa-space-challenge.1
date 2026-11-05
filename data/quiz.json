@@ -1,0 +1,67 @@
+[
+  {
+    "id": "q1",
+    "question": "What is engraved on the commemorative plaque attached to the Apollo 11 Lunar Module descent stage left on the Moon?",
+    "options": [
+      "For All Mankind — Conquering the Solar System",
+      "Here Men From The Planet Earth First Set Foot Upon The Moon. We Came In Peace For All Mankind.",
+      "In Memory of Apollo 1: Dedicated to Exploration",
+      "One Small Step for a Man, One Giant Leap for Mankind"
+    ],
+    "correctIndex": 1,
+    "explanation": "The stainless steel plaque bolted to the descent stage ladder reads: 'Here Men From The Planet Earth First Set Foot Upon The Moon. July 1969, A.D. We Came In Peace For All Mankind.'",
+    "equipmentId": "M001"
+  },
+  {
+    "id": "q2",
+    "question": "Which mission deployed the first wheeled vehicle driven by humans on another celestial world?",
+    "options": [
+      "Apollo 11",
+      "Apollo 14",
+      "Apollo 15",
+      "Apollo 17"
+    ],
+    "correctIndex": 2,
+    "explanation": "Apollo 15 (July 1971) was the first J-mission to carry the Boeing-built Lunar Roving Vehicle (LRV-001), driven across 27.8 km by astronauts David Scott and James Irwin.",
+    "equipmentId": "M002"
+  },
+  {
+    "id": "q3",
+    "question": "Which unmanned spacecraft was visited, inspected, and partially salvaged by the Apollo 12 astronaut crew on the Moon?",
+    "options": [
+      "Surveyor 1",
+      "Surveyor 3",
+      "Lunar Orbiter 2",
+      "Ranger 7"
+    ],
+    "correctIndex": 1,
+    "explanation": "Apollo 12 landed within walking distance of Surveyor 3 in November 1969. Astronauts Pete Conrad and Alan Bean retrieved its TV camera and tubing to test long-term exposure in the lunar vacuum.",
+    "equipmentId": "M003"
+  },
+  {
+    "id": "q4",
+    "question": "Why did the descent stages of all six Apollo lunar landings remain behind on the surface of the Moon?",
+    "options": [
+      "They ran out of fuel before returning",
+      "They served as the launch pad and rocket foundation for the ascending upper stage",
+      "They were contaminated by lunar radiation",
+      "They were intentionally preserved as solar power relays"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Apollo Lunar Module was designed in two parts: the descent stage carried the descent engine and surface payload, then acted as the rigid launch pad when the ascent stage fired its engine to return to lunar orbit.",
+    "equipmentId": "M001"
+  },
+  {
+    "id": "q5",
+    "question": "Which spacecraft was the first American robotic probe to achieve a soft touchdown on the surface of Mars in July 1976?",
+    "options": [
+      "Mariner 9",
+      "Viking 1 Lander",
+      "Mars Pathfinder",
+      "Viking 2 Orbiter"
+    ],
+    "correctIndex": 1,
+    "explanation": "Viking 1 touched down in Chryse Planitia on July 20, 1976, operating for 2,245 sols and returning the first color photographs and soil analyses from the Martian surface.",
+    "equipmentId": "R001"
+  }
+]

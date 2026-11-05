@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+
+<html data-theme="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Abandoned but Not Forgotten — An educational, evidence-led archaeological registry and catalog of qualifying NASA-led Moon and Mars mission hardware, landers, rovers, and scientific artifacts." name="description"/>
+<title>Abandoned but Not Forgotten | NASA Extraterrestrial Artifact Registry</title>
+<link href="styles.css" rel="stylesheet"/>
+<!-- Prototype 1 starfield hero and visual integration layer -->
+<link href="prototype1-ui/hero.css" rel="stylesheet"/>
+<link href="prototype1-ui/merge.css" rel="stylesheet"/>
+<link href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;circle cx='50' cy='50' r='46' fill='none' stroke='%2338bdf8' stroke-width='6'/&gt;&lt;path d='M30 65 L50 25 L70 65 Z' fill='none' stroke='white' stroke-width='5'/&gt;&lt;circle cx='50' cy='52' r='6' fill='%23ef4444'/&gt;&lt;/svg&gt;" rel="icon"/>
+<style>
+    .learning-shell{padding-top:clamp(24px,4vw,54px);padding-bottom:64px}.learning-hero{padding:clamp(24px,4vw,48px);border-radius:24px;background:radial-gradient(circle at 90% 10%,rgba(56,189,248,.22),transparent 32%),linear-gradient(120deg,#071426,#102b4b 65%,#0b1728);color:#fff;margin-bottom:28px}.learning-hero .section-title{color:#fff;font-size:clamp(2rem,4vw,3.4rem);margin:8px 0}.learning-hero .section-description{color:#d8e7f5;max-width:760px}.learning-hero-actions,.lesson-footer{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.classroom-layout{display:grid;grid-template-columns:minmax(240px, .75fr) minmax(0,2fr);gap:22px;align-items:start}.classroom-sidebar,.classroom-lesson,.teacher-toolkit,.faq-item{background:var(--bg-card,var(--surface,#fff));border:1px solid var(--border-dim);border-radius:18px}.classroom-sidebar{padding:16px;position:sticky;top:90px}.classroom-sidebar h2{font-size:1.05rem;margin:4px 8px 14px}.lesson-select{width:100%;display:flex;gap:12px;text-align:left;align-items:flex-start;padding:13px 10px;border:1px solid transparent;border-radius:12px;background:transparent;color:var(--text-primary);cursor:pointer}.lesson-select>span:first-child{font-size:.78rem;font-weight:800;color:#1685c5;background:#e5f4ff;border-radius:8px;padding:6px}.lesson-select strong,.lesson-select small{display:block}.lesson-select small{margin-top:4px;color:var(--text-muted);font-size:.76rem}.lesson-select.is-active{background:rgba(14,145,210,.09);border-color:rgba(14,145,210,.35)}.classroom-lesson{padding:clamp(20px,3vw,34px)}.lesson-meta{display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap;color:#1685c5;font-weight:800;font-size:.76rem;letter-spacing:.06em}.classroom-lesson h2{font-size:clamp(1.5rem,3vw,2.2rem);margin:12px 0}.classroom-lesson p,.lesson-body li{line-height:1.7;color:var(--text-secondary)}.lesson-learning-box,.classroom-prompt{padding:16px 18px;background:var(--bg-surface);border-radius:14px;margin:20px 0}.lesson-learning-box h3,.classroom-lesson h3{margin:0 0 10px}.lesson-learning-box ul{margin:0;padding-left:20px}.lesson-body ul{padding-left:20px}.classroom-prompt{border-left:4px solid #1596d2}.classroom-prompt p{margin:6px 0 0}.teacher-toolkit{padding:22px;margin-top:24px}.toolkit-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}.toolkit-cards article{padding:16px;border-radius:12px;background:var(--bg-surface)}.toolkit-cards p{line-height:1.55;color:var(--text-secondary);font-size:.9rem}.faq-search-wrap{display:grid;gap:8px;max-width:620px;margin:0 auto 20px}.faq-list{display:grid;gap:10px;max-width:900px;margin:0 auto}.faq-item{padding:0 18px}.faq-item summary{cursor:pointer;list-style:none;font-weight:750;padding:18px 26px 18px 0;position:relative}.faq-item summary::-webkit-details-marker{display:none}.faq-item summary:after{content:'+';position:absolute;right:0;color:#1685c5;font-size:1.3rem;top:12px}.faq-item[open] summary:after{content:'−'}.faq-item p{line-height:1.7;color:var(--text-secondary);margin:0;padding:0 0 18px}.detail-section-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:20px 0}.detail-section-card{padding:16px;border:1px solid var(--border-dim);border-radius:14px;background:var(--bg-surface)}.detail-section-card h4{margin:0 0 8px;font-size:1rem}.detail-section-card p{line-height:1.6;color:var(--text-secondary);margin:0}.detail-shortcuts{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}.detail-shortcuts a{padding:7px 11px;border:1px solid var(--border-dim);border-radius:999px;text-decoration:none;font-size:.82rem}.detail-shortcuts a:hover{border-color:#1685c5;color:#1685c5}@media(max-width:760px){.classroom-layout{grid-template-columns:1fr}.classroom-sidebar{position:static}.toolkit-cards{grid-template-columns:1fr}.lesson-select{padding:10px}}
+  </style>
+</head>
+<body>
+<!-- Accessible Skip Link -->
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<!-- Clean navigation: single project heading, no logo or legacy project-name line -->
+<header class="site-header p1-header" role="banner">
+<div class="header-inner">
+<a aria-label="NASA Space Apps Challenge Home" class="brand-group brand-heading-only" href="#home">
+<span class="brand-secondary">NASA SPACE APPS CHALLENGE</span>
+</a>
+<nav aria-label="Main Navigation" class="main-nav primary-nav" role="navigation">
+<ul class="nav-list">
+<li class="nav-item"><a class="nav-link active" data-route="home" href="#home">Home</a></li>
+<li class="nav-item">
+<button aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" id="nav-destination-toggle" type="button">Destination <span aria-hidden="true" class="dropdown-arrow"></span></button>
+<ul aria-labelledby="nav-destination-toggle" class="dropdown-menu" role="menu">
+<li role="none"><a class="dropdown-link" data-route="destination-moon" href="#destination-moon" role="menuitem">Explore Moon</a></li>
+<li role="none"><a class="dropdown-link" data-route="destination-mars" href="#destination-mars" role="menuitem">Explore Mars</a></li>
+<li role="none"><a class="dropdown-link" data-route="planets" href="#planets" role="menuitem">Explore Planets</a></li>
+</ul>
+</li>
+<li class="nav-item">
+<button aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" id="nav-library-toggle" type="button">Library <span aria-hidden="true" class="dropdown-arrow"></span></button>
+<ul aria-labelledby="nav-library-toggle" class="dropdown-menu" role="menu">
+<li role="none"><a class="dropdown-link" data-route="filters" href="#filters" role="menuitem">Equipment Library</a></li>
+<li role="none"><a class="dropdown-link" data-route="compare" href="#compare" role="menuitem">Compare</a></li>
+<li role="none"><a class="dropdown-link" data-route="glossary" href="#glossary" role="menuitem">Glossary</a></li>
+<li role="none"><a class="dropdown-link" data-route="quiz" href="#quiz" role="menuitem">Quiz</a></li>
+</ul>
+</li>
+<li class="nav-item">
+<button aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" id="nav-about-toggle" type="button">About <span aria-hidden="true" class="dropdown-arrow"></span></button>
+<ul aria-labelledby="nav-about-toggle" class="dropdown-menu" role="menu">
+<li role="none"><a class="dropdown-link" data-route="about" href="#about" role="menuitem">About Website</a></li>
+<li role="none"><a class="dropdown-link" data-route="sources" href="#sources" role="menuitem">Source and Evidence</a></li>
+</ul>
+</li>
+<li class="nav-item"><a class="nav-link" data-route="classroom" href="#classroom">eLearning</a></li>
+</ul>
+</nav>
+<div class="header-actions">
+<div class="search-box-header p1-search-wrap">
+<svg aria-hidden="true" class="search-icon-header" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16"><circle cx="11" cy="11" r="8"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line></svg>
+<input aria-label="Search equipment, missions, or glossary" class="search-input-header" id="globalSearchInput" placeholder="Search" type="search"/>
+</div>
+<button aria-label="Open website updates" class="header-notification-btn" id="btnNotificationBell" title="Website updates" type="button"><svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="18"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"></path><path d="M10 21h4"></path></svg><span aria-hidden="true" class="notification-dot"></span></button>
+<button aria-expanded="false" aria-label="Toggle navigation menu" class="nav-toggle-btn" id="btnMobileToggle" type="button"><svg aria-hidden="true" fill="none" height="22" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="22"><line x1="3" x2="21" y1="12" y2="12"></line><line x1="3" x2="21" y1="6" y2="6"></line><line x1="3" x2="21" y1="18" y2="18"></line></svg></button>
+</div>
+</div>
+</header>
+<!-- Main Content Area with Routing Views -->
+<main id="main-content" role="main">
+<!-- ======================================================================
+         1. HOME VIEW (#home)
+         ====================================================================== -->
+<section aria-labelledby="home-heading" class="view-section active" id="view-home">
+<div class="container">
+<!-- Prototype 1 upgraded cinematic hero; Prototype 2 routes/actions remain intact -->
+<section aria-labelledby="hero-title" class="universe">
+<div aria-hidden="true" class="nebula nebula-one"></div>
+<div aria-hidden="true" class="nebula nebula-two"></div>
+<div aria-hidden="true" class="nebula nebula-three"></div>
+<div aria-hidden="true" class="distant-stars"></div>
+<canvas aria-hidden="true" id="stars"></canvas>
+<div aria-hidden="true" class="shooting-star"></div>
+<div aria-hidden="true" class="shooting-star two"></div>
+<div aria-hidden="true" class="atmosphere"></div>
+<div class="center-content">
+<h1 id="hero-title">ABANDONED BUT NOT FORGOTTEN</h1>
+<p class="hero-description">Explore the forgotten history of space exploration. Discover the missions, spacecraft, rovers, landers, and scientific instruments that shaped our understanding of the Moon and Mars. Uncover their stories, explore their legacies, and learn what remains after their missions end.</p>
+
+</div>
+</section>
+<!-- Three matching, responsive destination cards based on Prototype 1 -->
+<div class="destinations-grid reference-destination-cards" id="home-destinations">
+<a aria-label="Explore Moon destination" class="dest-card moon reference-dest-card" href="#destination-moon">
+<span aria-hidden="true" class="reference-dest-arrow">→</span>
+<h2 class="dest-card-title">Explore Moon</h2>
+<p class="dest-card-desc">Journey through NASA's historic lunar exploration from early Surveyor soft landings and the Apollo landings to the active Lunar Reconnaissance Orbiter.</p>
+</a>
+<a aria-label="Explore Mars destination" class="dest-card mars reference-dest-card" href="#destination-mars">
+<span aria-hidden="true" class="reference-dest-arrow">→</span>
+<h2 class="dest-card-title">Explore Mars</h2>
+<p class="dest-card-desc">Discover robotic explorers on the Red Planet, including Viking landers, Sojourner, the MER rovers Spirit and Opportunity, Curiosity, and Perseverance.</p>
+</a>
+<a aria-label="Explore planets destination" class="dest-card solar reference-dest-card" href="#planets">
+<span aria-hidden="true" class="reference-dest-arrow">→</span>
+<h2 class="dest-card-title">Explore Planets</h2>
+<p class="dest-card-desc">Explore all eight planets through clear introductions and detailed planet profiles.</p>
+</a>
+</div>
+<section aria-labelledby="home-types-heading" class="home-equipment-types">
+<div class="section-header"><span class="section-eyebrow">Explore by categories</span><h2 class="section-title" id="home-types-heading">Browse equipment by their type</h2><p class="section-description">Choose a hardware type to explore matching NASA mission equipment.</p></div>
+<div class="equipment-type-grid">
+<a class="equipment-type-card type-rovers" data-type-filter="Rovers" href="#filters" aria-label="Browse rovers"><span class="type-card-image" role="img" aria-label="Mars rover on the surface"></span><h3>Rovers</h3><p>Mobile surface explorers that travel across planetary terrain.</p></a>
+<a class="equipment-type-card type-landers" data-type-filter="Landers" href="#filters" aria-label="Browse landers"><span class="type-card-image" role="img" aria-label="Planetary lander"></span><h3>Landers</h3><p>Stationary platforms designed to reach and study a surface.</p></a>
+<a class="equipment-type-card type-orbiters" data-type-filter="Orbiters" href="#filters" aria-label="Browse orbiters"><span class="type-card-image" role="img" aria-label="Spacecraft orbiting a planet"></span><h3>Orbiters</h3><p>Spacecraft that study worlds from orbit.</p></a>
+<a class="equipment-type-card type-spacecraft" data-type-filter="Spacecraft" href="#filters" aria-label="Browse spacecraft"><span class="type-card-image" role="img" aria-label="Spacecraft in deep space"></span><h3>Spacecraft</h3><p>Vehicles and mission systems used for space exploration.</p></a>
+<a class="equipment-type-card type-descent" data-type-filter="Descent stages" href="#filters" aria-label="Browse descent stages"><span class="type-card-image" role="img" aria-label="Lunar descent stage"></span><h3>Descent stages</h3><p>Hardware used to deliver crew or equipment to a surface.</p></a>
+<a class="equipment-type-card type-instruments" data-type-filter="Instruments" href="#filters" aria-label="Browse scientific instruments"><span class="type-card-image" role="img" aria-label="Space science instrument"></span><h3>Scientific instruments</h3><p>Tools that collect measurements and scientific observations.</p></a>
+</div>
+</section>
+<section aria-labelledby="featured-carousel-heading" class="featured-carousel-section">
+<div class="section-header"><span class="section-eyebrow">Explore the collection</span><h2 class="section-title" id="featured-carousel-heading">Featured Equipment</h2><p class="section-description">Explore selected NASA mission hardware and its documented legacy.</p></div>
+<div aria-label="Featured equipment" aria-roledescription="carousel" class="featured-carousel" id="featuredCarousel"><div class="featured-carousel-track" id="featuredCarouselTrack"></div></div>
+<div class="featured-carousel-controls"><button class="btn btn-outline" id="featuredPrevious" type="button">← Previous</button><button aria-pressed="false" class="btn btn-primary" id="featuredPause" type="button">Pause autoplay</button><button class="btn btn-outline" id="featuredNext" type="button">Next →</button></div>
+</section>
+<!-- Timeline intentionally stays on its existing dedicated Prototype 2 screen. -->
+<!-- Recently Explored Section -->
+<div id="recentlyExploredSection" style="margin-top: var(--space-3xl); display: none;">
+<div class="section-header" style="display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: var(--space-md);">
+<div>
+<span class="section-eyebrow">Your History</span>
+<h2 class="section-title" style="font-size: 1.6rem; margin-bottom: 4px;">Recently Explored Artifacts</h2>
+<p class="section-description" style="font-size: 0.88rem;">Stored locally in your browser. No personal data or cloud telemetry collected.</p>
+</div>
+<button class="btn btn-outline" id="btnClearRecentlyExplored" style="padding: 6px 14px; font-size: 0.82rem;">Clear History</button>
+</div>
+<div class="equipment-grid" id="recentlyExploredGrid">
+<!-- Populated by JS -->
+</div>
+</div>
+</div>
+</section>
+<!-- ======================================================================
+         2. MOON DESTINATION VIEW (#destination-moon)
+         ====================================================================== -->
+<section aria-labelledby="moon-heading" class="view-section" id="view-destination-moon">
+<div class="container">
+<div class="destination-hero moon-hero" style="--hero-image:url('https://images-assets.nasa.gov/image/as11-40-5922/as11-40-5922~orig.jpg')">
+<div class="destination-hero-content">
+<nav aria-label="Moon page breadcrumb" class="destination-breadcrumbs"><a href="#home">Home</a><span>/</span><span aria-current="page">The Moon</span></nav>
+<span class="section-eyebrow">Destination registry · Lunar surface</span>
+<h1 class="destination-hero-title" id="moon-heading">The Moon</h1>
+</div>
+</div>
+<!-- NASA-backed interactive lunar explorer -->
+<div class="globe-viewport-container enhanced-map-viewport map-explorer-viewport eyes-map-viewport eyes-map-moon" id="moonGlobeContainer">
+<div aria-label="Moon map view mode" class="map-mode-bar eyes-map-modebar map-mode-top-right">
+<div aria-label="Select Moon map view" class="map-mode-switch" role="group">
+<button aria-pressed="true" class="map-mode-btn is-active" data-map-key="moon" data-map-mode="3d" type="button">3D Globe</button>
+<button aria-pressed="false" class="map-mode-btn" data-map-key="moon" data-map-mode="surface" type="button">Surface Map</button>
+</div>
+</div>
+<canvas aria-label="Interactive textured 3D Moon globe with NASA lunar map imagery and mapped equipment locations" class="globe-canvas" id="moonGlobeCanvas"></canvas>
+<div class="map-surface-view" hidden="" id="moonSurfaceView">
+<div class="map-surface-stage" id="moonSurfaceStage">
+<img alt="NASA Lunar Reconnaissance Orbiter global lunar surface map" class="map-surface-image" crossorigin="anonymous" id="moonSurfaceImage" loading="eager"/>
+<div aria-label="Mapped Moon equipment locations" class="map-surface-markers" id="moonSurfaceMarkers"></div>
+</div>
+<span class="surface-map-help">Drag to pan · Use + / − to zoom</span>
+</div>
+<div aria-live="polite" class="map-loading-overlay is-visible" id="moonMapLoading" role="status">
+<div aria-hidden="true" class="map-loader-spinner"></div><strong>Loading 3D</strong><span>Loading NASA Moon surface imagery</span>
+</div>
+<button aria-controls="moonMapLayers" aria-expanded="false" aria-label="Open Moon map controls" class="map-controls-toggle" data-map-controls-toggle="moon" title="Map controls" type="button">»</button><div aria-label="Moon map tools" class="map-utility-controls">
+<button aria-label="Map information" class="map-utility-btn" data-map-action="info" data-map-key="moon" title="Map information" type="button">i</button>
+<button aria-label="Map layers" class="map-utility-btn" data-map-action="layers" data-map-key="moon" title="Map layers" type="button">▱</button>
+<span aria-hidden="true" class="map-utility-divider"></span>
+<button aria-label="Zoom in" class="map-utility-btn" data-map-action="zoom-in" data-map-key="moon" title="Zoom in" type="button">+</button>
+<button aria-label="Zoom out" class="map-utility-btn" data-map-action="zoom-out" data-map-key="moon" title="Zoom out" type="button">−</button>
+<button aria-label="Toggle fullscreen map" class="map-utility-btn" data-map-action="fullscreen" data-map-key="moon" title="Fullscreen" type="button">⛶</button>
+</div>
+<div class="map-popover map-layers-popover rich-map-layers" hidden="" id="moonMapLayers">
+<strong>Map controls</strong><button aria-label="Download current Moon map view" class="map-toolbar-button map-panel-download" id="moonMapDownload" type="button">↓ Download map</button>
+<p class="map-layer-help">Equipment markers appear only where records contain usable, evidence-backed coordinates.</p>
+
+<label><input checked="" data-map-key="moon" data-map-layer="equipment" type="checkbox"/> Equipment locations</label>
+<label><input data-map-key="moon" data-map-layer="missions" type="checkbox"/> Mission-linked sites</label>
+<label><input checked="" data-map-key="moon" data-map-layer="grid" type="checkbox"/> Coordinates grid</label>
+<label><input checked="" data-map-key="moon" data-map-layer="labels" type="checkbox"/> Location labels</label>
+</div>
+<div class="globe-marker-popup" id="moonMarkerPopup">
+<div class="popup-title" id="moonPopupTitle">Equipment name</div>
+
+
+<button class="popup-link" id="moonPopupBtnDetails" type="button">Explore Details →</button>
+</div>
+<div class="eyes-map-bottombar">
+<div class="eyes-map-ready"><span aria-hidden="true" class="eyes-ready-dot"></span><strong>MAP VIEW</strong><span class="eyes-map-ready-caption">INTERACTIVE</span></div>
+<div class="eyes-map-status-slot"><span class="map-source-status" id="moonMapLayerStatus" role="status">Loading NASA lunar imagery…</span></div>
+</div>
+</div>
+<p class="map-source-footnote" id="moonMapSourceFootnote">Moon surface imagery: NASA/GSFC/Arizona State University LRO Wide Angle Camera global mosaic, served through NASA/JPL Moon Trek WMTS when available.</p>
+<!-- Moon Equipment Directory Grid -->
+<div class="section-header" style="margin-top: var(--space-2xl);">
+<span class="section-eyebrow">Catalog Records</span>
+<h2 class="section-title" style="font-size: 1.8rem;">Lunar Equipment Records</h2>
+</div>
+<div class="equipment-grid" id="moonEquipmentGrid">
+<!-- Populated by JS -->
+</div>
+<section aria-labelledby="moonTimelineHeading" class="destination-timeline-section">
+<div class="section-header"><span class="section-eyebrow">Mission history</span><h2 class="section-title" id="moonTimelineHeading">Moon Mission Timeline</h2><p class="section-description">Explore NASA's recorded lunar milestones in chronological order.</p></div>
+<div class="timeline-controls-bar destination-timeline-controls">
+<div aria-label="Timeline working status colors" class="timeline-legend">
+<span class="timeline-legend-title">Working Status Colors:</span>
+<span class="legend-item"><span class="legend-dot green"></span>Completed / confirmed</span>
+<span class="legend-item"><span class="legend-dot yellow"></span>Ongoing / in progress</span>
+<span class="legend-item"><span class="legend-dot red"></span>Uncertain / pending</span>
+</div>
+<label class="timeline-filter-label" for="moonTimelineFilterCategory">Filter events
+              <select class="filter-select destination-timeline-filter" id="moonTimelineFilterCategory">
+<option value="all">All milestone categories</option>
+<option value="Launch">Launch</option><option value="Arrival / Orbit Insertion">Arrival / Orbit Insertion</option><option value="Landing / Touchdown">Landing / Touchdown</option><option value="Operations">Operations</option><option value="Discovery">Discovery</option><option value="Lost Contact">Lost Contact</option><option value="Retirement">Retirement</option><option value="Impact / End of Mission">Impact / End of Mission</option>
+</select>
+</label>
+</div>
+<div aria-live="polite" class="destination-timeline-stream timeline-stream" id="moonDestinationTimeline"></div>
+</section>
+</div>
+</section>
+<!-- ======================================================================
+         3. MARS DESTINATION VIEW (#destination-mars)
+         ====================================================================== -->
+<section aria-labelledby="mars-heading" class="view-section" id="view-destination-mars">
+<div class="container">
+<div class="destination-hero mars-hero" style="--hero-image:url('https://images-assets.nasa.gov/image/PIA00563/PIA00563~orig.jpg')">
+<div class="destination-hero-content">
+<nav aria-label="Mars page breadcrumb" class="destination-breadcrumbs"><a href="#home">Home</a><span>/</span><span aria-current="page">Mars</span></nav>
+<span class="section-eyebrow">Destination registry · The red planet</span>
+<h1 class="destination-hero-title" id="mars-heading">Mars</h1>
+</div>
+</div>
+<!-- NASA-backed interactive Martian explorer -->
+<div class="globe-viewport-container enhanced-map-viewport map-explorer-viewport eyes-map-viewport eyes-map-mars" id="marsGlobeContainer">
+<div aria-label="Mars map view mode" class="map-mode-bar eyes-map-modebar map-mode-top-right">
+<div aria-label="Select Mars map view" class="map-mode-switch" role="group">
+<button aria-pressed="true" class="map-mode-btn is-active" data-map-key="mars" data-map-mode="3d" type="button">3D Globe</button>
+<button aria-pressed="false" class="map-mode-btn" data-map-key="mars" data-map-mode="surface" type="button">Surface Map</button>
+</div>
+</div>
+<canvas aria-label="Interactive textured 3D Mars globe with NASA imagery and mapped equipment locations" class="globe-canvas" id="marsGlobeCanvas"></canvas>
+<div class="map-surface-view" hidden="" id="marsSurfaceView">
+<div class="map-surface-stage" id="marsSurfaceStage">
+<img alt="Global Mars surface map from NASA/JPL/USGS imagery" class="map-surface-image" crossorigin="anonymous" id="marsSurfaceImage" loading="eager"/>
+<div aria-label="Mapped Mars equipment locations" class="map-surface-markers" id="marsSurfaceMarkers"></div>
+</div>
+<span class="surface-map-help">Drag to pan · Use + / − to zoom</span>
+</div>
+<div aria-live="polite" class="map-loading-overlay is-visible" id="marsMapLoading" role="status">
+<div aria-hidden="true" class="map-loader-spinner"></div><strong>Loading 3D</strong><span>Loading NASA Mars surface imagery</span>
+</div>
+<button aria-controls="marsMapLayers" aria-expanded="false" aria-label="Open Mars map controls" class="map-controls-toggle" data-map-controls-toggle="mars" title="Map controls" type="button">»</button><div aria-label="Mars map tools" class="map-utility-controls">
+<button aria-label="Map information" class="map-utility-btn" data-map-action="info" data-map-key="mars" title="Map information" type="button">i</button>
+<button aria-label="Map layers" class="map-utility-btn" data-map-action="layers" data-map-key="mars" title="Map layers" type="button">▱</button>
+<span aria-hidden="true" class="map-utility-divider"></span>
+<button aria-label="Zoom in" class="map-utility-btn" data-map-action="zoom-in" data-map-key="mars" title="Zoom in" type="button">+</button>
+<button aria-label="Zoom out" class="map-utility-btn" data-map-action="zoom-out" data-map-key="mars" title="Zoom out" type="button">−</button>
+<button aria-label="Toggle fullscreen map" class="map-utility-btn" data-map-action="fullscreen" data-map-key="mars" title="Fullscreen" type="button">⛶</button>
+</div>
+<div class="map-popover map-layers-popover rich-map-layers" hidden="" id="marsMapLayers">
+<strong>Map layers</strong>
+<p class="map-layer-help">Equipment markers appear only where records contain usable, evidence-backed coordinates.</p>
+
+<label><input checked="" data-map-key="mars" data-map-layer="equipment" type="checkbox"/> Equipment locations</label>
+<label><input data-map-key="mars" data-map-layer="missions" type="checkbox"/> Mission-linked sites</label>
+<label><input checked="" data-map-key="mars" data-map-layer="grid" type="checkbox"/> Coordinates grid</label>
+<label><input checked="" data-map-key="mars" data-map-layer="labels" type="checkbox"/> Location labels</label>
+</div>
+<div class="globe-marker-popup" id="marsMarkerPopup">
+<div class="popup-title" id="marsPopupTitle">Equipment name</div>
+
+
+<button class="popup-link" id="marsPopupBtnDetails" type="button">Explore Details →</button>
+</div>
+<div class="eyes-map-bottombar">
+<div class="eyes-map-ready"><span aria-hidden="true" class="eyes-ready-dot"></span><strong>MAP VIEW</strong><span class="eyes-map-ready-caption">INTERACTIVE</span></div>
+<button aria-label="Download current Mars map view" class="map-toolbar-button map-bottom-download" id="marsMapDownload" type="button">↓ Download map</button><div class="eyes-map-status-slot"><span class="map-source-status" id="marsMapLayerStatus" role="status">Loading NASA Mars imagery…</span></div>
+</div>
+</div>
+<p class="map-source-footnote" id="marsMapSourceFootnote">Mars surface imagery: NASA/JPL/USGS Viking global image mosaic.</p>
+<!-- Mars Equipment Directory Grid -->
+<div class="section-header" style="margin-top: var(--space-2xl);">
+<span class="section-eyebrow">Catalog Records</span>
+<h2 class="section-title" style="font-size: 1.8rem;">Martian Equipment Records</h2>
+</div>
+<div class="equipment-grid" id="marsEquipmentGrid">
+<!-- Populated by JS -->
+</div>
+<section aria-labelledby="marsTimelineHeading" class="destination-timeline-section">
+<div class="section-header"><span class="section-eyebrow">Mission history</span><h2 class="section-title" id="marsTimelineHeading">Mars Mission Timeline</h2><p class="section-description">Explore NASA's recorded Martian milestones in chronological order.</p></div>
+<div class="timeline-controls-bar destination-timeline-controls">
+<div aria-label="Timeline working status colors" class="timeline-legend">
+<span class="timeline-legend-title">Working Status Colors:</span>
+<span class="legend-item"><span class="legend-dot green"></span>Completed / confirmed</span>
+<span class="legend-item"><span class="legend-dot yellow"></span>Ongoing / in progress</span>
+<span class="legend-item"><span class="legend-dot red"></span>Uncertain / pending</span>
+</div>
+<label class="timeline-filter-label" for="marsTimelineFilterCategory">Filter events
+              <select class="filter-select destination-timeline-filter" id="marsTimelineFilterCategory">
+<option value="all">All milestone categories</option>
+<option value="Launch">Launch</option><option value="Arrival / Orbit Insertion">Arrival / Orbit Insertion</option><option value="Landing / Touchdown">Landing / Touchdown</option><option value="Operations">Operations</option><option value="Discovery">Discovery</option><option value="Lost Contact">Lost Contact</option><option value="Retirement">Retirement</option><option value="Impact / End of Mission">Impact / End of Mission</option>
+</select>
+</label>
+</div>
+<div aria-live="polite" class="destination-timeline-stream timeline-stream" id="marsDestinationTimeline"></div>
+</section>
+</div>
+</section>
+<!-- ======================================================================
+         4. FILTERS / EQUIPMENT DIRECTORY VIEW (#filters)
+         ====================================================================== -->
+<section aria-labelledby="filters-heading" class="view-section" id="view-filters">
+<div class="container">
+<div class="section-header">
+<span class="section-eyebrow">Comprehensive Registry</span>
+<h1 class="section-title" id="filters-heading">Extraterrestrial Equipment Directory</h1>
+<p class="section-description">
+            Filter, sort, and inspect 100 qualified NASA Moon and Mars mission hardware records. Toggle between visual grid cards and structured data table.
+          </p>
+</div>
+<!-- Filter Controls Toolbar -->
+<div class="filters-toolbar">
+<div class="filters-row">
+<div class="filter-group">
+<label class="filter-label" for="filterDestination">Destination</label>
+<select class="filter-select" id="filterDestination">
+<option value="all">All Destinations (Moon &amp; Mars)</option>
+<option value="Moon">Moon (39)</option>
+<option value="Mars">Mars (61)</option>
+</select>
+</div>
+<div class="filter-group">
+<label class="filter-label" for="filterStatus">Operational Status</label>
+<select class="filter-select" id="filterStatus">
+<option value="all">All Statuses</option>
+<option value="active">Active / Operational</option>
+<option value="historical">Historical / Completed</option>
+<option value="lost">Lost Contact / Impact</option>
+</select>
+</div>
+<div class="filter-group">
+<label class="filter-label" for="filterType">Equipment Type</label>
+<select class="filter-select" id="filterType">
+<option value="all">All Equipment Types</option>
+<option value="Rover">Rovers</option>
+<option value="Lander">Landers</option>
+<option value="Descent Stage">Descent Stages</option>
+<option value="Orbiter">Orbiters &amp; Spacecraft</option>
+<option value="Helicopter">Helicopters &amp; Aerial</option>
+</select>
+</div>
+<div class="filter-group">
+<label class="filter-label" for="filterSearchText">Search Query</label>
+<input class="filter-search" id="filterSearchText" placeholder="Filter by name, mission, instruments..." type="text"/>
+</div>
+<div class="filter-group">
+<label class="filter-label" for="filterSortOrder">Sort By</label>
+<select class="filter-select" id="filterSortOrder">
+<option value="chronological-asc">Chronological (Earliest First)</option>
+<option value="chronological-desc">Chronological (Newest First)</option>
+<option value="name-asc">Name (A → Z)</option>
+<option value="destination">Destination</option>
+</select>
+</div>
+</div>
+<div class="filter-actions-row">
+<div aria-label="Operational status colors" class="results-count-badge status-color-key" id="filtersResultCount"><strong>Operational Status Colors</strong><span><i class="status-key-dot status-active"></i> Active / Operational</span><span><i class="status-key-dot status-historical"></i> Historical / Completed</span><span><i class="status-key-dot status-uncertain"></i> Lost contact / Uncertain</span></div>
+<div style="display: flex; align-items: center; gap: var(--space-md);">
+<button class="btn btn-outline" id="btnResetFilters" style="padding: 4px 12px; font-size: 0.8rem;">Reset Filters</button>
+</div>
+</div>
+</div>
+<!-- Directory Container (Cards view vs Table view) -->
+<div class="equipment-grid" id="directoryCardsContainer">
+<!-- Populated by JS -->
+</div>
+</div>
+</section>
+<!-- ======================================================================
+         5. FULL INTERACTIVE TIMELINE VIEW (#timeline)
+         ====================================================================== -->
+<!-- ======================================================================
+         6. MISSION MAP 3D VIEW (#mission-map)
+         ====================================================================== -->
+<section aria-labelledby="map-heading" class="view-section" id="view-mission-map">
+<div class="container">
+<div class="section-header">
+<span class="section-eyebrow">Orbital &amp; Surface Mapping</span>
+<h1 class="section-title" id="map-heading">Extraterrestrial Mission Map</h1>
+<p class="section-description">
+            Explore documented equipment locations on interactive planetary globes. Markers appear only where usable location evidence is available.
+          </p>
+</div>
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: var(--space-md); flex-wrap: wrap; gap: var(--space-sm);">
+<div style="display: flex; gap: var(--space-xs);">
+<button class="btn btn-secondary active" id="btnMapSelectMoon" style="padding: 8px 16px;">The Moon</button>
+<button class="btn btn-secondary" id="btnMapSelectMars" style="padding: 8px 16px;">Mars</button>
+</div>
+<div style="display: flex; gap: var(--space-xs);">
+<button class="btn btn-outline" id="btnMapToggleOrbits" style="padding: 6px 12px; font-size: 0.82rem;">Orbits: Visible</button>
+<button class="btn btn-outline" id="btnMapReset" style="padding: 6px 12px; font-size: 0.82rem;">Reset Camera</button>
+</div>
+</div>
+<div class="globe-viewport-container" style="height: 600px;">
+<canvas aria-label="Interactive 3D Mission Map" class="globe-canvas" id="missionMapCanvas"></canvas>
+<div class="globe-hud-overlay">
+<div class="globe-hud-title" id="mapHudTitle">The Moon • Surface &amp; Orbital Trackers</div>
+<div class="globe-hud-coords" id="mapHudCoords">Hover or drag to rotate 3D sphere</div>
+</div>
+<div class="globe-marker-popup" id="mapMarkerPopup">
+<div class="popup-title" id="mapPopupTitle">Name</div>
+<button class="popup-link" id="mapPopupDetailsBtn">Full Details →</button>
+</div>
+</div>
+</div>
+</section>
+<!-- ======================================================================
+         7. EXPLORE PLANETS 2D SOLAR SYSTEM VIEW (#planets)
+         ====================================================================== -->
+<section aria-labelledby="planets-heading" class="view-section" id="view-planets">
+<div class="container">
+<div class="destination-hero planets-hero" style="--hero-image:url('https://images-assets.nasa.gov/image/PIA17046/PIA17046~orig.jpg')">
+<div class="destination-hero-content">
+<nav aria-label="Planetary page breadcrumb" class="destination-breadcrumbs"><a href="#home">Home</a><span>/</span><span aria-current="page">Explore Planets</span></nav>
+<span class="section-eyebrow">Solar system explorer</span>
+<h1 class="destination-hero-title" id="planets-heading">Explore Planets</h1>
+<p class="destination-hero-description">Explore Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune through interactive 3D views and detailed planet profiles.</p>
+<div aria-label="Planet learning tools" class="destination-shortcuts">
+<a href="#glossary">Glossary <span aria-hidden="true">↗</span></a>
+<a href="#quiz">Quiz <span aria-hidden="true">↗</span></a>
+<a href="#compare">Compare <span aria-hidden="true">↗</span></a>
+</div>
+</div>
+</div>
+<section aria-labelledby="planetBodyExplorerTitle" class="planet-body-explorer">
+<div class="section-header planet-map-section-heading">
+<span class="section-eyebrow">Real planetary textures</span>
+<h2 class="section-title" id="planetBodyExplorerTitle">Planetary Globe Explorer</h2>
+<p class="section-description">Explore the eight planets through interactive 3D visualizations using NASA/JPL imagery where available.</p>
+</div>
+<div class="globe-viewport-container enhanced-map-viewport map-explorer-viewport eyes-map-viewport eyes-map-planets" id="planetBodyGlobeContainer">
+<div class="map-explorer-toolbar" data-map-toolbar="planets">
+<div aria-label="Planetary Explorer map viewer" class="eyes-map-brand">
+<span aria-hidden="true" class="eyes-map-orbit-mark"><span></span></span>
+<span class="eyes-map-brand-copy"><span class="eyes-map-overline">PLANETARY EXPLORATION</span><strong>PLANETARY EXPLORER</strong></span>
+</div>
+<label class="map-body-picker"><span>Current body</span>
+<select aria-label="Select a celestial body" id="planetBodySelector">
+<option value="mercury">Mercury</option><option value="venus">Venus</option><option value="earth">Earth</option><option value="mars">Mars</option><option value="jupiter">Jupiter</option><option value="saturn">Saturn</option><option value="uranus">Uranus</option><option value="neptune">Neptune</option>
+</select>
+</label>
+<div class="map-toolbar-actions">
+</div>
+</div>
+
+<canvas aria-label="Interactive 3D globe with NASA and JPL planetary textures" class="globe-canvas" id="planetBodyGlobeCanvas"></canvas>
+<div aria-live="polite" class="map-loading-overlay is-visible" id="planetsMapLoading" role="status">
+<div aria-hidden="true" class="map-loader-spinner"></div><strong>Loading planetary globe</strong><span>Preparing the selected body texture</span>
+</div>
+<div aria-label="Planetary map tools" class="map-utility-controls">
+<button aria-label="Map information" class="map-utility-btn" data-map-action="info" data-map-key="planets" title="Map information" type="button">i</button>
+<button aria-label="Map layers" class="map-utility-btn" data-map-action="layers" data-map-key="planets" title="Map layers" type="button">▱</button>
+<span aria-hidden="true" class="map-utility-divider"></span>
+<button aria-label="Zoom in" class="map-utility-btn" data-map-action="zoom-in" data-map-key="planets" title="Zoom in" type="button">+</button>
+<button aria-label="Zoom out" class="map-utility-btn" data-map-action="zoom-out" data-map-key="planets" title="Zoom out" type="button">−</button>
+<button aria-label="Toggle fullscreen map" class="map-utility-btn" data-map-action="fullscreen" data-map-key="planets" title="Fullscreen" type="button">⛶</button>
+</div>
+<div class="map-popover map-layers-popover rich-map-layers" hidden="" id="planetsMapLayers">
+<strong>Map layers</strong>
+<p class="map-layer-help">Texture coverage and scientific detail differ by body. Gas-giant visuals are representative and are not current atmospheric observations.</p>
+<label><input checked="" data-map-key="planets" data-map-layer="base-surface" name="planetsBaseLayer" type="radio"/> Surface / appearance imagery</label>
+<hr/>
+<label><input checked="" data-map-key="planets" data-map-layer="equipment" type="checkbox"/> Equipment locations</label>
+<label><input data-map-key="planets" data-map-layer="missions" type="checkbox"/> Mission-linked records</label>
+<label><input checked="" data-map-key="planets" data-map-layer="grid" type="checkbox"/> Coordinates grid</label>
+<label><input checked="" data-map-key="planets" data-map-layer="labels" type="checkbox"/> Location labels</label>
+</div>
+<div class="globe-hud-overlay">
+<div class="globe-hud-title"><svg aria-hidden="true" fill="currentColor" height="16" viewbox="0 0 24 24" width="16"><circle cx="12" cy="12" r="10"></circle></svg><span id="planetBodyHudTitle">Mars · Planetary Surface Explorer</span></div>
+<div class="globe-hud-coords" id="planetBodyHoverCoords">Rotate globe to explore the selected body</div>
+</div>
+<div class="globe-marker-popup" id="planetBodyMarkerPopup">
+<div class="popup-title" id="planetBodyPopupTitle">Equipment name</div>
+<button class="popup-link" id="planetBodyPopupBtnDetails" type="button">Explore Details →</button>
+</div>
+<div class="eyes-map-bottombar">
+<div class="eyes-map-ready"><span aria-hidden="true" class="eyes-ready-dot"></span><strong>MAP VIEW</strong><span class="eyes-map-ready-caption">INTERACTIVE</span></div>
+<div class="eyes-map-status-slot"><span class="map-source-status" id="planetsMapLayerStatus" role="status">Preparing planetary globe…</span></div>
+</div>
+</div>
+<p class="map-source-footnote" id="planetMapSourceFootnote">Planet textures are credited to NASA/JPL/Caltech or NASA/GSFC as listed in map information. Some gas giant textures are representative.</p>
+</section>
+<div class="section-header">
+<span class="section-eyebrow">Celestial Bodies</span>
+<h2 class="section-title" style="font-size: 1.6rem;">Planetary Dossiers</h2>
+</div>
+<div class="planets-card-grid" id="planetsGrid">
+<!-- Populated by JS -->
+</div>
+</div>
+</section>
+<!-- ======================================================================
+         8. NASA & SPACE MISSIONS DIRECTORY VIEW (#missions)
+         ====================================================================== -->
+<!-- ======================================================================
+         9. COMPARE TOOL VIEW (#compare)
+         ====================================================================== -->
+<section aria-labelledby="compare-heading" class="view-section" id="view-compare">
+<div class="container">
+<div class="section-header">
+<span class="section-eyebrow">Analytical Matrix</span>
+<h1 class="section-title" id="compare-heading">Hardware Comparison Matrix</h1>
+<p class="section-description">
+            Select two spacecraft, landers, or rovers to compare engineering specifications, power systems, landing coordinates, and operational life spans side-by-side.
+          </p>
+</div>
+<!-- Comparison Selectors -->
+<div class="compare-selectors-bar">
+<div class="compare-selector-col">
+<label class="filter-label" for="compareSelect1">Artifact #1 (Required)</label>
+<select class="filter-select" id="compareSelect1"></select>
+</div>
+<div class="compare-selector-col">
+<label class="filter-label" for="compareSelect2">Artifact #2 (Required)</label>
+<select class="filter-select" id="compareSelect2"></select>
+</div>
+</div>
+<!-- Comparison Output Table -->
+<div class="compare-table-wrapper">
+<table aria-label="Spacecraft comparison table" class="compare-table">
+<thead id="compareTableHead">
+<!-- Populated by JS -->
+</thead>
+<tbody id="compareTableBody">
+<!-- Populated by JS -->
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<!-- ======================================================================
+         10. INTERACTIVE QUIZ ENGINE VIEW (#quiz)
+         ====================================================================== -->
+<section aria-labelledby="quiz-heading" class="view-section" id="view-quiz">
+<div class="container">
+<div class="section-header" style="text-align: center;">
+<span class="section-eyebrow">Knowledge Verification</span>
+<h1 class="section-title" id="quiz-heading">Extraterrestrial History Quiz</h1>
+<p class="section-description" style="margin: 0 auto;">
+            Test your knowledge with 15 verified questions drawn directly from our NASA Moon &amp; Mars historical deliverables.
+          </p>
+</div>
+<div class="quiz-container">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" class="quiz-progress-bar-container" role="progressbar">
+<div class="quiz-progress-fill" id="quizProgressFill"></div>
+</div>
+<div class="quiz-meta-row">
+<span id="quizQuestionCounter">Question 1 of 15</span>
+<span id="quizCurrentScore">Score: 0</span>
+</div>
+<!-- Question Prompt -->
+<h2 class="quiz-question-text" id="quizQuestionText">Loading question...</h2>
+<!-- 4 Answer Options -->
+<div class="quiz-options-list" id="quizOptionsList">
+<!-- Populated by JS -->
+</div>
+<!-- Immediate Explanation Feedback Box -->
+<div class="quiz-explanation-box" id="quizExplanationBox">
+<strong id="quizExplanationHeading" style="display: block; margin-bottom: 4px;">Explanation:</strong>
+<p id="quizExplanationText"></p>
+</div>
+<div class="quiz-actions">
+<button class="btn btn-primary" id="btnQuizNext" style="display: none;">Next Question →</button>
+</div>
+<!-- Quiz Completion Dashboard (Hidden until finished) -->
+<div id="quizResultsDashboard" style="display: none; text-align: center; padding: var(--space-xl) 0;">
+<h2 style="font-size: 2rem; font-weight: 800; color: var(--accent-cyan); margin-bottom: var(--space-sm);">Quiz Complete!</h2>
+<p id="quizFinalScoreSummary" style="font-size: 1.2rem; color: var(--text-primary); margin-bottom: var(--space-lg);"></p>
+<button class="btn btn-primary" id="btnQuizRetry">Retry</button>
+</div>
+</div>
+</div>
+</section>
+<!-- ======================================================================
+         CLASSROOM / E-LEARNING VIEW (#classroom)
+         ====================================================================== -->
+<section aria-labelledby="classroom-heading" class="view-section" id="view-classroom">
+<div class="container learning-shell">
+<div class="learning-hero">
+<span class="section-eyebrow">Open learning space</span>
+<h1 class="section-title" id="classroom-heading">Learn, Investigate, and Explore</h1>
+<p class="section-description">A ready-to-teach learning corner for schools, colleges, clubs, and independent learners. Explore a short lesson, discuss evidence, then check understanding.</p>
+<div class="learning-hero-actions"><button class="btn btn-primary" id="classroomStartLesson">Start a lesson</button><a class="btn btn-outline" href="#quiz">Practice in the quiz</a></div>
+</div>
+<section class="classroom-discovery" aria-label="Find learning activities">
+<div class="classroom-discovery-heading"><h2>Find a learning activity</h2><p>Choose a learner level, subject, or resource type. All activities remain open; prerequisites are guidance, not access restrictions.</p></div>
+<div class="classroom-filters"><label>Educational level<select id="classroomLevel"><option value="all">All levels</option><option value="school">School · Classes 6–10</option><option value="intermediate">Intermediate · Classes 11–12</option><option value="college">College</option></select></label><label>Difficulty<select id="classroomDifficulty"><option value="all">All difficulties</option><option>Beginner</option><option>Intermediate</option><option>Advanced</option></select></label><label>Subject<select id="classroomSubject"><option value="all">All subjects</option><option>Space science</option><option>Planetary science</option><option>Spacecraft engineering</option><option>Robotics</option><option>Scientific investigation</option></select></label><label>Resource type<select id="classroomResourceType"><option value="all">All resources</option><option>Lesson</option><option>Investigation</option><option>Project</option><option>Teacher resource</option><option>Simulation</option></select></label></div>
+<div class="learning-paths"><h2>Learning paths</h2><div class="learning-path-grid"><button data-learning-path="Intro to Space Exploration">Intro to Space Exploration</button><button data-learning-path="How Spacecraft Work">How Spacecraft Work</button><button data-learning-path="Exploring the Moon">Exploring the Moon</button><button data-learning-path="Exploring Mars">Exploring Mars</button><button data-learning-path="Spacecraft Engineering Fundamentals">Spacecraft Engineering Fundamentals</button><button data-learning-path="Robotics and Autonomous Exploration">Robotics and Autonomous Exploration</button><button data-learning-path="Scientific Investigation Using NASA Missions">Scientific Investigation Using NASA Missions</button><button data-learning-path="Designing Future Space Missions">Designing Future Space Missions</button></div><p id="learningPathMessage" aria-live="polite">Select a path to see its recommended starting lesson.</p></div>
+<div class="classroom-local-tools"><button class="btn btn-outline" id="classroomMyLearningBtn">My Learning</button><button class="btn btn-outline" id="classroomNotesBtn">My Notes</button><button class="btn btn-outline" id="classroomBookmarksBtn">Bookmarks</button><button class="btn btn-outline" id="classroomCollectionsBtn">My Collections</button><button class="btn btn-outline" id="classroomExportProgressBtn">Export progress</button></div>
+<div class="classroom-personal-panel" id="classroomPersonalPanel" hidden aria-live="polite"></div>
+</section>
+<div class="classroom-layout">
+<aside aria-label="Classroom lesson list" class="classroom-sidebar">
+<h2>Lesson plan</h2>
+<button class="lesson-select is-active" data-lesson="legacy"><span>01</span><span><strong>What is left behind?</strong><small>10–15 min · Introductory</small></span></button>
+<button class="lesson-select" data-lesson="moon"><span>02</span><span><strong>Moon mission evidence</strong><small>15 min · Moon</small></span></button>
+<button class="lesson-select" data-lesson="mars"><span>03</span><span><strong>Mars: robots and records</strong><small>15 min · Mars</small></span></button>
+<button class="lesson-select" data-lesson="evidence"><span>04</span><span><strong>Think like a researcher</strong><small>10 min · Source literacy</small></span></button>
+</aside>
+<article aria-live="polite" class="classroom-lesson">
+<div class="lesson-meta"><span id="lessonUnit">UNIT 01</span><span id="lessonDuration">10–15 minutes</span></div>
+<h2 id="lessonTitle">What is left behind?</h2>
+<p id="lessonIntro">Space missions leave more than photographs and discoveries. Some hardware remains where it completed its work; other spacecraft continue in orbit or end their missions in different ways.</p>
+<div class="lesson-learning-box"><h3>Learning goals</h3><ul id="lessonGoals"><li>Distinguish equipment location from mission status.</li><li>Explain why evidence and sources matter.</li><li>Describe one question a researcher should ask about an artifact.</li></ul></div>
+<h3>Teach / discuss</h3><div class="lesson-body" id="lessonBody"></div>
+<div class="classroom-prompt"><strong>Discuss with your class</strong><p id="lessonPrompt">What evidence would you need before saying exactly where an object is today?</p></div>
+<div class="lesson-footer"><button class="btn btn-secondary" id="lessonPrevious">Previous lesson</button><button class="btn btn-outline" id="lessonBookmark">Bookmark</button><button class="btn btn-outline" id="lessonComplete">Mark complete</button><button class="btn btn-primary" id="lessonNext">Next lesson →</button></div><label class="classroom-notes-label" for="lessonNotes">My notes (saved on this device)</label><textarea id="lessonNotes" rows="4" placeholder="Write a question, observation, or idea…"></textarea><p class="local-data-notice">Progress, notes, bookmarks, and collections are stored only in this browser. Clearing browser data may erase them.</p>
+</article>
+</div>
+<section class="classroom-project-workspace" aria-labelledby="projectWorkspaceHeading"><div class="section-header"><h2 class="section-title" id="projectWorkspaceHeading">Project Workspace</h2><p class="section-description">Plan a science investigation or mission-design project in stages. Your draft stays in this browser; export it before clearing browser data.</p></div><div class="project-workspace-grid"><label>Project title<input id="projectTitle" type="text" placeholder="e.g., Design a Mars rover mission"></label><label>Current stage<select id="projectStage"><option>Understand</option><option>Research</option><option>Investigate</option><option>Design</option><option>Evaluate</option><option>Present</option></select></label><label>Question and goal<textarea id="projectQuestion" rows="3" placeholder="What do you want to investigate or solve?"></textarea></label><label>Research and evidence<textarea id="projectResearch" rows="3" placeholder="Record sources, observations, and uncertainties."></textarea></label><label>Design or proposed solution<textarea id="projectDesign" rows="3" placeholder="Describe your design, method, or solution."></textarea></label><label>Evaluation and presentation notes<textarea id="projectEvaluation" rows="3" placeholder="How will you test and communicate your work?"></textarea></label></div><div class="project-workspace-actions"><button class="btn btn-primary" id="projectSaveBtn" type="button">Save project locally</button><button class="btn btn-outline" id="projectExportBtn" type="button">Export project draft</button><span id="projectWorkspaceStatus" aria-live="polite"></span></div></section>
+<div class="teacher-toolkit"><div><span class="section-eyebrow">For educators</span><h2>Quick classroom toolkit</h2><p>Use these prompts for a 20–30 minute group activity. Students can work in pairs and report one claim with supporting evidence.</p></div><div class="toolkit-cards"><article><strong>Warm-up · 3 min</strong><p>Ask: “When a mission ends, what might happen to its hardware?”</p></article><article><strong>Investigation · 12 min</strong><p>Choose one catalog record. Identify the mission, object type, known location/status, and source.</p></article><article><strong>Exit ticket · 5 min</strong><p>Write one evidence-backed fact and one question that remains unanswered.</p></article></div><h3>For Teachers</h3><div class="toolkit-cards teacher-resource-grid"><article><strong>Lesson plans</strong><p>Learning objectives, activity steps, discussion prompts, and estimated timing.</p><button type="button" class="btn btn-outline teacher-resource-download" data-resource="lesson-plan">Download-ready lesson outline</button></article><article><strong>Presentations</strong><p>Slide outline with explanations, NASA examples, discussion checks, and source notes.</p><button type="button" class="btn btn-outline teacher-resource-download" data-resource="presentation">Prepare slide outline</button></article><article><strong>Worksheets &amp; rubrics</strong><p>Printable investigation worksheet and assessment rubric for evidence-backed work.</p><button type="button" class="btn btn-outline teacher-resource-download" data-resource="worksheet">Prepare worksheet</button></article></div><p id="teacherResourceMessage" aria-live="polite"></p></div>
+</div>
+</section>
+<!-- ======================================================================
+         FAQ VIEW (#faqs)
+         ====================================================================== -->
+<section aria-labelledby="faqs-heading" class="view-section" id="view-faqs">
+<div class="container learning-shell">
+<div class="section-header"><span class="section-eyebrow">Help &amp; orientation</span><h1 class="section-title" id="faqs-heading">Frequently Asked Questions</h1><p class="section-description">Learn how to use the catalog, interpret map markers, and understand what our evidence labels mean.</p></div>
+<div class="faq-search-wrap"><label for="faqSearch">Search FAQs</label><input class="filter-input" id="faqSearch" placeholder="Try “coordinates”, “NASA sources”, or “classroom”…" type="search"/></div>
+<div class="faq-list" id="faqList">
+<details class="faq-item"><summary>What is Abandoned but Not Forgotten?</summary><p>An educational catalog exploring NASA Moon and Mars mission hardware and the scientific legacy of missions. The goal is to explain what is known, what remains, and where evidence comes from.</p></details>
+<details class="faq-item"><summary>Does “abandoned” mean every object is still on a planetary surface?</summary><p>No. Objects can be surface hardware, orbiters, impactors, or spacecraft with different end-of-mission outcomes. Check each record’s destination, mission, location, and status rather than assuming all hardware is on the ground.</p></details>
+<details class="faq-item"><summary>How should I read a map marker?</summary><p>Select a marker or a record to see the associated object and mission. Coordinates and their accuracy should be interpreted as recorded; an orbital or approximate location should not be presented as a precise surface site.</p></details>
+<details class="faq-item"><summary>Why do some fields say “Unknown” or “Not verified”?</summary><p>We avoid inventing values. When the sources available to the project do not support a detail, the interface should mark it as unknown or under verification until reliable evidence is found.</p></details>
+<details class="faq-item"><summary>Can teachers use the website in class?</summary><p>Yes. The Space Classroom offers short lesson outlines, discussion prompts, and activities. Teachers can adapt them to the learners’ age and curriculum and should verify source material before formal assessment.</p></details>
+<details class="faq-item"><summary>How do I compare two pieces of equipment?</summary><p>Open Compare, choose the records, and review their fields side by side. Missing values should remain visible as unknown instead of being treated as a match.</p></details>
+<details class="faq-item"><summary>Where does the information come from?</summary><p>Use the source links attached to individual records and the Source and Evidence. Prefer official NASA mission pages, NASA technical material, and JPL mission archives where applicable.</p></details>
+<details class="faq-item"><summary>How can I report an error?</summary><p>Use the site’s feedback/correction control if available, and include the record name, the claim in question, a reliable source, and the correction you recommend.</p></details>
+</div>
+</div>
+</section>
+<!-- ======================================================================
+         11. GLOSSARY VIEW (#glossary)
+         ====================================================================== -->
+<section aria-labelledby="glossary-heading" class="view-section" id="view-glossary">
+<div class="container">
+<div class="section-header">
+<span class="section-eyebrow">Reference Terminology</span>
+<h1 class="section-title" id="glossary-heading">Spaceflight &amp; Archaeological Glossary</h1>
+<p class="section-description">
+            Alphabetical reference of aerospace terminology, planetary geodetic standards, and robotic engineering definitions.
+          </p>
+</div>
+<div class="glossary-accordion" id="glossaryAccordion">
+<!-- Populated by JS -->
+</div>
+</div>
+</section>
+<!-- ======================================================================
+         12. SOURCES & EVIDENCE REGISTER VIEW (#sources)
+         ====================================================================== -->
+<section aria-labelledby="sources-heading" class="view-section" id="view-sources">
+<div class="container">
+<div class="section-header">
+<span class="section-eyebrow">Academic Rigor &amp; Provenance</span>
+<h1 class="section-title" id="sources-heading">Source and Evidence</h1>
+<p class="section-description">
+            Explore the NASA mission records, scientific publications, and other authoritative sources used to support the information on this website.
+          </p>
+</div>
+<p class="section-description">Open the available source links for equipment records and use them to check the evidence behind each story.</p>
+<div class="sources-simple-list" id="sourcesSimpleList"></div>
+</div>
+</section>
+<section aria-labelledby="updates-heading" class="view-section" id="view-updates"><div class="container updates-page"><div class="section-header"><h1 class="section-title" id="updates-heading">Updates</h1><p class="section-description">New additions and changes to this website.</p></div><div class="updates-static-note">These entries are a static list shipped with the site. They describe changes to this prototype’s content and are not a live feed; new entries appear only when the site is redeployed.</div><div class="updates-browser-note"><strong>Browser notifications</strong><p>Notifications may be blocked in browser settings. This feed remains available without them.</p></div><div class="updates-page-list" id="updatesPageList"></div></div></section>
+<!-- ======================================================================
+         13. ABOUT & METHODOLOGY VIEW (#about)
+         ====================================================================== -->
+<section aria-labelledby="about-heading" class="view-section" id="view-about">
+<div class="container">
+<div class="section-header">
+<span class="section-eyebrow">Project Genesis</span>
+<h1 class="section-title" id="about-heading">About Abandoned but Not Forgotten</h1>
+<p class="section-description">
+            Conceived for the NASA Space Apps Challenge, this initiative brings extraterrestrial archaeology into public focus through evidence-grounded interactive exploration.
+          </p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--space-xl); line-height: 1.7; color: var(--text-secondary);">
+<div style="background: var(--bg-card); border: 1px solid var(--border-dim); border-radius: var(--radius-lg); padding: var(--space-xl);">
+<h2 style="font-size: 1.3rem; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-sm);">Why Extraterrestrial Archaeology?</h2>
+<p style="margin-bottom: var(--space-md);">
+              When Apollo 11 lifted off from Mare Tranquillitatis on July 21, 1969, the descent stage remained behind as humanity's very first extraterrestrial monument. Over subsequent decades, dozens of robotic probes, stationary landers, rovers, and orbiters have completed their missions across the solar system.
+            </p>
+<p>
+              These machines represent the pinnacle of engineering in their era. Rather than space debris, they are historical artifacts of humanity's initial expansion into the cosmos.
+            </p>
+</div>
+<div style="background: var(--bg-card); border: 1px solid var(--border-dim); border-radius: var(--radius-lg); padding: var(--space-xl);">
+<h2 style="font-size: 1.3rem; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-sm);">Compliance &amp; Scope Governance</h2>
+<p style="margin-bottom: var(--space-md);">
+              Every catalog record adheres to the October 2026 PRD v1.0 specifications. Non-NASA missions (such as Soviet Luna/Lunokhod and ISRO/ESA solo missions) were formally excluded to ensure clean institutional accountability.
+            </p>
+<p>
+              Images are attributed directly to original NASA archival entries with verified provenance.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- ======================================================================
+         EQUIPMENT DETAILS SCREEN — Full Prototype 1 dossier layout
+         ====================================================================== -->
+<section aria-labelledby="detailRecordTitle" class="view-section" id="view-equipment-detail">
+<div class="p1-dossier" id="equipmentDetailScreenContent"></div>
+</section>
+</main>
+<!-- ======================================================================
+       EQUIPMENT DETAIL MODAL (Deep-Dive Dossier)
+       ====================================================================== -->
+<div aria-labelledby="modalEquipmentTitle" aria-modal="true" class="modal-backdrop" id="equipmentDetailModal" role="dialog">
+<div class="modal-dialog">
+<div class="modal-header">
+<div>
+<span class="section-eyebrow" id="modalEquipmentEyebrow" style="margin-bottom: 2px;">Artifact Dossier</span>
+<h2 class="section-title" id="modalEquipmentTitle" style="font-size: 1.5rem; margin-bottom: 0;">Equipment Name</h2>
+</div>
+<button aria-label="Close modal window" class="btn-close-modal" id="btnCloseEquipmentModal">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>
+</button>
+</div>
+<div class="modal-body" id="modalEquipmentBody">
+<!-- Dynamically rendered tabs and facts -->
+</div>
+</div>
+</div>
+<!-- ======================================================================
+       NOTIFICATION DRAWER (Dated Website Updates Feed)
+       ====================================================================== -->
+<aside aria-hidden="true" aria-label="Website update announcements" class="notification-drawer" id="notificationDrawer">
+<div class="drawer-header">
+<h3 style="font-size: 1.1rem; font-weight: 700; color: var(--text-primary);">Website Announcements</h3>
+<button aria-label="Close announcements drawer" class="btn-close-modal" id="btnCloseDrawer">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>
+</button>
+</div>
+<div class="drawer-list" id="drawerUpdatesList">
+<!-- Populated by JS -->
+</div>
+</aside>
+<!-- ======================================================================
+       GLOBAL SEARCH RESULTS OVERLAY MODAL
+       ====================================================================== -->
+<div aria-labelledby="searchModalTitle" aria-modal="true" class="modal-backdrop" id="searchResultsModal" role="dialog">
+<div class="modal-dialog" style="max-width: 700px;">
+<div class="modal-header">
+<h3 id="searchModalTitle" style="font-size: 1.2rem; font-weight: 700;">Search Results</h3>
+<button aria-label="Close search results" class="btn-close-modal" id="btnCloseSearchModal">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>
+</button>
+</div>
+<div class="modal-body" id="searchResultsContainer">
+<!-- Populated by JS with grouped results -->
+</div>
+</div>
+</div>
+<!-- ======================================================================
+       FEEDBACK / CORRECTION MODAL (Mailto generator)
+       ====================================================================== -->
+<div aria-labelledby="feedbackModalTitle" aria-modal="true" class="modal-backdrop" id="feedbackModal" role="dialog">
+<div class="modal-dialog" style="max-width: 560px;">
+<div class="modal-header">
+<h3 id="feedbackModalTitle" style="font-size: 1.2rem; font-weight: 700;">Submit Correction or Feedback</h3>
+<button aria-label="Close feedback modal" class="btn-close-modal" id="btnCloseFeedbackModal">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>
+</button>
+</div>
+<form class="modal-body" id="feedbackForm" style="display: flex; flex-direction: column; gap: var(--space-md);">
+<div>
+<label class="filter-label" for="fbCategory">Category (Required)</label>
+<select class="filter-select" id="fbCategory" required="" style="width: 100%;">
+<option value="Factual Correction">Factual Correction</option>
+<option value="New Data Suggestion">New Data Suggestion</option>
+<option value="Technical Issue">Technical Issue</option>
+</select>
+</div>
+<div>
+<label class="filter-label" for="fbMessage">Message &amp; Evidence Notes (Required)</label>
+<textarea class="filter-search" id="fbMessage" placeholder="Describe the factual correction with authoritative NASA citation..." required="" style="width: 100%; height: 120px; resize: vertical;"></textarea>
+</div>
+<button class="btn btn-primary" style="align-self: flex-end;" type="submit">Prepare Email Draft →</button>
+</form>
+</div>
+</div>
+<!-- Destination / map information dialog -->
+<div aria-labelledby="mapInfoTitle" aria-modal="true" class="modal-backdrop map-info-backdrop" id="mapInfoModal" role="dialog">
+<div class="modal-dialog map-info-dialog">
+<div class="modal-header">
+<div><span class="section-eyebrow">Map guide</span><h2 class="map-info-title" id="mapInfoTitle">Map information</h2></div>
+<button aria-label="Close map information" class="btn-close-modal" id="btnCloseMapInfo" type="button">×</button>
+</div>
+<div class="modal-body">
+<p id="mapInfoDescription">Explore the map using search, drag, zoom, and its available layers.</p>
+<div class="map-info-note"><strong>Location accuracy</strong><p id="mapInfoAccuracy">Map markers are shown only where a record has location data. A coordinate can describe a landing site or region, not necessarily the exact position of every piece of hardware.</p></div>
+<p class="map-modal-source"><strong>Map data source:</strong> <a href="https://trek.nasa.gov/" id="mapInfoSourceLink" rel="noopener noreferrer" target="_blank">NASA Solar System Treks ↗</a></p>
+<div class="map-info-actions"><button class="btn btn-primary" id="btnMapInfoGotIt" type="button">Got it</button></div>
+</div>
+</div>
+</div>
+<!-- ======================================================================
+       ONBOARDING TUTORIAL MODAL
+       ====================================================================== -->
+<div aria-labelledby="tutorialTitle" aria-modal="true" class="modal-backdrop" id="tutorialModal" role="dialog">
+<div class="modal-dialog" style="max-width: 580px;">
+<div class="modal-header">
+<span class="section-eyebrow" id="tutorialStepLabel">Step 1 of 4</span>
+<button aria-label="Skip tutorial" class="btn-close-modal" id="btnSkipTutorial">
+<svg fill="none" height="20" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="20"><line x1="18" x2="6" y1="6" y2="18"></line><line x1="6" x2="18" y1="6" y2="18"></line></svg>
+</button>
+</div>
+<div class="modal-body" id="tutorialBody">
+<h3 id="tutorialTitle" style="font-size: 1.35rem; font-weight: 800; color: var(--accent-cyan); margin-bottom: var(--space-sm);">Welcome to the Registry</h3>
+<p id="tutorialText" style="color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-xl);"></p>
+<div style="display: flex; justify-content: space-between; align-items: center;">
+<button class="btn btn-secondary" id="btnTutorialBack" style="display: none;">Back</button>
+<div style="margin-left: auto;">
+<button class="btn btn-primary" id="btnTutorialNext">Next →</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ======================================================================
+       SITE FOOTER
+       ====================================================================== -->
+<footer class="site-footer" role="contentinfo">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-col-brand">
+<div class="brand-title">ABANDONED BUT NOT FORGOTTEN</div>
+<p>
+            An educational extraterrestrial archaeological registry celebrating the technology, scientific discoveries, and lasting monuments of NASA lunar and Martian exploration.
+          </p>
+</div>
+<div>
+<div class="footer-heading">Explore</div>
+<ul class="footer-links">
+<li><a href="#destination-moon">The Moon (Apollo &amp; Surveyors)</a></li>
+<li><a href="#destination-mars">Mars (Rovers &amp; Landers)</a></li>
+<li><a href="#mission-map">3D Mission Map</a></li>
+<li><a href="#planets">Explore Planets (Solar System)</a></li>
+</ul>
+</div>
+<div>
+<div class="footer-heading">Discover</div>
+<ul class="footer-links">
+<li><a href="#filters">Equipment Directory</a></li>
+<li><a href="#destination-moon">Moon Timeline</a> · <a href="#destination-mars">Mars Timeline</a></li>
+<li><a href="#compare">Compare Hardware</a></li>
+<li><a href="#quiz">Extraterrestrial Quiz</a></li>
+</ul>
+</div>
+<div>
+<div class="footer-heading">Learn &amp; Support</div>
+<ul class="footer-links">
+<li><a href="#glossary">Glossary</a></li>
+<li><a href="#sources">Source and Evidence</a></li>
+<li><a href="#about">About &amp; Methodology</a></li>
+<li><button id="btnOpenFeedback" style="color: var(--text-muted); font-size: 0.88rem; text-align: left;">Submit Feedback / Correction</button></li>
+<li><button id="btnReplayTutorial" style="color: var(--text-muted); font-size: 0.88rem; text-align: left;">Replay Website Tutorial</button></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>Prepared for NASA Space Apps Challenge • NASA-Led Missions &amp; Qualified Hardware Baseline</span>
+<span>Target WCAG 2.2 AA • High Contrast Dark Space Design System</span>
+</div>
+</div>
+</footer>
+<!-- Prototype 1 hero motion; does not replace Prototype 2's app engine -->
+<script src="prototype1-ui/hero.js"></script>
+<!-- Application Data Bundle (Ensures 100% offline file:// compatibility) -->
+<script src="data/bundle.js"></script>
+<!-- Three.js adds textured 3D planetary globes. The app has a canvas fallback if WebGL/CDN textures are unavailable. -->
+<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="prototype1-ui/planetary-map-engine.js"></script>
+<!-- Application Engine Script: existing routes and functionality retained -->
+<script src="app.js"></script>
+</body>
+</html>
